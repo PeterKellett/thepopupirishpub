@@ -1,41 +1,151 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {% block meta %}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% endblock %}
-    {% block extra_meta %}
-    {% endblock %}
+	<head>
+		{% block meta %}
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		{% endblock %} 
+        {% block extra_meta %} 
+        {% endblock %} 
+        {% block corecss %}
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap" rel="stylesheet">
+		<!--Bootstrap css-->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous" />
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+		{% endblock %} 
+        {% block extra_css%} 
+        {% endblock %} 
+        
+        {% block corejs %}
+        <!--jQuery-->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-MXe5EK5gyK+fbhwQy/dukwz9fw71HZcsM4KsyDBDTvMyjymkiO0M5qqU0lF4vqLI4VnKf1+DIKf1GM6RFkO8PA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"></script>
+		<!--Bootstrap js-->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"></script>
+        <!--font Awesome-->
+        <script
+            src="https://kit.fontawesome.com/5522ae6586.js"
+            crossorigin="anonymous"></script>
+		{% endblock %} 
 
-    {% block corecss %}
-    
-    {% endblock %}
-
-    {% block extra_css%}
-    {% endblock %}
-
-    {% block corejs %}
-    
-    {% endblock %}
-
-    {% block extra_js %}
-    {% endblock %}
-
-    <title>The Pop Up Irish Pub</title>
-</head>
-<body>
-    <h1>Base.html</h1>
-
-    {% block page_header %} 
-    {% endblock %} 
-    
-    {% block content %} 
-    {% endblock %} 
-
-    {% block postloadjs %} 
-    {% endblock %}
-</body>
+        {% block extra_js %} 
+        {% endblock %}
+		<title>The Pop Up Irish Pub</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-none">
+							<div class="container p-0">
+								<a class="navbar-brand" href="{% url 'home' %}">
+									<img src="{% static 'media/logoPlaceholder.png' %}" alt="logo"></img>
+								</a>
+								<button
+									class="navbar-toggler ms-auto"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#navbarTogglerDemo02"
+									aria-controls="navbarTogglerDemo02"
+									aria-expanded="false"
+									aria-label="Toggle navigation">
+									<span
+										><i
+											class="hamburgerIcon fas fa-bars"></i
+									></span>
+								</button>
+								<div
+									class="collapse navbar-collapse"
+									id="navbarTogglerDemo02">
+									<ul
+										class="navbar-nav mb-2 mb-lg-0 nav-pills justify-content-end">
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href="{% url 'home' %}"
+												>Home</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href="}"
+												>About Us</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href=""
+												>Explore Our Bars</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href=""
+												>Events ??</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href=""
+												>Testimonials</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href=""
+												>Food & Entertainment</a
+											>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link active"
+												aria-current="page"
+												href=""
+												>Contact Us</a
+											>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		{% block page_header %} 
+        {% endblock %} 
+        {% block content %} 
+        {% endblock %}
+		<footer>
+			<p>Footer</p>
+		</footer>
+		{% block postloadjs %} {% endblock %}
+	</body>
 </html>
