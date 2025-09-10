@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block meta %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% endblock %}
+    {% block extra_meta %}
+    {% endblock %}
+
+    {% block corecss %}
+    
+    {% endblock %}
+
+    {% block extra_css%}
+    {% endblock %}
+
+    {% block corejs %}
+    
+    {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+
+    <title>The Pop Up Irish Pub</title>
+</head>
+<body>
+    <h1>Base.html</h1>
+
+    {% block page_header %} 
+    {% endblock %} 
+    
+    {% block content %} 
+    {% endblock %} 
+
+    {% block postloadjs %} 
+    {% endblock %}
+</body>
+</html>
