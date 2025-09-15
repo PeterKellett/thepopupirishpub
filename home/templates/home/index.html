@@ -3,15 +3,159 @@
 
 
 {% block content %}
-<div id="home" class="container">
+    <section id="home">
+        <div class="container">
+            <img class="logo" src="{% static 'media/the_pop_up_irish_pub_Trans_White.png' %}" alt="The Pop Up Irish Pub">
+            <hr>
+            <h1>Emerald Moments</h1>
+            <div>
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section>
+        <div id="about-us" class="container-fluid">
+            <div class="row">
+                <div class="col-4 p-0 about-us-image">
+                    <img src="{% static 'media/homepage_about_us_side_bg.png' %}" alt="About us image">
+                </div>
+                <div class="col-8 about-us-text">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>About Us</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="">{% lorem 50 w random %}</p>
+                            <p class="">{% lorem 50 w random %}</p>
+                            <ul>
+                                <li>{% lorem 4 w random %}</li>
+                                <li>{% lorem 4 w random %}</li>
+                                <li>{% lorem 4 w random %}</li>
+                            </ul>
+                            <p class="">{% lorem 50 w random %}</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>   
+    </section>
+    <section id="explore-bars" class="container-fluid"> 
+        <h1>Explore Our Bars</h1>
+        <hr>
+        <p class="section-text">{% lorem 20 w random %}</p>
+        <div class="container card-container">
+            <div class="row">
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_bars_section_kiwo_bar.png' %}" alt="">
+                        <div class="btn section-button">The KiWo Bar</div>
+                        <a class="card-link" href="{% url 'kiwobar' %}" role="button"></a>
+                    </div>
+                </div>
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_bars_section_guinness_glass_bar.png' %}" alt="">
+                        <div class="btn section-button">The Guinness Glass Bar</div>
+                        <a class="card-link" href="{% url 'guinnessbar' %}" role="button"></a>
+                    </div>   
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_bars_section_mobile_bar.png' %}" alt="">
+                        <div class="btn section-button">The Mobile Bar</div>
+                        <a class="card-link" href="{% url 'mobilebar' %}" role="button"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_bars_section_custom_bars.png' %}" alt="">
+                        <div class="btn section-button" >Custom Bars</div>
+                        <a class="card-link" href="{% url 'tabletopbar' %}" role="button"></a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </section>
+    <section id="events" class="container-fluid"> 
+        <h1>Event Types</h1>
+        <hr>
+        <p class="section-text">{% lorem 20 w random %}</p>
+        <div class="container card-container">
+            <div class="row">
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_events_trade_fairs.png' %}" alt="">
+                        <div class="btn section-button">Trade Shows & Exhibitions</div>
+                        <a class="card-link" href="" role="button"></a>
+                    </div>
+                </div>
+                <div class=" col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_events_weddings.png' %}" alt="">
+                        <div class="btn section-button">Weddings</div>
+                        <a class="card-link" href="" role="button"></a>
+                    </div>   
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_events_private_parties.png' %}" alt="">
+                        <div class="btn section-button">Private Events</div>
+                        <a class="card-link" href="" role="button"></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <img src="{% static 'media/homepage_events_festivals.png' %}" alt="">
+                        <div class="btn section-button" >Festivals</div>
+                        <a class="card-link" href="" role="button"></a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </section>
+    <section>
+        <div id="testimonials">
+            <h1>Testimonials</h1>
+        </div>
+    </section>
+    <section>
+        <div id="food-Music">
+            <h1>Food & Music</h1>
+        </div>
+    </section>
+    <section>
+        <div id="contact-us">
+            <h1>Contact Us</h1>
+            <a href="https://wa.me/353862670837?text=Hello%2C%20I%20am%20interested%20in%20your%20services%21" target="_blank">Chat with us on WhatsApp</a>
+        </div>
+    </section>
+
+
+
+
+{% comment %} <div id="home" class="container">
     <img class="home-image" src="{% static 'media/guinnessBarPlaceholder.jpg' %}" alt="guinness bar"></img>
     <img class="logo" src="{% static 'media/logoPlaceholder.png' %}" alt="">
     <h1>THE POP UP IRISH PUB</h1>
     <h5 class="tagline">"Your Event. Our Irish Tradition."</h5>
 </div>
 
-<sectiom id="about-us">   
-
+<sectiom id="about-us" class="container">   
+    <img src="{% static 'media/aboutUsPlaceholder.jpg' %}" alt="">
 </sectiom>
 
 <sectiom id="about-us">   
@@ -36,5 +180,9 @@
 
 <sectiom id="contact-us">   
 
-</sectiom>
+</sectiom> {% endcomment %}
 {% endblock %}
+{% block postloadjs %} 
+{{ block.super }}
+<script src="{% static 'js/main.js' %}"></script>
+ {% endblock %}
