@@ -52,7 +52,7 @@
 						<nav class="navbar fixed-top navbar-expand-none">
 							<div class="container-fluid">
 								<a class="navbar-brand" href="{% url 'home' %}">
-									<img src="{% static 'media/the_pop_up_irish_pub_Trans_White.png' %}" alt="logo"></img>
+									<img src="{% static 'media/the_pop_up_irish_pub_trans_gold.png' %}" alt="logo"></img>
 								</a>
 								<button
 									class="navbar-toggler ms-auto"
@@ -90,18 +90,18 @@
 										<li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
-												href="{% url 'home' %}#events">Events ??</a>
+												href="{% url 'home' %}#events">Event Types</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
-												href="{% url 'home' %}#food-Music">Food</a>
+												href="{% url 'home' %}#food-music">Add Ons</a>
 										</li>
-										<li class="nav-item">
+										{% comment %} <li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
-												href="{% url 'home' %}#food-Music">Music</a>
-										</li>
+												href="{% url 'home' %}#food-music">Music</a>
+										</li> {% endcomment %}
 										<li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
@@ -112,16 +112,16 @@
 												aria-current="page"
 												href="{% url 'home' %}#Gallery">Gallery</a>
 										</li>
-										<li class="nav-item">
+										{% comment %} <li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
 												href="{% url 'home' %}#food-Music">Blogs</a>
-										</li>
-										<li class="nav-item">
+										</li> {% endcomment %}
+										{% comment %} <li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
 												href="{% url 'home' %}#food-Music">FAQ's</a>
-										</li>
+										</li> {% endcomment %}
 										<li class="nav-item">
 											<a class="nav-link"
 												aria-current="page"
