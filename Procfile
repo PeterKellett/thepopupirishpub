@@ -1,0 +1,1 @@
+web gunicorn thepopupirishpub.wsgi:application --log-file -
