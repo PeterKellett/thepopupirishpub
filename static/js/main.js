@@ -1,11 +1,12 @@
 $(document).ready(() => {
 	console.log("main.js");
+	animateLandingImage();
 
 	$(".nav-item").click(() => {
 		console.log("clicked");
 		$(".navbar-collapse").collapse("hide");
 	});
-
+//////////////////////////////////////////////////////
 	const imageContainer = document.querySelector(".image-container");
 	const prevBtn = document.getElementById("prev");
 	const nextBtn = document.getElementById("next");
@@ -105,5 +106,8 @@ $(document).ready(() => {
 			}
 		}
 		return cookieValue;
+	}
+	function animateLandingImage() {
+		$('#home').addClass('zoom')
 	}
 });

@@ -1,0 +1,33 @@
+#main-section {
+    background-image: url("/static/media/about_us_page_bg.png");
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+    color: var(--SophisticatedEmeraldGreen);
+    padding: .5rem;
+    margin: 0;
+}
+
+.main-text {
+    margin-top: .5rem;
+    border: 2px dashed var(--SophisticatedEmeraldGreen);
+    @media only screen and (max-width: 767px) {
+		font-size: 0.8rem;
+	}
+}
+
+.main-text p:first-of-type {
+    color: var(--SophisticatedEmeraldGreen);
+    font-weight: bold;
+}
+
+.main-text p span {
+    font-weight: bold;
+}
+
+.main-text li span {
+    font-weight: bold;
+}

@@ -1,11 +1,204 @@
 {% extends "base.html" %}
 {% load static %}
+{% block extra_meta %} 
+{{ block.super }}
+    <meta name="description" content="Mobile Irish bar on wheels: plug-and-pour event bar hire for exhibitions, trade fairs, weddings & private parties. Guinness on draught, up to 8 taps. EU-wide.">
+{% endblock %} 
 {% block extra_css%} 
+{{ block.super }}
     <link rel="stylesheet" href="{% static 'css/mobilebar.css' %}">
 {% endblock %} 
 
 {% block content %}
-<h1>Mobile Bar page</h1>
+<section id="home">
+    <div class="container-fluid">
+        <div class="background-image">
+
+        </div>
+        <div class="content-container">
+            <h1>The Mobile Bar</h1>
+            <hr>
+            <h2>An Irish Pub on Wheels</h1>
+            <div class="text-center">
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+            </div>
+        </div>       
+    </div>
+</section>
+<section id="about-us" class="container-fluid">
+    <div class="row">
+        <div class="col-4 p-0 about-us-image d-none d-md-block">
+            <img src="{% static 'media/bars_mobile_bar_about_section_side_image_pc.png' %}" alt="Mobile Bar in a Wedding Setting">
+        </div>
+        <div class="col-md-8 col-12 about-us-main-content">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-none d-md-block">About The Mobile Bar</h1>
+                    <h1 class="d-block d-md-none">About The Mobile Bar</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row about-us-text">
+                <div class="col-12">
+                    <p class="">Our mobile Irish bar is the most convenient way to bring a real pub - and draught Guinness - to almost any location: compact, on wheels, and fast to deploy. Think plug-and-pour: we arrive, connect the taps, kegs and power, and we’re service-ready in minutes. Ideal for in-booth hospitality at trade shows & exhibitions, full on-stand parties, Irish-themed nights and private events; it also complements external catering at weddings.
+                    </p>
+                    <p class="d-none d-md-block">Configured to your brief with up to eight draught lines, the mobile Irish bar includes practical features that keep service smooth:
+                    </p>
+                    <ul>
+                        <li><span>Exhibition-Ready:</span> he perfect exhibition stand bar for tastings, demos, networking and after-hours receptions.
+                        </li>
+                        <li><span>Wedding-Friendly:</span> great for the full reception—or just welcome drinks or coffee-and-cake time.</li>
+                        <li><span>Practical Logistics:</span> rapid setup, tidy cable runs, compliant power/water handling, multiple draught lines for high throughput.
+                        </li>
+                        <li><span>Professional Team:</span> experienced Irish bartenders, clean branding and seamless breakdown—indoors or outdoors, EU-wide.</li>
+                    </ul>
+                    <p class="d-none d-md-block">Wherever you need a crowd-pleasing focal point, choose the mobile Irish bar - authentic pub atmosphere, Guinness on draught, and dependable Irish bar event hire across continental Europe for exhibitions, trade fairs, weddings and private parties.
+                    </p>
+                </div>
+            </div>
+            <div class="row button-container">
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                </div>
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<section id="gallery">
+    <h1>Gallery - Photos & Videos</h1>
+    <hr>
+    <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+    </p>
+    <div class="container" id="gallery-container">
+        <div class="image-container">
+            <span style="--i: 1">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" alt="">
+            </span>
+            <span style="--i: 2">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216133007/20.jpg" alt="">
+            </span>
+            <span style="--i: 3">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216140352/Business-Intelligence-Tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 4">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216134711/stock-vector-food-chain-colored-vector-illustration-2184501363.jpg"
+                    alt="">
+            </span>
+            <span style="--i: 5">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135604/file.webp" alt="">
+            </span>
+            <span style="--i: 6">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135739/Data-Management-tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 7">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141611/file.jpg" alt="">
+            </span>
+            <span style="--i: 8">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141633/2.webp" alt="">
+            </span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <img class="popup-img" id="popup-img" src=""
+                alt="Popup Image">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn carousel-button" id="prev">
+                Left
+            </button>
+            <button class="btn carousel-button" id="next">
+                Right
+            </button>
+        </div>
+    </div>
+</section>
+<section id="specifications" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1>The Mobile Bar - Specifications</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-10"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>No. of Guests</td>
+                    <td>600 People</td>
+                </tr>
+                <tr>
+                    <td>No. of Beer Taps:</td>
+                    <td>up to 8</td>
+                </tr>
+                <tr>
+                    <td>Seating:</td>
+                    <td>There is no internal seating</td>
+                </tr>
+                <tr>
+                    <td>Bar Team:</td>
+                    <td>4 to 8 bar tenders</td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td>1m</td>
+                </tr>
+                <tr>
+                    <td>Size:</td>
+                    <td>1.8 x 0.8m</td>
+                </tr>
+                <tr>
+                    <td>Head Clearance:</td>
+                    <td>Minimum 2.5m from ground to ceiling</td>
+                </tr>
+                <tr>
+                    <td>Ground:</td>
+                    <td>A footprint of 2.8 x 1.8m is required.</td>
+                </tr>
+                <tr>
+                    <td>Construction Time:</td>
+                    <td>1 to 6 hours</td>
+                </tr>
+                <tr>
+                    <td>Dismantling Time:</td>
+                    <td>1 to 4 hours</td>
+                </tr>
+                <tr>
+                    <td>Loading Space:</td>
+                    <td>The bar is transported on a Sprinter style van. Parking location must be within the vicinity of the bar area, with a smooth surface, to facilitate the movement of pallets, between the two.</td>
+                </tr>
+                <tr>
+                    <td>Power Required:</td>
+                    <td>Minimum 3.5kw/16A</td>
+                </tr>
+                <tr>
+                    <td>Water In:</td>
+                    <td>The bar does not require a water connection. However, a water connection may still be required depending on the event.</td>
+                </tr>
+                <tr>
+                    <td>Water Out:</td>
+                    <td>As per Water In. Waste water consists of H2O and beer waste.</td>
+                </tr>
+                <tr>
+                    <td>Keg Room:</td>
+                    <td>We will construct a keg and storage room. Depending on the size of the event, up to 2 x 8m space is required. It must be located adjacent to the bar.</td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+</section>
 {% endblock %}
 
 {% block postloadjs %} 

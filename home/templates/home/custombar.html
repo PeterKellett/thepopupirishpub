@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_meta %} 
+    <meta name="description" content="Custom Irish bars built to your brief - premium event bar hire with Guinness on draught, multiple taps, branding and fast install. Irish bartenders, EU-wide">
+{% endblock %} 
+{% block extra_css%} 
+    <link rel="stylesheet" href="{% static 'css/custombar.css' %}">
+{% endblock %} 
+
+{% block content %}
+<section id="home">
+    <div class="container-fluid">
+        <div class="background-image">
+
+        </div>
+        <div class="content-container">
+            <h1>Custom Bars</h1>
+            <hr>
+            <h2>Exhibition Bars Built to Your Needs</h1>
+            <div>
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+            </div>    
+        </div>       
+    </div>
+</section>
+<section id="about-us" class="container-fluid">
+    <div class="row">
+        <div class="col-4 p-0 about-us-image d-none d-md-block">
+            <img src="{% static 'media/bars_mobile_bar_about_section_side_image_pc.png' %}" alt="Mobile Bar in a Wedding Setting">
+        </div>
+        <div class="col-md-8 col-12 about-us-main-content">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-none d-md-block">About Custom Bars</h1>
+                    <h1 class="d-block d-md-none">About Custom Bars</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row about-us-text">
+                <div class="col-12">
+                    <p class="">When your event needs something specific, our custom bars are built to your brief - delivering premium event bar hire and authentic Irish bar rental without compromise. From a single Guinness tap to a full venue fit-out that feels like a real pub, we'll design, build and staff a solution that fits your footprint, brand and schedule. Perfect for exhibition stand bars, VIP lounges, weddings, private events, festivals and corporate hospitality right across continental EU.
+                    </p>
+                    <p class="d-none d-md-block">Tailored to perform and built to last the day (or week), every custom bar can include:
+                    </p>
+                    <ul>
+                        <li><span>Footprint & Layout:</span> Bar counter shapes, lengths and back-bar storage configured to your space - indoor or outdoor.
+                        </li>
+                        <li><span>Draught & Speed:</span> Guinness on draught plus multiple taps for ales/lager/cider; glassware, refrigeration and queue-smart service.</li>
+                        <li><span>Branding & Media:</span> Bar wraps, signage, lightboxes and optional screens for your logos, promos or sponsor content.
+                        </li>
+                        <li><span>Integration:</span> Works as a standalone centrepiece or alongside our pop-up Irish pub / mobile Irish bar formats.</li>
+                    </ul>
+                    <p class="d-none d-md-block">If you can imagine it, we can pour it. Choose Custom Bars by The Pop Up Irish Pub for a solution that looks the part, serves fast, and carries the unmistakable welcome of Ireland - Guinness on draught, professional Irish bartenders, and seamless delivery across continental Europe.
+                    </p>
+                </div>
+            </div>
+            <div class="row button-container">
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                </div>
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<section id="gallery">
+    <h1>Gallery - Photos & Videos</h1>
+    <hr>
+    <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+    </p>
+    <div class="container" id="gallery-container">
+        <div class="image-container">
+            <span style="--i: 1">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" alt="">
+            </span>
+            <span style="--i: 2">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216133007/20.jpg" alt="">
+            </span>
+            <span style="--i: 3">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216140352/Business-Intelligence-Tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 4">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216134711/stock-vector-food-chain-colored-vector-illustration-2184501363.jpg"
+                    alt="">
+            </span>
+            <span style="--i: 5">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135604/file.webp" alt="">
+            </span>
+            <span style="--i: 6">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135739/Data-Management-tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 7">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141611/file.jpg" alt="">
+            </span>
+            <span style="--i: 8">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141633/2.webp" alt="">
+            </span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <img class="popup-img" id="popup-img" src=""
+                alt="Popup Image">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn carousel-button" id="prev">
+                Left
+            </button>
+            <button class="btn carousel-button" id="next">
+                Right
+            </button>
+        </div>
+    </div>
+</section>
+<section id="specifications" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1>Custom Bars - Specifications</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-10"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>No. of Guests</td>
+                    <td>As every custom bar is unique, we create the specifications to match your brief, venue and compliance needs.</td>
+                </tr>
+                <tr>
+                    <td>No. of Beer Taps:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Seating:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bar Team:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Size:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Head Clearance:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ground:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Construction Time:</td>
+                    <td></td>
+                    
+                </tr>
+                <tr>
+                    <td>Dismantling Time:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Loading Space:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Power Required:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Water In:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Water Out:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Keg Room:</td>
+                    <td></td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+</section>
+{% endblock %}
+
+{% block postloadjs %} 
+{{ block.super }}
+<script src="{% static 'js/custombar.js' %}"></script>
+{% endblock %}

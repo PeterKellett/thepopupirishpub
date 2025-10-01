@@ -49,6 +49,9 @@ def mailNewContact(data):
     )
 
 
+def aboutus(request):
+    return render(request, 'home/aboutus.html')
+
 def kiwobar(request):
     return render(request, 'home/kiwobar.html')
 
@@ -58,8 +61,8 @@ def guinnessbar(request):
 def mobilebar(request):
     return render(request, 'home/mobilebar.html')
 
-def tabletopbar(request):
-    return render(request, 'home/tabletopbar.html')
+def custombar(request):
+    return render(request, 'home/custombar.html')
 
 
 # class SuccessView(TemplateView):

@@ -1,11 +1,206 @@
 {% extends "base.html" %}
 {% load static %}
+{% block extra_meta %} 
+{{ block.super }}
+    <meta name="description" content="Guinness Glass Bar (4.5 m): a show-stopping exhibition stand bar with up to 6 taps. Premium event bar hire EU-wide—Guinness on draught, Irish bartenders.">
+{% endblock %} 
 {% block extra_css%} 
+{{ block.super }}
     <link rel="stylesheet" href="{% static 'css/guinnessbar.css' %}">
 {% endblock %} 
 
 {% block content %}
-<h1>Guinness Bar page</h1>
+<section id="home">
+    <div class="container-fluid">
+        <div class="background-image">
+
+        </div>
+        <div class="content-container">
+            <h1>The Guinness Glass Bar</h1>
+            <hr>
+            <h2>Our Show Stopper Bar</h1>
+            <div class="text-center">
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+            </div>   
+        </div>
+        
+    </div>
+</section>
+
+<section id="about-us" class="container-fluid">
+    <div class="row">
+        <div class="col-4 p-0 about-us-image d-none d-md-block">
+            <img src="{% static 'media/individual_bars_guinness_glass_bar_about_section_left_image_pc.png' %}" alt="The Guinness Glass Bar with Barman Visible">
+        </div>
+        <div class="col-md-8 col-12 about-us-main-content">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-none d-md-block">About The Guinness Glass Bar</h1>
+                    <h1 class="d-block d-md-none">About The Guinness Glass Bar</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row about-us-text">
+                <div class="col-12">
+                    <p class="">Our signature show-stopper: a visually striking, 4.5-metre-tall centrepiece inspired by the iconic 1970s Guinness tankard-style glass. Some say its profile hints at a rugby ball. Either way, it stops traffic and is picture-perfect as an exhibition stand bar or headline feature for trade shows & exhibitions, weddings, Irish-themed nights and festivals. Engineered for quick builds, high-throughput service and venue compliance, it’s as practical as it is photogenic—perfect for social media and press shots.
+                    </p>
+                    <p class="d-none d-md-block">With up to six taps, our bartenders keep Guinness on draught and Kilkenny flowing - just one reason the Guinness Glass Bar is perfect for your fair or event:
+                    </p>
+                    <ul>
+                        <li><span>Iconic Silhouette:</span> 40+-year heritage piece that attracts photos and footfall.
+                        </li>
+                        <li><span>Event-Ready:</span> deal event bar hire / Irish bar rental; engineered for busy halls.</li>
+                        <li><span>Flexible Deployment:</span> works as a pop-up Irish pub / mobile Irish bar feature, EU-wide.
+                        </li>
+                        <li><span>Professional Team:</span> experienced Irish bartenders; tidy builds and seamless breakdowns.</li>
+                    </ul>
+                    <p class="d-none d-md-block">Make your stand the one they talk about. Book the Guinness Glass Bar for premium Irish bar event hire at Messe Frankfurt, Fira Barcelona (Gran Via), Paris Nord Villepinte, Messe Berlin, Messe Düsseldorf—or anywhere across continental Europe (EU)
+                    </p>
+                </div>
+            </div>
+            <div class="row button-container">
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                </div>
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<section id="gallery">
+    <h1>Gallery - Photos & Videos</h1>
+    <hr>
+    <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+    </p>
+    <div class="container" id="gallery-container">
+        <div class="image-container">
+            <span style="--i: 1">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240213150115/ppp.png" alt="">
+            </span>
+            <span style="--i: 2">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216133007/20.jpg" alt="">
+            </span>
+            <span style="--i: 3">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216140352/Business-Intelligence-Tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 4">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216134711/stock-vector-food-chain-colored-vector-illustration-2184501363.jpg"
+                    alt="">
+            </span>
+            <span style="--i: 5">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135604/file.webp" alt="">
+            </span>
+            <span style="--i: 6">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216135739/Data-Management-tools.webp"
+                    alt="">
+            </span>
+            <span style="--i: 7">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141611/file.jpg" alt="">
+            </span>
+            <span style="--i: 8">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240216141633/2.webp" alt="">
+            </span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <img class="popup-img" id="popup-img" src=""
+                alt="Popup Image">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn carousel-button" id="prev">
+                Left
+            </button>
+            <button class="btn carousel-button" id="next">
+                Right
+            </button>
+        </div>
+    </div>
+</section>
+<section id="specifications" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1>The Guinness Glass Bar - Specifications</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-10"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>No. of Guests</td>
+                    <td>400 People</td>
+                </tr>
+                <tr>
+                    <td>No. of Beer Taps:</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Seating:</td>
+                    <td>There is no internal seating</td>
+                </tr>
+                <tr>
+                    <td>Bar Team:</td>
+                    <td>1 to 5 bar tenders</td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td>4.5m</td>
+                </tr>
+                <tr>
+                    <td>Size:</td>
+                    <td>4.5m diameter</td>
+                </tr>
+                <tr>
+                    <td>Head Clearance:</td>
+                    <td>Minimum 5.5m from ground to ceiling</td>
+                </tr>
+                <tr>
+                    <td>Ground:</td>
+                    <td>A footprint of 8m diameter is required. It must be flat and solid, and allow for the use of a pallet stacker and pallet truck.</td>
+                </tr>
+                <tr>
+                    <td>Construction Time:</td>
+                    <td>10 to 18 Hours</td>
+                </tr>
+                <tr>
+                    <td>Dismantling Time:</td>
+                    <td>7 to 14 Hours</td>
+                </tr>
+                <tr>
+                    <td>Loading Space:</td>
+                    <td>The bar is transported on a 7.5t truck and Sprinter style van. Parking location must be within the vicinity of the bar area, with a smooth surface, to facilitate the movement of pallets, between the two.</td>
+                </tr>
+                <tr>
+                    <td>Power Required:</td>
+                    <td>Minimum 3.5kw/16A</td>
+                </tr>
+                <tr>
+                    <td>Water In:</td>
+                    <td>A fresh clean water connection is required</td>
+                </tr>
+                <tr>
+                    <td>Water Out:</td>
+                    <td>Access is needed to a waste water drain. Waste water consists of H2O and beer waste.</td>
+                </tr>
+                <tr>
+                    <td>Keg Room:</td>
+                    <td>We will construct a keg and storage room. Depending on the size of the event, up to 2 x 8m space is required. It must be located adjacent to the bar.</td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+</section>
 {% endblock %}
 
 {% block postloadjs %} 

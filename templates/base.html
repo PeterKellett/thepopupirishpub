@@ -38,6 +38,7 @@
         <script
             src="https://kit.fontawesome.com/5522ae6586.js"
             crossorigin="anonymous"></script>
+		<script src="{% static 'js/main.js' %}"></script>
 		{% endblock %} 
 
         {% block extra_js %} 
@@ -74,56 +75,49 @@
 										class="navbar-nav mb-2 mb-lg-0 nav-pills justify-content-end">
 										<li class="nav-item">
 											<a class="nav-link active"
+												data-linkId="home"
 												aria-current="page"
 												href="{% url 'home' %}#home">Home</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
+												data-linkId="about-us"
 												aria-current="page"
 												href="{% url 'home' %}#about-us">About Us</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
+												data-linkId="explore-bars"
 												aria-current="page"
 												href="{% url 'home' %}#explore-bars">Explore Our Bars</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
-												aria-current="page"
-												href="{% url 'home' %}#events">Event Types</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link"
+												data-linkId="food-music"
 												aria-current="page"
 												href="{% url 'home' %}#food-music">Add Ons</a>
 										</li>
-										{% comment %} <li class="nav-item">
-											<a class="nav-link"
-												aria-current="page"
-												href="{% url 'home' %}#food-music">Music</a>
-										</li> {% endcomment %}
 										<li class="nav-item">
 											<a class="nav-link"
+												data-linkId="testimonials"
 												aria-current="page"
 												href="{% url 'home' %}#testimonials">Testimonials</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
+												data-linkId="events"
 												aria-current="page"
-												href="{% url 'home' %}#Gallery">Gallery</a>
+												href="{% url 'home' %}#events">Event Types</a>
 										</li>
-										{% comment %} <li class="nav-item">
-											<a class="nav-link"
-												aria-current="page"
-												href="{% url 'home' %}#food-Music">Blogs</a>
-										</li> {% endcomment %}
-										{% comment %} <li class="nav-item">
-											<a class="nav-link"
-												aria-current="page"
-												href="{% url 'home' %}#food-Music">FAQ's</a>
-										</li> {% endcomment %}
 										<li class="nav-item">
 											<a class="nav-link"
+												data-linkId="gallery"
+												aria-current="page"
+												href="{% url 'home' %}#gallery">Gallery</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link"
+												data-linkId="contact-us"
 												aria-current="page"
 												href="{% url 'home' %}#contact-us">Contact Us</a>
 										</li>

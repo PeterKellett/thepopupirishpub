@@ -1,11 +1,218 @@
 {% extends "base.html" %}
 {% load static %}
+{% block extra_meta %} 
+{{ block.super }}
+    <meta name="description" content="KiWo Bar: full roofed pop-up Irish pub with stage & kitchen. It’s size makes it perfect for large corporate events or festivals.">
+{% endblock %} 
 {% block extra_css%} 
+{{ block.super }}
     <link rel="stylesheet" href="{% static 'css/kiwobar.css' %}">
 {% endblock %} 
 
 {% block content %}
-<h1>KiWo Bar page</h1>
+<section id="home">
+    <div class="container-fluid">
+        <div class="background-image">
+
+        </div>
+        <div class="content-container">
+            <h1>The KiWo Bar</h1>
+            <hr>
+            <h2>Our Flagship Bar for Major Events</h1>
+            <div class="text-center">
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+            </div>   
+        </div>
+    </div>
+</section>
+
+<section id="about-us" class="container-fluid">
+    <div class="row">
+        <div class="col-4 p-0 about-us-image d-none d-md-block">
+            <img src="{% static 'media/individual_bars_kiwo_bar_about_section_left_image_pc.png' %}" alt="Klkenny and Guinness Ceramic Bar Tap Dispensers with Bartender in the Background">
+        </div>
+        <div class="col-md-8 col-12 about-us-main-content">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="d-none d-md-block">About The KiWo Bar</h1>
+                    <h1 class="d-block d-md-none">About The KiWo Bar</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row about-us-text">
+                <div class="col-12">
+                    <p class="">The KiWo Bar is our flagship - a full, roofed pop-up Irish pub designed as a headline centrepiece for large audiences. With a built-in stage and kitchen, it delivers premium event bar hire and authentic Irish bar rental at major festivals, big corporate hospitality moments, trade shows & exhibitions, and Ireland-themed nights. What sets it apart? Most pop-ups feel like an Irish bar - with the KiWo Bar, you are actually in one!
+                    </p>
+                    <p class="d-none d-md-block">Built for high-volume operations, the KiWo Bar comes with practical advantages:
+                    </p>
+                    <ul>
+                        <li><span>Capacity & Throughput:</span> scalable layout for crowds (up to ~600 guests) with multiple draught lines for fast service.
+                        </li>
+                        <li><span>Stage-Ready:</span> integrated platform for live entertainment, MCs, presentations or awards—plus our own in-house PA system.</li>
+                        <li><span>Kitchen & Catering-Friendly:</span> hot food service, buffet lines and back-of-house workflow already considered.
+                        </li>
+                        <li><span>Screens for Content:</span> two TVs flanking the bar for your ads, images or videos.</li>
+                    </ul>
+                    <p class="d-none d-md-block">If you need a crowd-pulling focal point with real pub soul, choose the KiWo Bar: authentic atmosphere, Guinness on draught, and dependable mobile Irish bar expertise across continental Europe for exhibitions, festivals, corporate parties and large club or private gatherings.
+                    </p>
+                </div>
+            </div>
+            <div class="row button-container">
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                </div>
+                <div class="col-6">
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<section id="gallery">
+    <div class="row">
+        <div class="col-12">
+            <h1>Gallery - Photos & Videos</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+            </p>
+            <div class="container" id="gallery-container">
+                <div class="image-container">
+                    <span style="--i: 1">
+                        <img src="{% static 'media/the_kiwo_event_bar_with_large_guinness_parasol_umbrellasoutside_daytime.png' %}" alt="The Kiwo Event Bar with Large Guinness Parasol Umbrellas Outside Daytime">
+                    </span>
+                    <span style="--i: 2">
+                        <img src="{% static 'media/the_kiwo_event_bar_view_from_behind_the_bar_kieler_woche_pc.png' %}" alt="The Kiwo Event Bar View From Behind the Bar Kieler Woche">
+                    </span>
+                    <span style="--i: 3">
+                        <img src="{% static 'media/the_kiwo_event_bar_singer_on_stage_with_audience_kieler_woche_mob.png' %}"
+                            alt="The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb">
+                    </span>
+                    <span style="--i: 4">
+                        <img src="{% static 'media/the_kiwo_event_bar_outside_daytime.png' %}"
+                            alt="The Kiwo Event Bar Outside Daytime">
+                    </span>
+                    <span style="--i: 5">
+                        <img src="{% static 'media/the_kiwo_event_bar_outside_daytime_3.png' %}" alt="The Kiwo Event Bar Outside Daytime 3">
+                    </span>
+                    <span style="--i: 6">
+                        <img src="{% static 'media/the_kiwo_event_bar_outside_daytime_2.png' %}"
+                            alt="The Kiwo Event Bar Outside Daytime 2">
+                    </span>
+                    <span style="--i: 7">
+                        <img src="{% static 'media/the_kiwo_event_bar_kitchen_window_kieler_woche_mob.png' %}" alt="The Kiwo Event Bar Kitchen Window Kieler Woche">
+                    </span>
+                    <span style="--i: 8">
+                        <img src="{% static 'media/the_kiwo_event_bar_fiddle_player_kieler_woche_pc.png' %}" alt="The Kiwo Event Bar Fiddle Player Kieler Woche">
+                    </span>
+                    {% comment %} <span style="--i: 9">
+                        <img src="{% static 'media/the_kiwo_event_bar_2022_team_kieler_woche_pc.png' %}" alt="The Kiwo Event Bar Fiddle Player Kieler Woche">
+                    </span> {% endcomment %}
+                </div>
+        
+                <div class="overlay" id="overlay">
+                    <img class="popup-img" id="popup-img" src=""
+                        alt="Popup Image">
+                </div>
+        
+                <div class="btn-container">
+                    <button class="btn carousel-button" id="prev">
+                        Prev
+                    </button>
+                    <button class="btn carousel-button" id="next">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</section>
+<section id="specifications" class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1>The KiWo Bar - Specifications</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                  <th class="col-2"></th>
+                  <th class="col-10"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>No. of Guests</td>
+                    <td>600 People</td>
+                </tr>
+                <tr>
+                    <td>No. of Beer Taps:</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Seating:</td>
+                    <td>Internal Seating for up to 50 people                    </td>
+                </tr>
+                <tr>
+                    <td>Bar Team:</td>
+                    <td>4 to 8 bar tenders</td>
+                </tr>
+                <tr>
+                    <td>Height:</td>
+                    <td>3m</td>
+                </tr>
+                <tr>
+                    <td>Size:</td>
+                    <td>6 x 14m</td>
+                </tr>
+                <tr>
+                    <td>Head Clearance:</td>
+                    <td>Minimum 5.5m from ground to ceiling</td>
+                </tr>
+                <tr>
+                    <td>Ground:</td>
+                    <td>A footprint of 9 x 17m is required. It must be flat and solid, and allow for the use of a pallet truck.</td>
+                </tr>
+                <tr>
+                    <td>Construction Time:</td>
+                    <td>4 to 6 Days</td>
+                </tr>
+                <tr>
+                    <td>Dismantling Time:</td>
+                    <td>2 Days</td>
+                </tr>
+                <tr>
+                    <td>Loading Space:</td>
+                    <td>The bar is transported on a 7.5t truck and Sprinter style van. Parking location must be within the vicinity of the bar area, with qa smooth surface, to facilitate the movement of pallets, between the two.</td>
+                </tr>
+                <tr>
+                    <td>Power Required:</td>
+                    <td>Minimum 16A 3-phase connection</td>
+                </tr>
+                <tr>
+                    <td>Water In:</td>
+                    <td>A fresh clean water connection is required</td>
+                </tr>
+                <tr>
+                    <td>Water Out:</td>
+                    <td>Access is needed to a waste water drain. Waste water consists of H2O and beer waste.</td>
+                </tr>
+                <tr>
+                    <td>Keg Room:</td>
+                    <td>The bar includes a keg within it’s construction</td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+</section>
 {% endblock %}
 {% block postloadjs %} 
 {{ block.super }}
