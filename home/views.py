@@ -7,9 +7,12 @@ from django.views.generic import TemplateView, FormView
 from .forms import ContactForm
 import json
 from . models import ContactUs
+import os
 # Create your views here.
 def index(request):
     """ A view to return the index page """
+    # DEVELOPMENT = os.getenv('DEVELOPMENT')
+    # print("DEVELOPMENT = ", DEVELOPMENT)
     if request.method == "POST":
         data = json.load(request)
         newContact = ContactUs(

@@ -6,6 +6,9 @@ $(document).ready(() => {
 		console.log("clicked");
 		$(".navbar-collapse").collapse("hide");
 	});
+
+	//Bootstrap carousel functionality
+	// $('.carousel').carousel()
 //////////////////////////////////////////////////////
 	const imageContainer = document.querySelector(".image-container");
 	const prevBtn = document.getElementById("prev");
