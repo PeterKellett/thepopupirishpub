@@ -19,9 +19,9 @@
 }
 
 #home .background-image {
-	background-image: url("/static/media/homepage_top_section_hero_image_bg.png");
+	background-image: url("/media/homepage_top_section_hero_image_bg.png");
 	@media only screen and (max-width: 767px) {
-		background-image: url("/static/media/homepage_top_section_bg_mob.png");
+		background-image: url("/media/homepage_top_section_bg_mob.png");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
@@ -91,7 +91,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("/static/media/homepage_about_us_text_area_bg.png");
+	background-image: url("/media/homepage_about_us_text_area_bg.png");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -339,7 +339,7 @@
 
 /* --------------------------------------- */
 #testimonials {
-	background: url("/static/media/homepage_testimonials_section_bg.png");
+	background: url("/media/homepage_testimonials_section_bg.png");
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -505,9 +505,9 @@
 /* ------------------------------------------------ */
 /* --------------------------------------- */
 #contact-us {
-	background: url("/static/media/homepage_contact_us-section_bg.png");
+	background: url("/media/homepage_contact_us-section_bg.png");
 	@media only screen and (max-width: 767px) {
-		background: url("/static/media/homepage-contact_us-section_bg_mob.png");
+		background: url("/media/homepage-contact_us-section_bg_mob.png");
 	}
 	object-fit: cover;
 	background-position: center;

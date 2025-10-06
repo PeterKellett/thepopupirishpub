@@ -15,9 +15,9 @@
 }
 
 #home .background-image {
-	background-image: url("/static/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+	background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
 	@media only screen and (max-width: 767px) {
-		background-image: url("/static/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+		background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
@@ -87,7 +87,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("/static/media/individual_bars_kiwo_bar_about_section_bg_pc.png");
+	background-image: url("/media/individual_bars_kiwo_bar_about_section_bg_pc.png");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

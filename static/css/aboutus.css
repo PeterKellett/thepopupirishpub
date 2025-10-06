@@ -1,5 +1,5 @@
 #main-section {
-    background-image: url("/static/media/about_us_page_bg.png");
+    background-image: url("/media/about_us_page_bg.png");
     display: flex;
 	flex-direction: column;
 	align-items: center;

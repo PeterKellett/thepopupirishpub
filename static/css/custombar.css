@@ -15,9 +15,9 @@
 }
 
 #home .background-image {
-	background-image: url("/static/media/bars_custom_bars_top_section_bg_pc.png");
+	background-image: url("/media/bars_custom_bars_top_section_bg_pc.png");
     @media only screen and (max-width: 767px) {
-        background-image: url("/static/media/bars_custom_top_section_bg_mob.png");
+        background-image: url("/media/bars_custom_top_section_bg_mob.png");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
@@ -92,7 +92,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("/static/media/bars_custom_bars_about_section_text_bg_mob.png");
+	background-image: url("/media/bars_custom_bars_about_section_text_bg_mob.png");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -100,7 +100,7 @@
 	padding: 1rem;
 	height: 100vh;
 	@media only screen and (max-width: 767px) {
-		background-image: url("/static/media/bars_mobile_bar_about_section_text_bg_pc.png");
+		background-image: url("/media/bars_mobile_bar_about_section_text_bg_pc.png");
         padding: 0;
 	}
 }
