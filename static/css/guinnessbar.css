@@ -15,9 +15,9 @@
 }
 
 #home .background-image {
-	background-image: url("/static/media/individual_bars_guinness_glass_bar_top_section_bg_pc.png");
+	background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_pc.png");
     @media only screen and (max-width: 767px) {
-		background-image: url("/static/media/individual_bars_guinness_glass_bar_top_section_bg_mob.png");
+		background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_mob.png");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
