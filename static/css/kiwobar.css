@@ -169,7 +169,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-height: 60vh;
+	/* max-height: 60vh; */
 }
 
 .carousel-caption {
@@ -183,7 +183,7 @@
 
 .carousel-item img {
 	object-fit: contain;
-	max-height: 60vh;
+	max-height: 50vh;
 	width: 100%;
 }
 
