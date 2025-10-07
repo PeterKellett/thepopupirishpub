@@ -169,10 +169,45 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 60vh;
+	/* height: 60vh; */
 }
 
-.image-container {
+.carousel-caption {
+	width: fit-content;
+	margin: auto;
+}
+
+.carousel-item {
+	text-align: center;
+} 
+
+.carousel-item img {
+	object-fit: contain;
+	max-height: 60vh;
+	width: 100%;
+}
+
+.carousel-caption h5 {
+	background-color: #00000054;
+	padding: .5rem;
+	border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .image-container {
 	position: relative;
 	width: 200px;
 	height: 200px;
@@ -253,7 +288,7 @@
 
 #btn:hover {
 	filter: brightness(1.5);
-}
+} */
 /* ------------------------------------------------ */
 
 #specifications {
