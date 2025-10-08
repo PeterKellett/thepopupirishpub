@@ -161,10 +161,10 @@
 }
 
 #explore-bars .section-content {
-	height: 80vh;
+	height: 85vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: end;
 	align-items: center;
 }
 
@@ -210,7 +210,8 @@
 	left: 50%;
 	transform: translate(-50%);
 	@media only screen and (max-width: 767px) {
-        /* width: 70%; */
+        border: 2px solid var(--MutedGold);
+    	border-radius: 5px;
 		padding: 0 5px;
 		font-size: 0.9rem;
 	}
