@@ -20,7 +20,7 @@ body {
 }
 
 section {
-	height: 100lvh;
+	height: 100vh;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
 	position: relative;
@@ -53,6 +53,10 @@ hr {
 	border-radius: 10px;
 	corner-shape: scoop;
 	padding: 1rem;
+  @media only screen and (max-width: 767px) {
+    border: 2px solid var(--MutedGold);
+    border-radius: 5px;
+}
 }
 
 .section-button:hover {

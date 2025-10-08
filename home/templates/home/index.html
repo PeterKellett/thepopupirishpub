@@ -83,55 +83,60 @@
         
     </section>
     <section id="explore-bars" class="container-fluid"> 
-        <div class="row">
-            <div class="col-12">
-                <h1>Explore Our Bars</h1>
-                <hr class="">
+        <div class="container section-content">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Explore Our Bars</h1>
+                    <hr class="">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p class="section-text d-none d-md-block">Choose your event bar below, then let us handle the pour. We provide Irish event bar hire across continental Europe for exhibitions, weddings, private parties and festivals. Wherever you want your creamy draught Guinness pints served, we have a format to suit every space, large or small.
-                </p>     
-            </div>  
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="container card-container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 p-0">
-                            <div class="card">
-                                <img src="{{ MEDIA_URL }}homepage_bars_section_kiwo_bar.png" alt="">
-                                <div class="btn section-button">The KiWo Bar</div>
-                                <a class="card-link" href="{% url 'kiwobar' %}" role="button"></a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 p-0">
-                            <div class="card">
-                                <img src="{{ MEDIA_URL }}homepage_bars_section_guinness_glass_bar.png" alt="">
-                                <div class="btn section-button">The Guinness Glass Bar</div>
-                                <a class="card-link" href="{% url 'guinnessbar' %}" role="button"></a>
-                            </div>   
-                        </div>
-                        <div class="col-12 col-md-6 p-0">
-                            <div class="card">
-                                <img src="{{ MEDIA_URL }}homepage_bars_section_mobile_bar.png" alt="">
-                                <div class="btn section-button">The Mobile Bar</div>
-                                <a class="card-link" href="{% url 'mobilebar' %}" role="button"></a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 p-0">
-                            <div class="card">
-                                <img src="{{ MEDIA_URL }}homepage_bars_section_custom_bars.png" alt="">
-                                <div class="btn section-button" >Custom Bars</div>
-                                <a class="card-link" href="{% url 'custombar' %}" role="button"></a>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="section-text d-none d-md-block">Choose your event bar below, then let us handle the pour. We provide Irish event bar hire across continental Europe for exhibitions, weddings, private parties and festivals. Wherever you want your creamy draught Guinness pints served, we have a format to suit every space, large or small.
+                    </p>     
+                </div>  
+            </div>
+            <div class="row card-container">
+                <div class="col-12 col-md-6 p-0">
+                    <div class="card">
+                        <img class="img-fluid" src="{{ MEDIA_URL }}homepage_bars_section_kiwo_bar.png" alt="">
+                        <div class="btn section-button">The KiWo Bar</div>
+                        <a class="card-link" href="{% url 'kiwobar' %}" role="button"></a>
                     </div>
-                </div>      
-            </div>
-        </div>  
-        
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                    <div class="card">
+                        <img class="img-fluid" src="{{ MEDIA_URL }}homepage_bars_section_guinness_glass_bar.png" alt="">
+                        <div class="btn section-button">The Guinness Glass Bar</div>
+                        <a class="card-link" href="{% url 'guinnessbar' %}" role="button"></a>
+                    </div>   
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                    <div class="card">
+                        <img class="img-fluid" src="{{ MEDIA_URL }}homepage_bars_section_mobile_bar.png" alt="">
+                        <div class="btn section-button">The Mobile Bar</div>
+                        <a class="card-link" href="{% url 'mobilebar' %}" role="button"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                    <div class="card">
+                        <img class="img-fluid" src="{{ MEDIA_URL }}homepage_bars_section_custom_bars.png" alt="">
+                        <div class="btn section-button" >Custom Bars</div>
+                        <a class="card-link" href="{% url 'custombar' %}" role="button"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    {% comment %} <div class="col-12 col-md-6 p-0">
+                        <div class="card">
+                            <img class="image-fluid" src="{{ MEDIA_URL }}homepage_bars_section_kiwo_bar.png" alt="">
+                            <div class="btn section-button">The KiWo Bar</div>
+                            <a class="card-link" href="{% url 'kiwobar' %}" role="button"></a>
+                        </div>
+                    </div> {% endcomment %}
+                    
+                </div>
+            </div> 
+        </div>       
     </section>
     
     <section id="food-music" class="container-fluid">
