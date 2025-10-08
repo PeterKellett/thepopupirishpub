@@ -3,7 +3,7 @@
 /* ------------------------------------------------- */
 
 #home {
-	height: 100vh;
+	height: 100lvh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -76,7 +76,7 @@
 
 /*----------------------------------------*/
 #about-us {
-	height: 100vh;
+	height: 100lvh;
 }
 
 #about-us h1 {
@@ -97,7 +97,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
-	height: 100vh;
+	/* height: 100vh; */
 	@media only screen and (max-width: 767px) {
 		/* font-size: 0.9rem; */
         padding: 0;
