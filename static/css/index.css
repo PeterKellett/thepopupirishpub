@@ -108,13 +108,16 @@
     margin: 1rem;
     border: 2px dashed #000;
     @media only screen and (max-width: 767px) {
-		font-size: 0.9rem;
+		font-size: 0.8rem;
         margin: .5rem;
 	}
 }
 
 .about-us-text p {
 	margin-bottom: 8px;
+	@media only screen and (max-width: 767px) {
+        margin: .0;
+	}
 }
 
 .about-us-text p:first-of-type {
