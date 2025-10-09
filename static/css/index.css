@@ -246,23 +246,34 @@
 #food-music h1 {
 	color: var(--SophisticatedEmeraldGreen);
 	text-align: center;
+	margin: 0;
+}
+
+#food-music .section-content {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
 }
 
 #food-music .section-text {
 	max-width: 1200px;
 	@media only screen and (max-width: 767px) {
-		font-size: 0.9rem;
+		font-size: 0.85rem;
 	}
 }
 
 #food-music .card-container {
-	flex-wrap: wrap;
+	height: 90%;
+	/* flex-wrap: wrap; */
 	display: flex;
 	justify-content: center;
 	align-content: space-around;
 }
 
 #food-music .card {
+	width: auto;
 	position: relative;
 	margin-bottom: 12px;
 	border-radius: 0;
@@ -271,11 +282,14 @@
 }
 
 #food-music .card img {
-	width: 90%;
+	max-width: 95%;
+	height: auto;
 	border: 2px solid var(--SophisticatedEmeraldGreen);
 	margin: auto;
+	object-fit: cover;
 	@media only screen and (max-width: 767px) {
-		max-height: 30vh;
+		max-height: 25vh;
+		width: 80%;
 	}
 }
 
@@ -286,10 +300,12 @@
 	left: 50%;
 	transform: translate(-50%);
 	@media only screen and (max-width: 767px) {
+        border: 2px solid var(--MutedGold);
+    	border-radius: 5px;
         bottom: 20px;
-		padding: 3px;
+		padding: 0 5px;
 		font-size: 0.9rem;
-		width: 80%;
+		width: 70%;
 	}
 }
 

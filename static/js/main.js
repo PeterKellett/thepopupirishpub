@@ -2,7 +2,7 @@ $(document).ready(() => {
 	console.log("main.js");
 	animateLandingImage();
 
-	$(".nav-item").click(() => {
+	$(".nav-link:not(.dropdown-toggle)").click(() => {
 		console.log("clicked");
 		$(".navbar-collapse").collapse("hide");
 	});

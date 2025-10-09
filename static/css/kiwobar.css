@@ -1,12 +1,12 @@
 #home {
-	/* height:100vh; */
+	height:100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 #home .container-fluid {
-	/* height: 100vh; */
+	height: 100vh;
 	overflow: hidden;
 	position: relative;
 	display: flex;
