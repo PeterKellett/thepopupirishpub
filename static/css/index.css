@@ -286,10 +286,11 @@
 	height: auto;
 	border: 2px solid var(--SophisticatedEmeraldGreen);
 	margin: auto;
-	object-fit: cover;
+	object-fit: contain;
 	@media only screen and (max-width: 767px) {
 		max-height: 25vh;
 		width: 80%;
+		object-fit: cover;
 	}
 }
 
