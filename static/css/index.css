@@ -427,9 +427,22 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center;
 	height: 100vh;
-	overflow: hidden;
+	overflow: hidden; */
+}
+
+#gallery h1 {
+	color: var(--SophisticatedEmeraldGreen);
+	text-align: center;
+}
+
+#explore-bars .section-content {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
 }
 
 #gallery .section-text {
@@ -440,11 +453,10 @@
 }
 
 #gallery-container {
+	height: 60vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	/* height: 50vh; */
 }
 
 .carousel-caption {

@@ -2,9 +2,13 @@ $(document).ready(() => {
 	console.log("main.js");
 	animateLandingImage();
 
-	$(".nav-link:not(.dropdown-toggle)").click(() => {
-		console.log("clicked");
+	$(".nav-link:not(.dropdown-toggle)").click(function() {
+		console.log("clicked", this);
 		$(".navbar-collapse").collapse("hide");
+		console.log("attr = ", );
+		$(this).addClass('active');
+		// $(this).siblings().removeClass('active');
+		// $('.nav-link').removeClass('active');
 	});
 
 	//Bootstrap carousel functionality
