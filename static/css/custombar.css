@@ -157,9 +157,19 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+#gallery h1 {
+	color: var(--SophisticatedEmeraldGreen);
+	text-align: center;
+}
+
+#explore-bars .section-content {
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
 	align-items: center;
-	height: 100vh;
-	overflow: hidden;
 }
 
 #gallery .section-text {
@@ -170,95 +180,34 @@
 }
 
 #gallery-container {
+	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
 }
 
-.image-container {
-	position: relative;
-	width: 200px;
-	height: 200px;
-	transform-style: preserve-3d;
-	transform: perspective(1000px) rotate(0deg);
-	transition: transform 0.7s;
+.carousel-caption {
+	width: fit-content;
+	margin: auto;
 }
 
-.image-container span {
-	position: absolute;
-	top: 0;
-	left: 0;
+.carousel-item {
+	text-align: center;
+} 
+
+.carousel-item img {
+	object-fit: contain;
+	max-height: 60vh;
 	width: 100%;
-	cursor: pointer;
-	transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
-	transition: transform 0.3s ease;
 }
 
-.image-container span img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	border-radius: 10px;
-	width: 80%;
-	transition: transform 0.3s ease;
+.carousel-caption h5 {
+	background-color: #00000054;
+	padding: .5rem;
+	border-radius: .5rem;
 }
 
-.overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: 10;
-	display: none;
-	justify-content: center;
-	align-items: center;
-}
-
-.overlay.active {
-	display: flex;
-}
-
-.popup-img {
-	width: 300px;
-	height: 300px;
-	margin-top: -5%;
-	margin-left: -4%;
-	background-color: rgb(82, 80, 80);
-	border-radius: 15px;
-}
-
-.btn-container {
-	position: relative;
-	width: 80%;
-}
-
-.carousel-button {
-	position: absolute;
-	bottom: -80px;
-	background-color: rgb(98, 226, 98);
-	color: black;
-	font-weight: bold;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-#prev {
-	left: 20%;
-}
-
-#next {
-	right: 20%;
-}
-
-#btn:hover {
-	filter: brightness(1.5);
-}
 /* ------------------------------------------------ */
 #specifications {
     background: linear-gradient(
