@@ -179,12 +179,29 @@
 	}
 }
 
-#gallery-container {
+#carouselExampleInterval {
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.fas.fa-chevron-left, .fas.fa-chevron-right {
+	background-color: var(--SophisticatedEmeraldGreen);
+	color: var(--MutedGold);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.carousel-control-prev {
+	justify-content: left;
+	opacity: .75;
+}
+
+.carousel-control-next {
+	justify-content: right;
+	opacity: .75;
 }
 
 .carousel-caption {
@@ -207,6 +224,12 @@
 	padding: .5rem;
 	border-radius: .5rem;
 }
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: var(--SophisticatedEmeraldGreen);
+	border-radius: 25%;
+	padding: 3px;
+} */
 
 /* ------------------------------------------------ */
 
