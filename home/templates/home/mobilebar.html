@@ -6,7 +6,7 @@
 {% endblock %} 
 {% block extra_css%} 
 {{ block.super }}
-    <link rel="stylesheet" href="{% static 'css/mobilebar.css' %}">
+    <link rel="stylesheet" href="{% static 'css/barPages.css' %}">
 {% endblock %} 
 
 {% block content %}
@@ -95,64 +95,36 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Kieler Woche 2025</h5> {% endcomment %}
-                        </div>
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_pc.png" alt="Mobile Irish Event Bar at an Out Door Wedding">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_mob.png" alt="Mobile Irish Event Bar at an Out Door Wedding">
                     </div>
                     <div class="carousel-item">
                         <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_pc.png" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
                         <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_mob.png" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Kieler Woche 2025</h5> {% endcomment %}
-                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Wedding event</h5> {% endcomment %}
-                            {% comment %} <p>The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb</p> {% endcomment %}
-                        </div>
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_pc.png" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_an_out_door_wedding_under_a_tent_mob.png" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
                     </div>
-                    
                     <div class="carousel-item">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Kiel Christmas market 2024</h5> {% endcomment %}
-                            {% comment %} <p>The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb</p> {% endcomment %}
-                        </div>
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_1_pc.png"alt="Mobile Irish Event Bar at A Private House Party">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_1_mob.png" alt="Mobile Irish Event Bar at A Private House Party">
                     </div>
-
                     <div class="carousel-item">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_2_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_2_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Kiel Christmas market 2024</h5> {% endcomment %}
-                            {% comment %} <p>The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb</p> {% endcomment %}
-                        </div>
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_2_pc.png" alt="Mobile Irish Event Bar at A Private House Party">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_2_mob.png" alt="Mobile Irish Event Bar at A Private House Party">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_2_pc.png" alt="Mobile Irish Event Bar at A Trade Exhibition">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_2_mob.png" alt="Mobile Irish Event Bar at A Trade Exhibition">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-none d-md-block" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_pc.png" alt="Mobile Irish Event Bar at A Trade Exhibition">
+                        <img class="d-block d-md-none" src="{{ MEDIA_URL }}mobile_irish_bar_at_a_trade_exhibition_mob.png" alt="Mobile Irish Event Bar at A Trade Exhibition">
                     </div>
                     
-                    <div class="carousel-item">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_2_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at A Private House Party">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_2_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at A Private House Party">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Your dedicated bar staff</h5> {% endcomment %}
-                            {% comment %} <p>The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb</p> {% endcomment %}
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_1_pc.png" class="d-none d-md-block" alt="Mobile Irish Event Bar at A Private House Party">
-                        <img src="{{ MEDIA_URL }}mobile_irish_bar_at_a_private_house_party_1_mob.png" class="d-block d-md-none" alt="Mobile Irish Event Bar at A Private House Party">
-                        <div class="carousel-caption">
-                            {% comment %} <h5>Your dedicated bar staff</h5> {% endcomment %}
-                            {% comment %} <p>The Kiwo Event Bar Singer on Stage With Audience Kieler Wocheb</p> {% endcomment %}
-                        </div>
-                    </div>    
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="fas fa-chevron-left" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -250,5 +222,5 @@
 
 {% block postloadjs %} 
 {{ block.super }}
-<script src="{% static 'js/mobilebar.js' %}"></script>
+<script src="{% static 'js/barPages.js' %}"></script>
 {% endblock %}

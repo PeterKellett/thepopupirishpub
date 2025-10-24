@@ -6,7 +6,7 @@
 {% endblock %} 
 {% block extra_css%} 
 {{ block.super }}
-    <link rel="stylesheet" href="{% static 'css/guinnessbar.css' %}">
+    <link rel="stylesheet" href="{% static 'css/barPages.css' %}">
 {% endblock %} 
 
 {% block content %}
@@ -94,25 +94,25 @@
               </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_mob.png" class="d-block w-100  d-block d-md-none" alt="Guinness Glass Event Bar with Stage to the Left Side">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_pc.png" class="d-block w-100 d-none d-md-block" alt="Guinness Glass Event Bar with Stage to the Left Side">
+                <img class="d-none d-md-block" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_pc.png" alt="Guinness Glass Event Bar with Stage to the Left Side">
+                <img class="d-block d-md-none" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_mob.png" alt="Guinness Glass Event Bar with Stage to the Left Side">
               </div>
               <div class="carousel-item">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_large_guinness_parasol_umbrellas_outdoors_daytime_mob.png" class="d-block d-md-none w-100" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Daytime">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_large_guinness_parasol_umbrellas_outdoors_daytime_pc.png" class="d-none d-md-block w-100" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Daytime">
+                <img class="d-none d-md-block" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_large_guinness_parasol_umbrellas_outdoors_daytime_pc.png" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Daytime">
+                <img class="d-block d-md-none" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_large_guinness_parasol_umbrellas_outdoors_daytime_mob.png" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Daytime">
               </div>
               <div class="carousel-item">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_keg_room_end_mob.png" class="d-block d-md-none w-100" alt="Guinness Glass Event Bar with Keg Room End">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_right_pc.png" class="d-none d-md-block w-100" alt="Guinness Glass Event Bar with Stage to the Right">
+                <img class="d-none d-md-block" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_right_pc.png" alt="Guinness Glass Event Bar with Stage to the Right">
+                <img class="d-block d-md-none" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_keg_room_end_mob.png" alt="Guinness Glass Event Bar with Keg Room End">
               </div>
               
               <div class="carousel-item">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_outside_mob.png" class="d-block d-md-none w-100" alt="Guinness Glass Event Bar Outside">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_2_pc.png" class="d-none d-md-block w-100" alt="Guinness Glass Event Bar with Stage to the Left Side">
+                <img class="d-none d-md-block" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_stage_to_the_left_side_2_pc.png" alt="Guinness Glass Event Bar with Stage to the Left Side">
+                <img class="d-block d-md-none" src="{{ MEDIA_URL }}guinness_glass_event_bar_outside_mob.png" alt="Guinness Glass Event Bar Outside">
               </div>
               <div class="carousel-item">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_daytime_mob.png" class="d-block d-md-none w-100" alt="Guinness Glass Event Bar Daytime">
-                <img src="{{ MEDIA_URL }}guinness_glass_event_bar_with_guinness_parasol_umbrellas_maritim_festival_vegesack_pc.png" class="d-none d-md-block w-100" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Maritime Festival Vegesack">
+                <img class="d-none d-md-block" src="{{ MEDIA_URL }}guinness_glass_event_bar_with_guinness_parasol_umbrellas_maritim_festival_vegesack_pc.png" alt="Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors Maritime Festival Vegesack">
+                <img class="d-block d-md-none" src="{{ MEDIA_URL }}guinness_glass_event_bar_daytime_mob.png" alt="Guinness Glass Event Bar Daytime">
               </div>
             </div>
 
@@ -213,5 +213,5 @@
 
 {% block postloadjs %} 
 {{ block.super }}
-<script src="{% static 'js/guinnessbar.js' %}"></script>
+<script src="{% static 'js/barPages.js' %}"></script>
 {% endblock %}
