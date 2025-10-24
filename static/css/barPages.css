@@ -14,11 +14,35 @@
 	align-items: center;
 }
 
-#home .background-image {
-	background-image: url("/media/bars_custom_bars_top_section_bg_pc.png");
+#home .background-image.kiwo-bar {
+    background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+    @media only screen and (max-width: 767px) {
+        background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+	}
+}
+
+#home .background-image.guinness-bar {
+    background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_pc.png");
+    @media only screen and (max-width: 767px) {
+        background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_mob.png");
+	}
+}
+
+#home .background-image.mobile-bar {
+    background-image: url("/media/bars_mobile_bar_top_section_bg_pc.png");
+    @media only screen and (max-width: 767px) {
+        background-image: url("/media/bars_mobile_bar_top_section_bg_mob.png");
+	}
+}
+
+#home .background-image.custom-bar {
+    background-image: url("/media/bars_custom_bars_top_section_bg_pc.png");
     @media only screen and (max-width: 767px) {
         background-image: url("/media/bars_custom_top_section_bg_mob.png");
 	}
+}
+
+#home .background-image {
 	background-size: 120% 120%;
 	height: 100vh;
     width: 100%;
