@@ -53,18 +53,18 @@ def mailNewContact(data):
         recipient_list=[settings.NOTIFY_EMAIL],
     )
 
-    acknowledgement_message = f"""
-        Thank you for your query.
-        we will be in contack with you soon.
-        Kind regards
-        The Pop Up Irish Pub
-        """
-    send_mail(
-        subject="Thank you for your query",
-        message=acknowledgement_message,
-        from_email=settings.EMAIL_HOST_USER,
-        recipient_list=[{email}]
-    )
+    # acknowledgement_message = f"""
+    #     Thank you for your query.
+    #     we will be in contack with you soon.
+    #     Kind regards
+    #     The Pop Up Irish Pub
+    #     """
+    # send_mail(
+    #     subject="Thank you for your query",
+    #     message=acknowledgement_message,
+    #     from_email=settings.EMAIL_HOST_USER,
+    #     recipient_list=[{email}]
+    # )
 
 
 
