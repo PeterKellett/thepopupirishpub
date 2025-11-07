@@ -42,8 +42,8 @@ $(document).ready(() => {
 			console.log("data = ", data)
 			const host = window.location.host;
 			var url = "";
-			if (host.includes("heroku")) {
-				console.log("HEROKU");
+			if (host.includes("thepopupirishpub")) {
+				console.log("PRODUCTION");
 				url = "https://www.thepopupirishpub.com/";
 			} else {
 				console.log("DEVELOPMENT");
