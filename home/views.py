@@ -13,8 +13,10 @@ def index(request):
     """ A view to return the index page """
     # DEVELOPMENT = os.getenv('DEVELOPMENT')
     # print("DEVELOPMENT = ", DEVELOPMENT)
+    print("request = ", request)
     if request.method == "POST":
         data = json.load(request)
+        print("data = ", data)
         newContact = ContactUs(
             name=data["name"],
             email=data["email"],
@@ -36,7 +38,7 @@ def mailNewContact(data):
     email = data["email"]
     message = data["message"]
 
-    full_message = f"""
+    notify_message = f"""
         Received message below from 
         {name},
         {email}
@@ -45,11 +47,26 @@ def mailNewContact(data):
         {message}
         """
     send_mail(
-        subject="Received contact form submission",
-        message=full_message,
-        from_email=settings.DEFAULT_FROM_EMAIL,
+        subject="Website Contact Us form submission",
+        message=notify_message,
+        from_email=settings.EMAIL_HOST_USER,
         recipient_list=[settings.NOTIFY_EMAIL],
     )
+
+    acknowledgement_message = f"""
+        Thank you for your query.
+        we will be in contack with you soon.
+        Kind regards
+        The Pop Up Irish Pub
+        """
+    send_mail(
+        subject="Thank you for your query",
+        message=acknowledgement_message,
+        from_email=settings.EMAIL_HOST_USER,
+        recipient_list=[{email}]
+    )
+
+
 
 
 def aboutus(request):

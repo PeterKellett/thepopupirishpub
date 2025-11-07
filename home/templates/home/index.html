@@ -332,6 +332,8 @@
                         <div class="col-12 col-md-5 form-wrapper">
                             <form id="form" method="POST" action="" class="form mb-2" enctype="multipart/form-data">
                                 {% csrf_token %}
+                                {% comment %} <input type="text" class="form-control input did-floating-input" name="name" placeholder=" " aria-label="Name" required>
+                                    <label class="did-floating-label">Name</label> {% endcomment %}
                                 <div class="col-md-8 col-12 did-floating-label-content">
                                     <input type="text" class="form-control input did-floating-input" name="name" placeholder=" " aria-label="Name" required>
                                     <label class="did-floating-label">Name</label>
