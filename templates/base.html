@@ -76,29 +76,42 @@
 											<a class="nav-link active"
 												data-linkId="home"
 												aria-current="page"
-												href="{% url 'home' %}#home">Home</a>
+												href="{% url 'home' %}#home"
+												aria-label="Home page">Home</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="about-us"
 												aria-current="page"
-												href="{% url 'home' %}#about-us">About Us</a>
+												href="{% url 'home' %}#about-us"
+												aria-label="About Us page">About Us</a>
 										</li>
 										<li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle" data-linkId="explore-bars" data-bs-toggle="dropdown" role="button" aria-expanded="false">Explore Our Bars</a>
 											<ul class="dropdown-menu">
 												<li class="nav-item">
-													<a class="nav-link dropdown-item" data-group="explore-bars"
-													href="{% url 'kiwobar' %}">KiWo Bar</a>
+													<a class="nav-link dropdown-item" 
+													data-group="explore-bars"
+													href="{% url 'kiwobar' %}"
+													aria-label="KiWo Bar page">KiWo Bar</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link dropdown-item" data-group="explore-bars"href="{% url 'guinnessbar' %}">Guinness Glass Bar</a>
+													<a class="nav-link dropdown-item" 
+													data-group="explore-bars"
+													href="{% url 'guinnessbar' %}"
+													aria-label="Guinness Glass Bar page">Guinness Glass Bar</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link dropdown-item" data-group="explore-bars"href="{% url 'mobilebar' %}">Mobile Bar</a>
+													<a class="nav-link dropdown-item" 
+													data-group="explore-bars"
+													href="{% url 'mobilebar' %}"
+													aria-label="Mobile Bar page">Mobile Bar</a>
 												</li>
 												<li class="nav-item">
-													<a class="nav-link dropdown-item" data-group="explore-bars"href="{% url 'custombar' %}">Custom Bars</a>
+													<a class="nav-link dropdown-item" 
+													data-group="explore-bars"
+													href="{% url 'custombar' %}"
+													aria-label="Custom Bars page">Custom Bars</a>
 												</li>
 											</ul>	
 										</li>
@@ -106,13 +119,16 @@
 											<a class="nav-link"
 												data-linkId="food-music"
 												aria-current="page"
-												href="{% url 'home' %}#food-music">Add Ons</a>
+												href="{% url 'home' %}#food-music"
+												aria-label="Add Ons catering and entertainment page">Add Ons</a>
 										</li>
 										{% comment %} <li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle" data-linkId="food-music" data-bs-toggle="dropdown" role="button" aria-expanded="false">Add Ons</a>
 											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="">Catering</a></li>
-												<li><a class="dropdown-item" href="">Entertainment</a></li>
+												<li><a class="dropdown-item" href="" 
+												aria-label="Catering page">Catering</a></li>
+												<li><a class="dropdown-item" href=""
+												aria-label="Entertainment page">Entertainment</a></li>
 											</ul>	
 										</li> {% endcomment %}
 										
@@ -120,21 +136,23 @@
 											<a class="nav-link"
 												data-linkId="testimonials"
 												aria-current="page"
-												href="{% url 'home' %}#testimonials">Testimonials</a>
+												href="{% url 'home' %}#testimonials"
+												aria-label="Testimonials page">Testimonials</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="events"
 												aria-current="page"
-												href="{% url 'home' %}#events">Event Types</a>
+												href="{% url 'home' %}#events"
+												aria-label="Event Types page">Event Types</a>
 										</li>
 										{% comment %} <li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle" data-linkId="events" data-bs-toggle="dropdown" role="button" aria-expanded="false">Event Types</a>
 											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="">Trade Shows</a></li>
-												<li><a class="dropdown-item" href="">Weddings</a></li>
-												<li><a class="dropdown-item" href="">Private Events</a></li>
-												<li><a class="dropdown-item" href="">Festivals</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Trade Shows page">Trade Shows</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Weddings page">Weddings</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Private Events page">Private Events</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Festivals page">Festivals</a></li>
 											</ul>	
 										</li> {% endcomment %}
 										
@@ -142,13 +160,15 @@
 											<a class="nav-link"
 												data-linkId="gallery"
 												aria-current="page"
-												href="{% url 'home' %}#gallery">Gallery</a>
+												href="{% url 'home' %}#gallery"
+												aria-label="Gallery page">Gallery</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="contact-us"
 												aria-current="page"
-												href="{% url 'home' %}#contact-us">Contact Us</a>
+												href="{% url 'home' %}#contact-us"
+												aria-label="Contact Us page">Contact Us</a>
 										</li>
 									</ul>
 								</div>

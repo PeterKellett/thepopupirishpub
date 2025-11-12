@@ -26,9 +26,7 @@ def index(request):
         mailNewContact(data)
         return JsonResponse({'status': 'Checkout Complete'}, status=200)
     
-    context = {
-        
-    }
+    context = {}
     return render(request, 'home/index.html', context)
 
 
