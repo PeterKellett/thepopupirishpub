@@ -6,12 +6,7 @@ $(document).ready(() => {
 		console.log("clicked", this);
 		$(".navbar-collapse").collapse("hide");
 		$(this).addClass('active');
-		// $(this).siblings().removeClass('active');
-		// $('.nav-link').removeClass('active');
 	});
-
-	//Bootstrap carousel functionality
-	// $('.carousel').carousel()
 
 	//////////////////////////////////////
 	$("#form-submit").click((e) => {
