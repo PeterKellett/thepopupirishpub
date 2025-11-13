@@ -490,10 +490,7 @@
 
 /* --------------------------------------- */
 #contact-us {
-	background: url("/media/homepage_contact_us_section_bg.png");
-	@media only screen and (max-width: 767px) {
-		background: url("/media/homepage_contact_us_section_bg_mob.png");
-	}
+	background: url("/media/homepage_contact_us-section_bg.png");
 	object-fit: cover;
 	background-position: center;
 	text-align: center;
