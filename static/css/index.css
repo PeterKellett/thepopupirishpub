@@ -157,10 +157,8 @@
 }
 
 #explore-bars h1 {
-	/* height: 70px; */
 	color: #fff;
 	text-align: center;
-	/* margin: 0; */
 }
 
 #explore-bars .section-content {
@@ -178,17 +176,14 @@
 
 #explore-bars .card-container {
 	height: 90%;
-	/* flex-wrap: wrap; */
 	display: flex;
 	justify-content: center;
 	align-content: space-around;
 }
 
 #explore-bars .card {
-	/* height: 20vh; */
 	width: auto;
 	position: relative;
-	/* margin-bottom: 12px; */
 	border-radius: 0;
 	background-color: transparent;
 	border: none;
@@ -344,7 +339,6 @@
 
 #events .card-container {
 	height: 90%;
-	/* flex-wrap: wrap; */
 	display: flex;
 	justify-content: center;
 	align-content: space-around;
