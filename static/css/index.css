@@ -91,7 +91,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("/media/homepage_about_us_text_area_bg.png");
+	background-image: url("/media/homepage_about_us_text_area_bg.jpg");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -381,7 +381,7 @@
 
 /* --------------------------------------- */
 #testimonials {
-	background: url("/media/homepage_testimonials_section_bg.png");
+	background: url("/media/homepage_testimonials_section_bg.jpg");
 	text-align: center;
 	display: flex;
 	flex-direction: column;
