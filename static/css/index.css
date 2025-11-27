@@ -19,9 +19,9 @@
 }
 
 #home .background-image {
-	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267460/homepage_top_section_hero_image_bg_mu1jm5.png");
+	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764267460/homepage_top_section_hero_image_bg_mu1jm5.png");
 	@media only screen and (max-width: 767px) {
-		background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267492/homepage_top_section_bg_mob_aa3pcx.png");
+		background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764267492/homepage_top_section_bg_mob_aa3pcx.png");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
@@ -91,7 +91,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267521/homepage_about_us_text_area_bg_nyungf.png");
+	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764267521/homepage_about_us_text_area_bg_nyungf.png");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -381,7 +381,7 @@
 
 /* --------------------------------------- */
 #testimonials {
-	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267550/homepage_testimonials_section_bg_nv8tot.png");
+	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764267550/homepage_testimonials_section_bg_nv8tot.png");
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -484,7 +484,7 @@
 
 /* --------------------------------------- */
 #contact-us {
-	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267592/homepage_contact_us-section_bg_hlwcqk.png");
+	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764267592/homepage_contact_us-section_bg_hlwcqk.png");
 	object-fit: cover;
 	background-position: center;
 	text-align: center;
