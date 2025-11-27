@@ -15,30 +15,30 @@
 }
 
 #home .background-image.kiwo-bar {
-    background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272358/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.png");
     @media only screen and (max-width: 767px) {
-        background-image: url("/media/individual_bars_kiwo_bar_top_section_bg_pc.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272358/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.png");
 	}
 }
 
 #home .background-image.guinness-bar {
-    background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_pc.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272438/individual_bars_guinness_glass_bar_top_section_bg_pc_pgbz3n.png");
     @media only screen and (max-width: 767px) {
-        background-image: url("/media/individual_bars_guinness_glass_bar_top_section_bg_mob.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272461/individual_bars_guinness_glass_bar_top_section_bg_mob_tca699.png");
 	}
 }
 
 #home .background-image.mobile-bar {
-    background-image: url("/media/bars_mobile_bar_top_section_bg_pc.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272482/bars_mobile_bar_top_section_bg_pc_e2capl.png");
     @media only screen and (max-width: 767px) {
-        background-image: url("/media/bars_mobile_bar_top_section_bg_mob.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272520/bars_mobile_bar_top_section_bg_mob_efpjqq.png");
 	}
 }
 
 #home .background-image.custom-bar {
-    background-image: url("/media/bars_custom_bars_top_section_bg_pc.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272544/bars_custom_bars_top_section_bg_pc_w2guug.png");
     @media only screen and (max-width: 767px) {
-        background-image: url("/media/bars_custom_top_section_bg_mob.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272565/bars_custom_top_section_bg_mob_ozkzco.png");
 	}
 }
 
