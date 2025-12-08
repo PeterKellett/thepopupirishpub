@@ -15,23 +15,23 @@
 }
 
 #home .background-image.kiwo-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272358/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.jpg");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272358/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.jpg");
 	}
 }
 
 #home .background-image.guinness-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/q_auto/v1764272438/individual_bars_guinness_glass_bar_top_section_bg_pc_pgbz3n.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208601/individual_bars_guinness_glass_bar_top_section_bg_pc_pgbz3n.jpg");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272461/individual_bars_guinness_glass_bar_top_section_bg_mob_tca699.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208816/individual_bars_guinness_glass_bar_top_section_bg_mob_tca699.jpg");
 	}
 }
 
 #home .background-image.mobile-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272482/bars_mobile_bar_top_section_bg_pc_e2capl.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208893/bars_mobile_bar_top_section_bg_pc_e2capl.jpg");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272520/bars_mobile_bar_top_section_bg_mob_efpjqq.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765209053/bars_mobile_bar_top_section_bg_mob_efpjqq.jpg");
 	}
 }
 
