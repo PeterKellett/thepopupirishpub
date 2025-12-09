@@ -36,9 +36,9 @@
 }
 
 #home .background-image.custom-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272544/bars_custom_bars_top_section_bg_pc_w2guug.png");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288537/bars_custom_bars_top_section_bg_pc_w2guug.jpg");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764272565/bars_custom_top_section_bg_mob_ozkzco.png");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288629/bars_custom_top_section_bg_mob_ozkzco.jpg");
 	}
 }
 
@@ -80,18 +80,12 @@
 #home h1 {
 	color: #fff;
 	font-size: 4rem;
-	/* background-color: #00000096; */
 }
 
 #home h2 {
     text-align: center;
     color: #fff;
 }
-/* 
-#home hr {
-	width: 50%;
-	max-width: 500px;
-} */
 
 #home .section-button {
 	margin-top: 100px;
@@ -116,7 +110,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("/media/individual_bars_guinness_glass_bar_about_section_bg_pc.png");
+	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288976/individual_bars_guinness_glass_bar_about_section_bg_pc_uf6ods.jpg");
     background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -125,7 +119,7 @@
 	padding: 0;
 	height: 100vh;
 	@media only screen and (max-width: 767px) {
-		background-image: url("/media/individual_bars_guinness_glass_bar_about_section_bg_mob.png");
+		background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289069/individual_bars_guinness_glass_bar_about_section_bg_mob_e2fpsr.jpg");
         padding: 0;
 	}
 }
