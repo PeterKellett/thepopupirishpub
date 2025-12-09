@@ -261,6 +261,10 @@
 	} */
 }
 
+.table>:not(:last-child)>:last-child>* {
+    border-bottom: none;
+}
+
 #specifications thead th {
     padding: 0;
 }
