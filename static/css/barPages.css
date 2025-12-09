@@ -262,7 +262,7 @@
 }
 
 .table>:not(:last-child)>:last-child>* {
-    border-bottom: none;
+    border-bottom-color: transparent;
 }
 
 #specifications thead th {
