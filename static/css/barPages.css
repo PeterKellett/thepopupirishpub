@@ -119,7 +119,7 @@
 	padding: 0;
 	height: 100vh;
 	@media only screen and (max-width: 767px) {
-		background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289069/individual_bars_guinness_glass_bar_about_section_bg_mob_e2fpsr.jpg");
+		/* background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289069/individual_bars_guinness_glass_bar_about_section_bg_mob_e2fpsr.jpg"); */
         padding: 0;
 	}
 }
