@@ -15,9 +15,9 @@
 }
 
 #home .background-image {
-	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267460/homepage_top_section_hero_image_bg_mu1jm5.jpg");
+	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748201/homepage_top_section_hero_image_bg.webp");
 	@media only screen and (max-width: 767px) {
-		background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764267492/homepage_top_section_bg_mob_aa3pcx.jpg");
+		background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748280/homepage_top_section_bg_mob.webp");
 	}
 	background-size: 120% 120%;
 	height: 100vh;
@@ -56,7 +56,10 @@
 #home h1 {
 	color: var(--MutedGold);
 	font-size: 4rem;
-	background-color: #0000000f;
+	background-color: #00000022;
+	padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 1rem;
 }
 
 #home hr {
@@ -87,7 +90,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765196968/homepage_about_us_text_area_bg_nyungf.jpg");
+	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748351/homepage_about_us_text_area_bg.webp");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -377,7 +380,7 @@
 
 /* --------------------------------------- */
 #testimonials {
-	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765197044/homepage_testimonials_section_bg_nv8tot.jpg");
+	background: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748602/homepage_testimonials_section_bg.webp");
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -480,7 +483,7 @@
 
 /* --------------------------------------- */
 #contact-us {
-	background: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765197151/homepage_contact_us-section_bg_hlwcqk.jpg");
+	background: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748683/homepage_contact_us-section_bg.webp");
 	object-fit: cover;
 	background-position: center;
 	text-align: center;

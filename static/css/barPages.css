@@ -15,30 +15,30 @@
 }
 
 #home .background-image.kiwo-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.jpg");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.webp");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.jpg");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208457/individual_bars_kiwo_bar_top_section_bg_pc_rybxph.webp");
 	}
 }
 
 #home .background-image.guinness-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208601/individual_bars_guinness_glass_bar_top_section_bg_pc_pgbz3n.jpg");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208601/individual_bars_guinness_glass_bar_top_section_bg_pc_pgbz3n.webp");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208816/individual_bars_guinness_glass_bar_top_section_bg_mob_tca699.jpg");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208816/individual_bars_guinness_glass_bar_top_section_bg_mob_tca699.webp");
 	}
 }
 
 #home .background-image.mobile-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208893/bars_mobile_bar_top_section_bg_pc_e2capl.jpg");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765208893/bars_mobile_bar_top_section_bg_pc_e2capl.webp");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765209053/bars_mobile_bar_top_section_bg_mob_efpjqq.jpg");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765209053/bars_mobile_bar_top_section_bg_mob_efpjqq.webp");
 	}
 }
 
 #home .background-image.custom-bar {
-    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288537/bars_custom_bars_top_section_bg_pc_w2guug.jpg");
+    background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288537/bars_custom_bars_top_section_bg_pc_w2guug.webp");
     @media only screen and (max-width: 767px) {
-        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288629/bars_custom_top_section_bg_mob_ozkzco.jpg");
+        background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288629/bars_custom_top_section_bg_mob_ozkzco.webp");
 	}
 }
 
@@ -110,7 +110,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288976/individual_bars_guinness_glass_bar_about_section_bg_pc_uf6ods.jpg");
+	background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765288976/individual_bars_guinness_glass_bar_about_section_bg_pc_uf6ods.webp");
     background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -119,7 +119,7 @@
 	padding: 0;
 	height: 100vh;
 	@media only screen and (max-width: 767px) {
-		/* background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289069/individual_bars_guinness_glass_bar_about_section_bg_mob_e2fpsr.jpg"); */
+		/* background-image: url("https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289069/individual_bars_guinness_glass_bar_about_section_bg_mob_e2fpsr.webp"); */
         padding: 0;
 	}
 }

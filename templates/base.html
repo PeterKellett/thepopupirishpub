@@ -38,6 +38,9 @@
         {% endblock %}
 		<link rel="shortcut icon" href="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764340924/favicon_8_cdjs12.ico" type="image/x-icon" />
 		<title>The Pop Up Irish Pub</title>
+		<!-- Include your new SEO schema template -->
+    	{% include 'partials/seo_schema.html' %}
+
 	</head>
 	<body>
 		<header>
@@ -69,74 +72,75 @@
 										<li class="nav-item">
 											<a class="nav-link active"
 												data-linkId="home"
-												aria-current="page"
 												href="{% url 'home' %}#home"
 												aria-label="Home page">Home</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="about-us"
-												aria-current="page"
 												href="{% url 'home' %}#about-us"
 												aria-label="About Us page">About Us</a>
 										</li>
 										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" data-linkId="explore-bars" data-bs-toggle="dropdown" role="button" aria-expanded="false">Explore Our Bars</a>
-											<ul class="dropdown-menu">
+											<a class="nav-link dropdown-toggle" 
+												id="navbarDropdownExplore"
+												data-linkId="explore-bars" 
+												data-bs-toggle="dropdown" 
+												role="button" 
+												aria-expanded="false">Explore Our Bars</a>
+											<ul class="dropdown-menu" aria-labelledby="navbarDropdownExplore">
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
-													data-group="explore-bars"
-													href="{% url 'guinnessbar' %}"
-													aria-label="Guinness Glass Bar page">Guinness Glass Bar</a>
+														data-group="explore-bars"
+														href="{% url 'guinnessbar' %}"
+														aria-label="Guinness Glass Bar page">Guinness Glass Bar</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
-													data-group="explore-bars"
-													href="{% url 'mobilebar' %}"
-													aria-label="Mobile Bar page">Mobile Bar</a>
+														data-group="explore-bars"
+														href="{% url 'mobilebar' %}"
+														aria-label="Mobile Bar page">Mobile Bar</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
-													data-group="explore-bars"
-													href="{% url 'kiwobar' %}"
-													aria-label="KiWo Bar page">KiWo Bar</a>
+														data-group="explore-bars"
+														href="{% url 'kiwobar' %}"
+														aria-label="KiWo Bar page">KiWo Bar</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
-													data-group="explore-bars"
-													href="{% url 'custombar' %}"
-													aria-label="Custom Bars page">Custom Bars</a>
+														data-group="explore-bars"
+														href="{% url 'custombar' %}"
+														aria-label="Custom Bars page">Custom Bars</a>
 												</li>
 											</ul>	
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="food-music"
-												aria-current="page"
 												href="{% url 'home' %}#food-music"
 												aria-label="Add Ons catering and entertainment page">Add Ons</a>
 										</li>
-										{% comment %} <li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" data-linkId="food-music" data-bs-toggle="dropdown" role="button" aria-expanded="false">Add Ons</a>
-											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="" 
-												aria-label="Catering page">Catering</a></li>
-												<li><a class="dropdown-item" href=""
-												aria-label="Entertainment page">Entertainment</a></li>
+										{% comment %} 
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" id="navbarDropdownAddOns" data-linkId="food-music" data-bs-toggle="dropdown" role="button" aria-expanded="false">Add Ons</a>
+											<ul class="dropdown-menu" aria-labelledby="navbarDropdownAddOns">
+												<li><a class="dropdown-item" href="" aria-label="Catering page">Catering</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Entertainment page">Entertainment</a></li>
 											</ul>	
-										</li> {% endcomment %}
+										</li> 
+										{% endcomment %}
+										
 										
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="testimonials"
-												aria-current="page"
 												href="{% url 'home' %}#testimonials"
 												aria-label="Testimonials page">Testimonials</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="events"
-												aria-current="page"
 												href="{% url 'home' %}#events"
 												aria-label="Event Types page">Event Types</a>
 										</li>
@@ -153,14 +157,12 @@
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="gallery"
-												aria-current="page"
 												href="{% url 'home' %}#gallery"
 												aria-label="Gallery page">Gallery</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="contact-us"
-												aria-current="page"
 												href="{% url 'home' %}#contact-us"
 												aria-label="Contact Us page">Contact Us</a>
 										</li>
