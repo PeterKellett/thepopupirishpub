@@ -8,17 +8,18 @@
 {% endblock %} 
 
 {% block content %}
+{% load i18n %}
 <section id="home">
     <div class="container-fluid">
         <div class="background-image custom-bar">
 
         </div>
         <div class="content-container">
-            <h1>Custom Bars</h1>
+            <h1>{% trans "Custom Bars" %}</h1>
             <hr>
-            <h2>Exhibition Bars Built to Your Needs</h1>
+            <h2>{% trans "Exhibition Bars Built to Your Needs" %}</h1>
             <div>
-                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
             </div>    
         </div>       
     </div>
@@ -26,40 +27,40 @@
 <section id="about-us" class="container-fluid">
     <div class="row">
         <div class="col-4 p-0 about-us-image d-none d-md-block">
-            <img src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289841/bars_mobile_bar_about_section_side_image_pc_e2ckln.webp" alt="Mobile Bar in a Wedding Setting">
+            <img src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765289841/bars_mobile_bar_about_section_side_image_pc_e2ckln.webp" alt="{% trans 'Mobile Bar in a Wedding Setting' %}">
         </div>
         <div class="col-md-8 col-12 about-us-main-content">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="d-none d-md-block">About Custom Bars</h1>
-                    <h1 class="d-block d-md-none">About Custom Bars</h1>
+                    <h1 class="d-none d-md-block">{% trans "About Custom Bars" %}</h1>
+                    <h1 class="d-block d-md-none">{% trans "About Custom Bars" %}</h1>
                     <hr>
                 </div>
             </div>
             <div class="row about-us-text">
                 <div class="col-12">
-                    <p class="">When your event needs something specific, our custom bars are built to your brief - delivering premium event bar hire and authentic Irish bar rental without compromise. From a single Guinness tap to a full venue fit-out that feels like a real pub, we'll design, build and staff a solution that fits your footprint, brand and schedule. Perfect for exhibition stand bars, VIP lounges, weddings, private events, festivals and corporate hospitality right across continental EU.
+                    <p class="">{% trans "When your event needs something specific, our custom bars are built to your brief - delivering premium event bar hire and authentic Irish bar rental without compromise. From a single Guinness tap to a full venue fit-out that feels like a real pub, we'll design, build and staff a solution that fits your footprint, brand and schedule. Perfect for exhibition stand bars, VIP lounges, weddings, private events, festivals and corporate hospitality right across continental EU." %}
                     </p>
-                    <p class="d-none d-md-block">Tailored to perform and built to last the day (or week), every custom bar can include:
+                    <p class="d-none d-md-block">{% trans "Tailored to perform and built to last the day (or week), every custom bar can include:" %}
                     </p>
                     <ul>
-                        <li><span>Footprint & Layout:</span> Bar counter shapes, lengths and back-bar storage configured to your space - indoor or outdoor.
+                        <li><span>{% trans "Footprint & Layout:" %}</span>{% trans " Bar counter shapes, lengths and back-bar storage configured to your space - indoor or outdoor." %}
                         </li>
-                        <li><span>Draught & Speed:</span> Guinness on draught plus multiple taps for ales/lager/cider; glassware, refrigeration and queue-smart service.</li>
-                        <li><span>Branding & Media:</span> Bar wraps, signage, lightboxes and optional screens for your logos, promos or sponsor content.
+                        <li><span>{% trans "Draught & Speed:" %}</span> {% trans "Guinness on draught plus multiple taps for ales/lager/cider; glassware, refrigeration and queue-smart service." %}</li>
+                        <li><span>{% trans "Branding & Media:" %}</span> {% trans "Bar wraps, signage, lightboxes and optional screens for your logos, promos or sponsor content." %}
                         </li>
-                        <li><span>Integration:</span> Works as a standalone centrepiece or alongside our pop-up Irish pub / mobile Irish bar formats.</li>
+                        <li><span>{% trans "" %}Integration:</span>{% trans " Works as a standalone centrepiece or alongside our pop-up Irish pub / mobile Irish bar formats." %}</li>
                     </ul>
-                    <p class="d-none d-md-block">If you can imagine it, we can pour it. Choose Custom Bars by The Pop Up Irish Pub for a solution that looks the part, serves fast, and carries the unmistakable welcome of Ireland - Guinness on draught, professional Irish bartenders, and seamless delivery across continental Europe.
+                    <p class="d-none d-md-block">{% trans "If you can imagine it, we can pour it. Choose Custom Bars by The Pop Up Irish Pub for a solution that looks the part, serves fast, and carries the unmistakable welcome of Ireland - Guinness on draught, professional Irish bartenders, and seamless delivery across continental Europe." %}
                     </p>
                 </div>
             </div>
             <div class="row button-container">
                 <div class="col-6">
-                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Tell Me More" %}</a>
                 </div>
                 <div class="col-6">
-                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
                 </div>
             </div>
         </div>
@@ -69,13 +70,13 @@
     <div class="container section-content">
         <div class="row">
             <div class="col-12">
-                <h1>Gallery - Photos & Videos</h1>
+                <h1>{% trans "Gallery - Photos & Videos" %}</h1>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+                <p class="section-text">{% trans "Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe." %}
                 </p>
                 
             </div>
@@ -92,26 +93,26 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375738/custom_event_bars_at_kiel_christmas_market_2023_pc_v0akwf.webp" alt="Custom Event Bars at Kiel Christmas Market 2023">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375828/custom_event_bars_at_a_trade_fair_exhibition_2_mob_pu29jk.webp" alt="Custom Event Bars at a Trade Fair Exhibition">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375738/custom_event_bars_at_kiel_christmas_market_2023_pc_v0akwf.webp" alt="{% trans 'Custom Event Bars at Kiel Christmas Market 2023' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375828/custom_event_bars_at_a_trade_fair_exhibition_2_mob_pu29jk.webp" alt="{% trans 'Custom Event Bars at a Trade Fair Exhibition' %}">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375991/custom_event_bars_at_kiel_christmas_market_2024_pc_hviudq.webp" alt="Custom Event Bars at Kiel Christmas Market 2024">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765196432/custom_event_bars_at_a_private_house_party_1_mob_wysoh0.webp" alt="Custom Event Bars at a Private House Party">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765375991/custom_event_bars_at_kiel_christmas_market_2024_pc_hviudq.webp" alt="{% trans 'Custom Event Bars at Kiel Christmas Market 2024' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765196432/custom_event_bars_at_a_private_house_party_1_mob_wysoh0.webp" alt="{% trans 'Custom Event Bars at a Private House Party' %}">
                     </div>
 
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376219/custom_event_bars_at_a_music_festival_2_pc_ao8qeo.webp" alt="Custom Event Bars at a Music Festival">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376292/custom_event_bars_at_a_music_festival_2_mob_tf816a.webp" alt="Custom Event Bars at a Music Festival">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376219/custom_event_bars_at_a_music_festival_2_pc_ao8qeo.webp" alt="{% trans 'Custom Event Bars at a Music Festival' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376292/custom_event_bars_at_a_music_festival_2_mob_tf816a.webp" alt="{% trans 'Custom Event Bars at a Music Festival' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765195634/custom_event_bars_whiskey_messe_nurnberg_pc_nda5vq.webp" alt="Custom Event Bars Whiskey Messe Nurnberg">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765195922/custom_event_bars_at_kiel_christmas_market_2023_mob_xwt6ma.webp" alt="Custom Event Bars at Kiel Christmas Market 2023">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765195634/custom_event_bars_whiskey_messe_nurnberg_pc_nda5vq.webp" alt="{% trans 'Custom Event Bars Whiskey Messe Nurnberg' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765195922/custom_event_bars_at_kiel_christmas_market_2023_mob_xwt6ma.webp" alt="{% trans 'Custom Event Bars at Kiel Christmas Market 2023' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765196077/custom_event_bars_whiskey_messe_nurnberg_2_pc_t9mbhg.webp" alt="Custom Event Bars Whiskey Messe Nurnberg">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376569/custom_event_bars_at_a_trade_fair_exhibition_1_mob_hnwxpb.webp" alt="Custom Event Bars at a Trade Fair Exhibition">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765196077/custom_event_bars_whiskey_messe_nurnberg_2_pc_t9mbhg.webp" alt="{% trans 'Custom Event Bars Whiskey Messe Nurnberg' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1765376569/custom_event_bars_at_a_trade_fair_exhibition_1_mob_hnwxpb.webp" alt="{% trans 'Custom Event Bars at a Trade Fair Exhibition' %}">
                     </div>
 
                     
@@ -119,11 +120,11 @@
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="fas fa-chevron-left" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">{% trans "Previous" %}</span>
                   </button>
                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                     <span class="fas fa-chevron-right" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">{% trans "Next" %}</span>
                   </button>
             </div>   
         </div>
@@ -133,7 +134,7 @@
 <section id="specifications" class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1>Custom Bars - Specifications</h1>
+            <h1>{% trans "Custom Bars - Specifications" %}</h1>
             <hr>
         </div>
     </div>
@@ -147,70 +148,70 @@
               </thead>
               <tbody>
                 <tr>
-                    <td>No. of Guests</td>
-                    <td>As every custom bar is unique, we create the specifications to match your brief, venue and compliance needs.</td>
+                    <td>{% trans "No. of Guests" %}</td>
+                    <td>{% trans "As every custom bar is unique, we create the specifications to match your brief, venue and compliance needs." %}</td>
                 </tr>
                 <tr>
-                    <td>No. of Beer Taps:</td>
+                    <td>{% trans "No. of Beer Taps:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Seating:</td>
+                    <td>{% trans "Seating:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Bar Team:</td>
+                    <td>{% trans "Bar Team:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Height:</td>
+                    <td>{% trans "Height:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Size:</td>
+                    <td>{% trans "Size:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Head Clearance:</td>
+                    <td>{% trans "Head Clearance:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Ground:</td>
+                    <td>{% trans "Ground:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Construction Time:</td>
+                    <td>{% trans "Construction Time:" %}</td>
                     <td></td>
                     
                 </tr>
                 <tr>
-                    <td>Dismantling Time:</td>
+                    <td>{% trans "Dismantling Time:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Loading Space:</td>
+                    <td>{% trans "Loading Space:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Power Required:</td>
+                    <td>{% trans "Power Required:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Water In:</td>
+                    <td>{% trans "Water In:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Water Out:</td>
+                    <td>{% trans "Water Out:" %}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Keg Room:</td>
+                    <td>{% trans "Keg Room:" %}</td>
                     <td></td>
                 </tr>
               </tbody>
         </table>
     </div>
-    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">{% trans "Tell Me More" %}</a>
 </section>
 {% endblock %}
 

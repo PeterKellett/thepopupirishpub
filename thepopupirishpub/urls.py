@@ -18,9 +18,20 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns # <-- Import i18n_patterns
 
+# 1. Base URL patterns that shouldn't change with language
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    path('i18n/', include('django.conf.urls.i18n')), # <-- Required for the language switcher form to work
+]
 
+# 2. Localized URL patterns that get prefixed (e.g., /de/, /fr/)
+urlpatterns += i18n_patterns(
+    path('', include('home.urls')),
+    prefix_default_language=True # Forces /en/ for the English site. Set to False if you want English to stay clean (e.g. ://site.com)
+)
+
+# 3. Media files asset serving (only used in development)
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

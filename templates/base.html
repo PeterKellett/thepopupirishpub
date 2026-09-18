@@ -1,11 +1,14 @@
+{% load i18n %}
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ request.LANGUAGE_CODE|default:'en' }}" translate="no">
 	<head>
 		{% block meta %}
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+			<!-- 🚫 Tell Google Chrome & Edge never to show the automatic translation pop-up -->
+			<meta name="google" content="notranslate" />
 		{% endblock %} 
         {% block extra_meta %} 
         {% endblock %} 
@@ -42,7 +45,7 @@
     	{% include 'partials/seo_schema.html' %}
 
 	</head>
-	<body>
+	<body class="notranslate">
 		<header>
 			<div class="container">
 				<div class="row justify-content-center">
@@ -52,8 +55,87 @@
 								<a class="navbar-brand" href="{% url 'home' %}">
 									<img src="https://res.cloudinary.com/dbn8mpr7r/image/upload/v1764338783/the_pop_up_irish_pub_trans_gold_dw2yqm.png" alt="logo"></img>
 								</a>
+
+
+								<li class="nav-item dropdown language-dropdown ms-auto">
+									<!-- The Clickable Dropdown Trigger -->
+									<a class="nav-link dropdown-toggle" 
+									id="languageSwitcherDropdown" 
+									role="button" 
+									data-bs-toggle="dropdown" 
+									aria-expanded="false" 
+									aria-label="Change Language">
+									{% get_current_language as LANGUAGE_CODE %}
+									{% if LANGUAGE_CODE == 'de' %}
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#ffce4a" d="M0 341.3h512V512H0z"/><path fill="#000" d="M0 0h512v170.7H0z"/><path fill="#dd0000" d="M0 170.7h512v170.7H0z"/></svg>
+									{% elif LANGUAGE_CODE == 'fr' %}
+										<!-- Show French Flag if active -->
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#002654" d="M0 0h170.7v512H0z"/><path fill="#ce1126" d="M341.3 0H512v512H341.3z"/></svg>
+									{% elif LANGUAGE_CODE == 'it' %}
+										<!-- Show Italian Flag if active -->
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></svg>
+									{% elif LANGUAGE_CODE == 'es' %}
+										<!-- Show Spanish Flag if active -->
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#aa151b" d="M0 0h512v128H0zm0 384h512v128H0z"/><path fill="#f1bf00" d="M0 128h512v256H0z"/></svg>
+									{% elif LANGUAGE_CODE == 'nl' %}
+										<!-- Show Dutch Flag if active -->
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 170.7h512v170.6H0z"/><path fill="#21468b" d="M0 341.3h512V512H0z"/><path fill="#ae1c28" d="M0 0h512v170.7H0z"/></svg>
+									{% else %}
+										<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border" style="border-color: rgba(255,255,255,0.15) !important;"><path fill="#012169" d="M0 0h512v512H0z"/><path stroke="#fff" stroke-width="68.3" d="M0 0l512 512M0 512L512 0"/><path stroke="#c8102e" stroke-width="41" d="M0 0l512 512M0 512L512 0"/><path stroke="#fff" stroke-width="102.4" d="M256 0v512M0 256h512"/><path stroke="#c8102e" stroke-width="61.4" d="M256 0v512M0 256h512"/></svg>
+									{% endif %}
+									</a>
+									
+									<!-- The Hidden Form & Dropdown Choices -->
+									<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSwitcherDropdown">
+										<form action="{% url 'set_language' %}" method="post" id="lang-switcher-form">
+											{% csrf_token %}
+											<!-- Next parameter safely redirects the user back to the exact same view -->
+											<input name="next" type="hidden" value="{{ request.get_full_path }}">
+											<input name="language" type="hidden" id="selected-lang-input" value="">
+											
+											<li>
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'en' %}active{% endif %}" onclick="switchLanguage('en')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#012169" d="M0 0h512v512H0z"/><path stroke="#fff" stroke-width="68.3" d="M0 0l512 512M0 512L512 0"/><path stroke="#c8102e" stroke-width="41" d="M0 0l512 512M0 512L512 0"/><path stroke="#fff" stroke-width="102.4" d="M256 0v512M0 256h512"/><path stroke="#c8102e" stroke-width="61.4" d="M256 0v512M0 256h512"/></svg>
+												</button>
+											</li>
+											<li>
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'de' %}active{% endif %}" onclick="switchLanguage('de')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#ffce4a" d="M0 341.3h512V512H0z"/><path fill="#000" d="M0 0h512v170.7H0z"/><path fill="#dd0000" d="M0 170.7h512v170.7H0z"/></svg>
+												</button>
+											</li>
+											<li>
+												<!-- 🇫🇷 NEW: Menu Option French Flag -->
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'fr' %}active{% endif %}" onclick="switchLanguage('fr')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#002654" d="M0 0h170.7v512H0z"/><path fill="#ce1126" d="M341.3 0H512v512H341.3z"/></svg>
+												</button>
+											</li>
+											<li>
+												<!-- 🇮🇹 NEW: Menu Option Italian Flag -->
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'it' %}active{% endif %}" onclick="switchLanguage('it')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></svg>
+												</button>
+											</li>
+											<li>
+												<!-- 🇪🇸 NEW: Menu Option Spanish Flag -->
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'es' %}active{% endif %}" onclick="switchLanguage('es')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#aa151b" d="M0 0h512v128H0zm0 384h512v128H0z"/><path fill="#f1bf00" d="M0 128h512v256H0z"/></svg>
+												</button>
+											</li>
+											<li>
+												<!-- 🇳🇱 NEW: Menu Option Dutch Flag -->
+												<button type="button" class="dropdown-item {% if LANGUAGE_CODE == 'nl' %}active{% endif %}" onclick="switchLanguage('nl')">
+													<svg width="30" height="30" viewBox="0 0 512 512" class="rounded border"><path fill="#fff" d="M0 170.7h512v170.6H0z"/><path fill="#21468b" d="M0 341.3h512V512H0z"/><path fill="#ae1c28" d="M0 0h512v170.7H0z"/></svg>
+												</button>
+											</li>
+										</form>
+									</ul>
+								</li>
+
+
+
+
 								<button
-									class="navbar-toggler ms-auto"
+									class="navbar-toggler"
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target="#navbarTogglerDemo02"
@@ -73,13 +155,13 @@
 											<a class="nav-link active"
 												data-linkId="home"
 												href="{% url 'home' %}#home"
-												aria-label="Home page">Home</a>
+												aria-label="Home page">{% trans "Home" %}</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="about-us"
 												href="{% url 'home' %}#about-us"
-												aria-label="About Us page">About Us</a>
+												aria-label="About Us page">{% trans "About Us" %}</a>
 										</li>
 										<li class="nav-item dropdown">
 											<a class="nav-link dropdown-toggle" 
@@ -87,31 +169,31 @@
 												data-linkId="explore-bars" 
 												data-bs-toggle="dropdown" 
 												role="button" 
-												aria-expanded="false">Explore Our Bars</a>
+												aria-expanded="false">{% trans "Explore Our Bars" %}</a>
 											<ul class="dropdown-menu" aria-labelledby="navbarDropdownExplore">
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
 														data-group="explore-bars"
 														href="{% url 'guinnessbar' %}"
-														aria-label="Guinness Glass Bar page">Guinness Glass Bar</a>
+														aria-label="Guinness Glass Bar page">{% trans "Guinness Glass Bar" %}</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
 														data-group="explore-bars"
 														href="{% url 'mobilebar' %}"
-														aria-label="Mobile Bar page">Mobile Bar</a>
+														aria-label="Mobile Bar page">{% trans "Mobile Bar" %}</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
 														data-group="explore-bars"
 														href="{% url 'kiwobar' %}"
-														aria-label="KiWo Bar page">KiWo Bar</a>
+														aria-label="KiWo Bar page">{% trans "KiWo Bar" %}</a>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link dropdown-item" 
 														data-group="explore-bars"
 														href="{% url 'custombar' %}"
-														aria-label="Custom Bars page">Custom Bars</a>
+														aria-label="Custom Bars page">{% trans "Custom Bars" %}</a>
 												</li>
 											</ul>	
 										</li>
@@ -119,14 +201,14 @@
 											<a class="nav-link"
 												data-linkId="food-music"
 												href="{% url 'home' %}#food-music"
-												aria-label="Add Ons catering and entertainment page">Add Ons</a>
+												aria-label="Add Ons catering and entertainment page">{% trans "Add Ons" %}</a>
 										</li>
 										{% comment %} 
 										<li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" id="navbarDropdownAddOns" data-linkId="food-music" data-bs-toggle="dropdown" role="button" aria-expanded="false">Add Ons</a>
+											<a class="nav-link dropdown-toggle" id="navbarDropdownAddOns" data-linkId="food-music" data-bs-toggle="dropdown" role="button" aria-expanded="false">{% trans "Add Ons" %}</a>
 											<ul class="dropdown-menu" aria-labelledby="navbarDropdownAddOns">
-												<li><a class="dropdown-item" href="" aria-label="Catering page">Catering</a></li>
-												<li><a class="dropdown-item" href="" aria-label="Entertainment page">Entertainment</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Catering page">{% trans "Catering" %}</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Entertainment page">{% trans "Entertainment" %}</a></li>
 											</ul>	
 										</li> 
 										{% endcomment %}
@@ -136,21 +218,21 @@
 											<a class="nav-link"
 												data-linkId="testimonials"
 												href="{% url 'home' %}#testimonials"
-												aria-label="Testimonials page">Testimonials</a>
+												aria-label="Testimonials page">{% trans "Testimonials" %}</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="events"
 												href="{% url 'home' %}#events"
-												aria-label="Event Types page">Event Types</a>
+												aria-label="Event Types page">{% trans "Event Types" %}</a>
 										</li>
 										{% comment %} <li class="nav-item dropdown">
-											<a class="nav-link dropdown-toggle" data-linkId="events" data-bs-toggle="dropdown" role="button" aria-expanded="false">Event Types</a>
+											<a class="nav-link dropdown-toggle" data-linkId="events" data-bs-toggle="dropdown" role="button" aria-expanded="false">{% trans "Event Types" %}</a>
 											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="" aria-label="Trade Shows page">Trade Shows</a></li>
-												<li><a class="dropdown-item" href="" aria-label="Weddings page">Weddings</a></li>
-												<li><a class="dropdown-item" href="" aria-label="Private Events page">Private Events</a></li>
-												<li><a class="dropdown-item" href="" aria-label="Festivals page">Festivals</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Trade Shows page">{% trans "Trade Shows" %}</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Weddings page">{% trans "Weddings" %}</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Private Events page">{% trans "Private Events" %}</a></li>
+												<li><a class="dropdown-item" href="" aria-label="Festivals page">{% trans "Festivals" %}</a></li>
 											</ul>	
 										</li> {% endcomment %}
 										
@@ -158,13 +240,13 @@
 											<a class="nav-link"
 												data-linkId="gallery"
 												href="{% url 'home' %}#gallery"
-												aria-label="Gallery page">Gallery</a>
+												aria-label="Gallery page">{% trans "Gallery" %}</a>
 										</li>
 										<li class="nav-item">
 											<a class="nav-link"
 												data-linkId="contact-us"
 												href="{% url 'home' %}#contact-us"
-												aria-label="Contact Us page">Contact Us</a>
+												aria-label="Contact Us page">{% trans "Contact Us" %}</a>
 										</li>
 									</ul>
 								</div>
@@ -181,6 +263,18 @@
 		{% comment %} <footer>
 			<p>Footer</p>
 		</footer> {% endcomment %}
+		<script>
+			// Close the navbar if it is open 
+			$('.language-dropdown').click(() => {
+				$('.navbar-collapse').removeClass('show')
+			})
+			function switchLanguage(langCode) {
+				// 1. Update the value of the hidden language form input field
+				document.getElementById('selected-lang-input').value = langCode;
+				// 2. Submit the form to Django's built-in i18n system routing view
+				document.getElementById('lang-switcher-form').submit();
+			}
+		</script>
 		{% block postloadjs %} 
 		{% endblock %}
 	</body>

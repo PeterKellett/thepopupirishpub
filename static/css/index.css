@@ -106,6 +106,7 @@
 .about-us-text {
     margin: 1rem;
     border: 2px dashed #000;
+	font-size: 0.9rem;
     @media only screen and (max-width: 767px) {
 		font-size: 0.8rem;
         margin: .5rem;
@@ -161,7 +162,7 @@
 }
 
 #explore-bars .section-content {
-	height: 85vh;
+	height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;

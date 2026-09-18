@@ -124,12 +124,42 @@ hr {
   padding: 3px 0 0 0;
 }
 
-.dropdown-menu .dropdown-item {
+.nav-pills .dropdown-menu .dropdown-item {
   position: relative;
   right:15px;
 }
 
-.dropdown-toggle.show::after {
+.nav-pills .dropdown-toggle.show::after {
   color: #fff!important;
 }
 
+.language-dropdown {
+  background-color: #fff;
+  margin-right: 1rem;
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+.language-dropdown .dropdown-menu {
+  border: none;
+}
+
+.language-dropdown::marker {
+  content: none !important;
+  display: none !important;
+}
+
+.language-dropdown .nav-link {
+  padding: 0;
+  border-radius: 20%;
+}
+
+.language-dropdown button {
+  text-align: right;
+
+}
+
+.language-dropdown .dropdown-item.active,
+.language-dropdown .dropdown-item:hover {
+  background-color: transparent!important;
+}

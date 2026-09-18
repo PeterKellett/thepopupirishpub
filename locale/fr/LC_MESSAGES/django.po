@@ -1,0 +1,1617 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: .\home\templates\home\custombar.html:52
+#, fuzzy
+msgid ""
+msgstr "À propos de nousProjet-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-09-18 13:06+0100\nPO-Revision-Date: ANS-MO-DA HO:MI+ZONE\nLast-Traducteur: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1."
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-18 13:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\home\templates\home\aboutus.html:19 .\home\templates\home\index.html:45
+#: .\templates\base.html:137
+msgid "About Us"
+msgstr "À propos de nous"
+
+#: .\home\templates\home\aboutus.html:25
+msgid ""
+"Since 1986, we've been recreating a little bit of Ireland at events across "
+"continental Europe - delivering reliable, premium event bar hire and Irish "
+"bar event rentals that feels like a real Irish pub. Our experienced Irish "
+"pub bartenders serve great Guinness on draught and other Irish drinks with "
+"pace, professionalism and a healthy dose of Irish banter. We're here for the "
+"moments that matter: trade shows & exhibitions (lead-generating booth bars "
+"and on-stand after-parties), Ireland-themed nights, weddings, private events "
+"and festivals."
+msgstr "Depuis 1986, nous recréons un peu d'Irlande lors d'événements à travers l'Europe continentale - offrant une location de bar d'événements fiable et premium et des locations de bar irlandais qui se sentent comme un vrai pub irlandais. Nos barmans de pub irlandais expérimentés servent une grande Guinness sur le tirage à l'eau et d'autres boissons irlandaises avec le rythme, le professionnalisme et une bonne dose de banane irlandaise. Nous sommes ici pour les moments les plus importants : salons et expositions (bars de stands et après-parties), soirées sur le thème irlandais, mariages, événements privés et festivals."
+
+#: .\home\templates\home\aboutus.html:27
+msgid ""
+"Over the decades we've earned our reputation the right way, one excellent "
+"pint at a time, turning exhibition aisles into meeting points and receptions "
+"into stories your guests retell. So what makes us different?"
+msgstr "Au fil des décennies, nous avons gagné notre réputation de la bonne façon, une excellente pinte à la fois, transformant les allées d'exposition en points de rencontre et réceptions en histoires que vos invités racontent. Qu'est-ce qui nous rend différents ?"
+
+#: .\home\templates\home\aboutus.html:31
+msgid "Our People: "
+msgstr "Notre peuple :"
+
+#: .\home\templates\home\aboutus.html:31
+msgid ""
+"Most of our team are Ireland-based with years behind busy bar counters, so "
+"expect fast hands, perfect pours, and natural hosts. Oh, and don't be "
+"surprised if a bartender breaks into song: there's usually a guitar near the "
+"bar, and we're happy to belt one out"
+msgstr "La plupart de notre équipe est basée en Irlande avec des années derrière les comptoirs de bar occupés, donc attendez-vous à des mains rapides, des vers parfaits et des hôtes naturels. Oh, et ne soyez pas surpris si un barman se brise dans la chanson: il y a généralement une guitare près du bar, et nous sommes heureux d'en ceinturer un"
+
+#: .\home\templates\home\aboutus.html:34
+msgid "Our Approach: "
+msgstr "Notre approche :"
+
+#: .\home\templates\home\aboutus.html:34
+msgid ""
+"We realise that hiring us for your event is only one of numerous tasks on "
+"your to-do list, so we want to make your life easier. We do this by offering "
+"a no hassle service, where we just get on with things, while still paying "
+"attention to the finer details."
+msgstr "Nous nous rendons compte que l'embauche de nous pour votre événement n'est qu'une des nombreuses tâches de votre liste de tâches, donc nous voulons vous faciliter la vie. Nous le faisons en offrant un service sans tracas, où nous allons juste avec les choses, tout en prêtant attention aux détails plus fins."
+
+#: .\home\templates\home\aboutus.html:37
+msgid ""
+"Recent pours and activations include convention halls such as Hannover "
+"Messegelände, Messe München and Nürnberg Messe, while we're equally at home "
+"in Messe Frankfurt, Fira Barcelona (Gran Via) and Paris Nord Villepinte. "
+"From first enquiry to final breakdown, our promise is simple: setup that's "
+"easy, service that's seamless, and an atmosphere that feels authentically "
+"Irish. Wherever your event, make it memorable the Irish way. Book The Pop Up "
+"Irish Pub and create Emerald Memories - with Guinness on draught, friendly "
+"Irish pub bartenders, and a bar experience guests gravitate to."
+msgstr "Parmi les nouveaux pourboires et activations, mentionnons les salles de congrès Hannover Messegelände, Messe München et Nürnberg Messe, tandis que nous sommes également chez nous à Messe Frankfurt, Fira Barcelona (Gran Via) et Paris Nord Villepinte. De la première enquête à la rupture finale, notre promesse est simple : une configuration facile, un service sans faille et une atmosphère authentiquement irlandaise. Où que vous soyez, rendez-le mémorable à la manière irlandaise. Réservez The Pop Up Irish Pub et créez Emerald Memories - avec Guinness sur les barmans de pub irlandais tirant d'eau, amical, et un bar expérience invités gravitent à."
+
+#: .\home\templates\home\aboutus.html:39
+msgid "What We Do"
+msgstr "Ce que nous faisons"
+
+#: .\home\templates\home\aboutus.html:40
+msgid ""
+"We're a specialist pop-up Irish pub provider offering full-service event bar "
+"hire for organisers, brands, brides, venues and private clients. Every "
+"booking is built on three pillars:"
+msgstr "Nous sommes un fournisseur spécialisé de pub irlandais pop-up offrant des services complets de location de bar événementiel pour les organisateurs, marques, mariées, lieux et clients privés. Chaque réservation est construite sur trois piliers:"
+
+#: .\home\templates\home\aboutus.html:42
+msgid "The Pour: "
+msgstr "Pour :"
+
+#: .\home\templates\home\aboutus.html:42
+msgid ""
+"Proper draught service led by experienced Irish pub bartenders: swift, "
+"consistent and photo-ready."
+msgstr "Un bon service de tirant d'eau dirigé par des barmans irlandais expérimentés : rapide, cohérent et prêt à photographier."
+
+#: .\home\templates\home\aboutus.html:43
+msgid "The People: "
+msgstr "Le peuple :"
+
+#: .\home\templates\home\aboutus.html:43
+msgid ""
+"High-volume hospitality with Irish warmth, wit and professionalism. (Don't "
+"be surprised if a bartender bursts into song—there's usually a guitar within "
+"reach!)"
+msgstr "Hospitalité en grand volume avec chaleur irlandaise, esprit et professionnalisme. (Ne vous étonnez pas qu'un barman explose en chanson – il y a généralement une guitare à portée de main !)"
+
+#: .\home\templates\home\aboutus.html:44
+msgid "The Presentation: "
+msgstr "La présentation:"
+
+#: .\home\templates\home\aboutus.html:44
+msgid ""
+"Formats that fit your footprint and elevate your space, from compact mobile "
+"setups to show-stopping builds, including our 4.5 m Guinness Glass Bar."
+msgstr "Formats qui correspondent à votre empreinte de pas et d'élever votre espace, des configurations mobiles compactes aux constructions de show-stop, y compris notre barre de verre de 4,5 m Guinness."
+
+#: .\home\templates\home\aboutus.html:46
+msgid ""
+"We plan around each venue's realities, early access, power/water, cable runs "
+"and footfall, so service feels effortless whether you're in Koelnmesse "
+"(Cologne), IFEMA Madrid or Paris Expo Porte de Versailles."
+msgstr "Nous planifions les réalités de chaque lieu, l'accès précoce, l'électricité/eau, les câblodistributions et la chute, donc le service se sent sans effort que vous soyez à Koelnmesse (Cologne), IFEMA Madrid ou Paris Expo Porte de Versailles."
+
+#: .\home\templates\home\aboutus.html:48
+msgid "Where We Fit"
+msgstr "Où nous en sommes"
+
+#: .\home\templates\home\aboutus.html:50
+msgid "Trade Shows & Exhibitions: "
+msgstr "Salons & expositions:"
+
+#: .\home\templates\home\aboutus.html:50
+msgid ""
+"Exhibition-stand hospitality, lead-generating booth bars and on-stand after-"
+"parties that keep your brand top-of-mind."
+msgstr "L'hospitalité des stands d'exposition, des stands générateurs de plomb et des après-parties qui gardent votre marque haut de gamme."
+
+#: .\home\templates\home\aboutus.html:51
+msgid "Weddings: "
+msgstr "Mariages:"
+
+#: .\home\templates\home\aboutus.html:51
+msgid ""
+"The authentic, welcoming Irish pub atmosphere - from the first toast to the "
+"last dance"
+msgstr "L'atmosphère authentique et accueillante du pub irlandais - du premier toast à la dernière danse"
+
+#: .\home\templates\home\aboutus.html:52
+msgid "Private Parties: "
+msgstr "Parties privées:"
+
+#: .\home\templates\home\aboutus.html:52
+msgid ""
+"Milestone birthdays, Irish-themed nights, corporate receptions, company "
+"gatherings and club events."
+msgstr "Jalons anniversaires, soirées à thème irlandais, réceptions d'entreprises, rassemblements d'entreprises et événements de club."
+
+#: .\home\templates\home\aboutus.html:53
+msgid "Festivals & Public Events: "
+msgstr "Festivals et événements publics :"
+
+#: .\home\templates\home\aboutus.html:53
+msgid "Fast, friendly, high-throughput service designed for busy crowds."
+msgstr "Service rapide, amical et haut débit conçu pour les foules occupées."
+
+#: .\home\templates\home\aboutus.html:56
+msgid "What We Pour"
+msgstr "Ce que nous versons"
+
+#: .\home\templates\home\aboutus.html:57
+msgid ""
+"We serve a range of quintessentially Irish drinks on draught and from the "
+"bottle. We focus on doing fundamentals exceptionally well: the right "
+"temperature, immaculate glassware and a pour you'll be proud to post, "
+"professionally served with a smile."
+msgstr "Nous servons une gamme de boissons essentiellement irlandaises sur le tirage et de la bouteille. Nous nous concentrons sur les fondamentaux exceptionnellement bien: la bonne température, la verrerie immaculée et un pourboire vous serez fier de poster, servi professionnellement avec un sourire."
+
+#: .\home\templates\home\aboutus.html:58
+msgid "On Draught: "
+msgstr "Au tirant d'eau :"
+
+#: .\home\templates\home\aboutus.html:58
+msgid ""
+"Our pop-up Irish bars can run between 1 and 8 beer taps depending on the "
+"setup, allowing a broad selection and faster service of the most popular "
+"drinks."
+msgstr "Nos bars irlandais pop-up peuvent fonctionner entre 1 et 8 robinets de bière selon la configuration, permettant une large sélection et un service plus rapide des boissons les plus populaires."
+
+#: .\home\templates\home\aboutus.html:60
+msgid "Draught Guinness (signature)"
+msgstr "(signature)"
+
+#: .\home\templates\home\aboutus.html:61
+msgid "Kilkenny Irish Red Ale"
+msgstr "Kilkenny Irish Red Ale"
+
+#: .\home\templates\home\aboutus.html:62
+msgid "Hop House 13 Lager"
+msgstr "Hop House 13 Lager"
+
+#: .\home\templates\home\aboutus.html:63
+msgid "Stowford Apple Cider"
+msgstr "Cidre de pomme de Stowford"
+
+#: .\home\templates\home\aboutus.html:64
+msgid "Other international or regional beers on request"
+msgstr "Autres bières internationales ou régionales sur demande"
+
+#: .\home\templates\home\aboutus.html:66
+msgid "Spirits & Liqueurs:"
+msgstr "Spiritueux & Liqueurs:"
+
+#: .\home\templates\home\aboutus.html:68
+msgid ""
+"Tullamore D.E.W. Irish whiskeys (Original, Honey, Cider Cask, Rum Cask, 12-"
+"Year, 14-Year Single Malt)"
+msgstr "Whiskys irlandais Tullamore D.E.W. (Original, Miel, Cider Cask, Rum Cask, 12 ans, 14 ans seul Malt)"
+
+#: .\home\templates\home\aboutus.html:69
+msgid "Baileys Irish Cream"
+msgstr "Baileys Irish Cream"
+
+#: .\home\templates\home\aboutus.html:70
+msgid "Garnish Island Irish Gin, Drumshanbo Gunpowder Irish Gin"
+msgstr "Garnish Island Irish Gin, Drumshanbo Gunpowder Irish Gin"
+
+#: .\home\templates\home\aboutus.html:71
+msgid "Additional classics (e.g., rum, coffee liqueur, crème de menthe)"
+msgstr "Autres classiques (p. ex. rhum, liqueur de café, crème de menthe)"
+
+#: .\home\templates\home\aboutus.html:73
+msgid "Shots (popular selections): "
+msgstr "Coups de feu (sélections populaires):"
+
+#: .\home\templates\home\aboutus.html:73
+msgid "Baby Guinness • Irish Flag • Cuppugino • Baby Irish Coffee"
+msgstr "Baby Guinness • Drapeau Irlandais • Cuppugino • Baby Irish Coffee"
+
+#: .\home\templates\home\aboutus.html:74
+msgid "Non-alcoholic: "
+msgstr "Non alcoolique:"
+
+#: .\home\templates\home\aboutus.html:74
+msgid ""
+"Guinness 0.0 • Cola • Orange • Lemonade • Tonic • Ginger Ale • Still/"
+"Sparkling Water"
+msgstr "Guinness 0.0 • Cola • Orange • Cimonade • Tonique • Gingembre • Eau stagnante"
+
+#: .\home\templates\home\aboutus.html:75
+msgid "Other Drinks On Request: "
+msgstr "Autres boissons sur demande :"
+
+#: .\home\templates\home\aboutus.html:75
+msgid "wines, local beers and international selections."
+msgstr "vins, bières locales et sélections internationales."
+
+#: .\home\templates\home\aboutus.html:77
+msgid "Add-On Experiences"
+msgstr "Ajouter des expériences"
+
+#: .\home\templates\home\aboutus.html:78
+msgid ""
+"An important part of Irish life is song, dance and good food. They bring "
+"life to an event and make it a truly authentic Irish experience. Dial up the "
+"atmosphere at your next party - fully managed by us or with trusted partners:"
+msgstr "Une partie importante de la vie irlandaise est la chanson, la danse et la bonne nourriture. Ils apportent la vie à un événement et en font une véritable expérience irlandaise authentique. Composez l'atmosphère à votre prochaine fête - entièrement gérée par nous ou avec des partenaires de confiance:"
+
+#: .\home\templates\home\aboutus.html:80
+msgid "Live Music: "
+msgstr "Musique en direct :"
+
+#: .\home\templates\home\aboutus.html:80
+msgid ""
+"We book outstanding Irish and contemporary artists across folk, rock, pop, "
+"country, jazz, blues and classical. Tell us the mood; we'll match the singer "
+"or band. DJs can also be arranged."
+msgstr "Nous réservons des artistes irlandais et contemporains exceptionnels à travers folk, rock, pop, country, jazz, blues et classique. Dites-nous l'ambiance, nous allons faire correspondre le chanteur ou le groupe. On peut aussi organiser des DJ."
+
+#: .\home\templates\home\aboutus.html:81
+msgid "Irish Dancers: "
+msgstr "Danseurs irlandais :"
+
+#: .\home\templates\home\aboutus.html:81
+msgid ""
+"For a truly unique emerald moment, a troupe can light up your stage with the "
+"thunder of tap shoes and precision footwork."
+msgstr "Pour un moment d'émeraude vraiment unique, une troupe peut éclairer votre scène avec le tonnerre de chaussures de robinet et de précision."
+
+#: .\home\templates\home\aboutus.html:82
+msgid "Catering: "
+msgstr "Restauration:"
+
+#: .\home\templates\home\aboutus.html:82
+msgid ""
+"From canapés to a full Irish-themed buffet. Perfect for on-stand parties: "
+"Irish cheeses, meats and fish selections. For heartier affairs, freshly "
+"prepared hot dishes such as:"
+msgstr "Du canapé au buffet à thème irlandais. Parfait pour les soirées en stand : fromages irlandais, viandes et sélections de poissons. Pour des affaires plus chaleureuses, des plats chauds fraîchement préparés tels que:"
+
+#: .\home\templates\home\aboutus.html:84
+msgid "Award-winning Irish Beef & Guinness Stew"
+msgstr "Boeuf irlandais et ragoût Guinness primé"
+
+#: .\home\templates\home\aboutus.html:85 .\home\templates\home\aboutus.html:86
+msgid "Irish Vegan Stew with Guinness"
+msgstr "Ragoût végétalien irlandais avec Guinness"
+
+#: .\home\templates\home\aboutus.html:87
+msgid "Irish pork sausages • Beef burgers"
+msgstr "Saucisses de porc irlandaises • burgers de boeuf"
+
+#: .\home\templates\home\aboutus.html:88
+msgid "Regional specialities available on request"
+msgstr "Spécialités régionales disponibles sur demande"
+
+#: .\home\templates\home\aboutus.html:93
+msgid "Formats That Fit"
+msgstr "Formats adaptés"
+
+#: .\home\templates\home\aboutus.html:94
+msgid ""
+"All our portable bar formats are engineered for efficient builds, neat cable/"
+"plumbing runs and tidy breakdowns that respect venue rules and timelines."
+msgstr "Tous nos formats de barres portables sont conçus pour des constructions efficaces, des runs de câbles/plombs soignés et des pannes rangées qui respectent les règles de lieu et les échéanciers."
+
+#: .\home\templates\home\aboutus.html:96
+msgid "KiWo Bar: "
+msgstr "Barre de KiWo :"
+
+#: .\home\templates\home\aboutus.html:96
+msgid ""
+"A full, roofed pub with stage, kitchen and indoor seating. Built for "
+"headline moments; suitable for up to ~600 guests."
+msgstr "Un pub couvert avec scène, cuisine et sièges intérieurs. Construit pour les grands moments; adapté pour jusqu'à ~600 invités."
+
+#: .\home\templates\home\aboutus.html:97
+msgid "Guinness Glass Bar (4.5 m): "
+msgstr "Barre en verre de Guinness (4,5 m):"
+
+#: .\home\templates\home\aboutus.html:97
+msgid ""
+"A unique vintage-glass silhouette that turns heads and draws a crowd; "
+"suitable for up to ~400 guests."
+msgstr "Une silhouette unique en verre vintage qui fait tourner les têtes et attire une foule; convient jusqu'à ~400 invités."
+
+#: .\home\templates\home\aboutus.html:98
+msgid "Mobile Irish Bar: "
+msgstr "Barre irlandaise mobile:"
+
+#: .\home\templates\home\aboutus.html:98
+msgid ""
+"Rapid-setup efficiency for corporate hospitality and tighter spaces; "
+"suitable for up to ~300 guests."
+msgstr "Efficacité de mise en place rapide pour l'hospitalité d'entreprise et des espaces plus serrés; adapté pour jusqu'à ~300 invités."
+
+#: .\home\templates\home\aboutus.html:99
+msgid "Custom Bars: "
+msgstr "Barres personnalisées :"
+
+#: .\home\templates\home\aboutus.html:99
+msgid ""
+"From a single Guinness tap to fitting out a full venue; solutions tailored "
+"precisely to your brief."
+msgstr "D'un seul robinet Guinness à l'aménagement d'un site complet; des solutions adaptées précisément à votre dossier."
+
+#: .\home\templates\home\aboutus.html:101
+msgid "(Capacities are indicative; we scale staffing to match demand.)"
+msgstr "(Les capacités sont indicatives; nous étalons les effectifs en fonction de la demande.)"
+
+#: .\home\templates\home\aboutus.html:103
+msgid "Track Record & Proof Points"
+msgstr "Points d'enregistrement et de preuve"
+
+#: .\home\templates\home\aboutus.html:105
+msgid "Kieler Woche: "
+msgstr "Kieler Woche :"
+
+#: .\home\templates\home\aboutus.html:105
+msgid ""
+"Present since 1986; among the International Market's longest-serving stands "
+"at the world-famous sailing event (c. 3.5 million visitors). <a>Link Here."
+msgstr "Présente depuis 1986; parmi les plus longs stands du Marché International à l'événement de voile mondialement célèbre (environ 3,5 millions de visiteurs). Liens ici."
+
+#: .\home\templates\home\aboutus.html:106
+msgid "Culinary Recognition: "
+msgstr "Reconnaissance culinaire :"
+
+#: .\home\templates\home\aboutus.html:106
+msgid ""
+"Irish Beef & Guinness Stew awarded top marks four years running by the "
+"Kieler Nachrichten daily newspaper. "
+msgstr "L'Irish Beef & Guinness Stew s'est vu décerner les meilleurs points quatre ans du quotidien Kieler Nachrichten."
+
+#: .\home\templates\home\aboutus.html:107
+msgid "Selected Appearances: "
+msgstr "Apparences sélectionnées :"
+
+#: .\home\templates\home\aboutus.html:107
+msgid ""
+"CPHI (Fiera Milano - Rho, Fira Barcelona - Gran Via, Messe Frankfurt), IMOT "
+"(Messe München), Consumenta (NürnbergMesse), INFA (Hannover Messegelände), "
+"Maimarkt (Mannheim), plus numerous Irish nights, street festivals and "
+"private bookings across Europe."
+msgstr "CPHI (Fiera Milano - Rho, Fira Barcelona - Gran Via, Messe Frankfurt), IMOT (Messe München), Consumenta (NürnbergMesse), INFA (Hannover Messegelände), Maimarkt (Mannheim), ainsi que de nombreuses nuits irlandaises, festivals de rue et réservations privées à travers l'Europe."
+
+#: .\home\templates\home\aboutus.html:110
+msgid "Selected European Exhibition Centres (worked + major halls):"
+msgstr "Centres d'exposition européens sélectionnés (travaillés + grandes salles):"
+
+#: .\home\templates\home\aboutus.html:111
+msgid ""
+"Messe Frankfurt (Frankfurt) · Hannover Messegelände (Hanover) · Fiera Milano "
+"(Rho) (Milan) · Koelnmesse (Cologne) · Messe Düsseldorf (Düsseldorf) · Paris "
+"Nord Villepinte (Paris/Villepinte) · Paris Expo Porte de Versailles (Paris) "
+"· Fira Barcelona (Gran Via) (Barcelona) · IFEMA Madrid (Madrid) · Messe "
+"München (Munich) · Messe Berlin (Berlin) · NürnbergMesse (Nuremberg) · Messe "
+"Stuttgart (Stuttgart) · Messe Wien (Vienna) · Palexpo (Geneva) · Messe Basel "
+"(Basel) · Ptak Warsaw Expo (Warsaw/Nadarzyn) · RAI Amsterdam (Amsterdam) · "
+"Eurexpo (Lyon) · Messe Berlin (Berlin) · ExCeL London (London) · NEC "
+"(Birmingham)*"
+msgstr "Messe Frankfurt (Frankfurt) · Hannover Messegelände (Hanover) · Fiera Milano (Rho) (Milan) · Koelnmesse (Cologne) · Messe Düsseldorf (Düsseldorf) · Paris Nord Villepinte (Paris/Villepinte) · Paris Expo Porte de Versailles (Paris) · Fira Barcelona (Gran Via) (Barcelone) · IFEMA Madrid (Madrid) · Messe München (Munich) · Messe Berlin (Berlin) · NürnbergMesse (Nuremberg) · Messe Stuttgart (Stuttgart) · Messe Wien (Vienne) · Palexpo (Genève) · Messe Basel (Basel) · Ptak Varsovie Expo (Varsovie/Nadarzyn) · RAI Amsterdam (Amsterdam) · Eurexpo (Lyon) · Messe Berlin (Berlin) · ExCeL London (Londres) · NEC (Birmingham)*"
+
+#: .\home\templates\home\aboutus.html:112
+msgid "*UK venues available as part of wider Europe by request"
+msgstr "*Lieux disponibles au Royaume-Uni en Europe élargie sur demande"
+
+#: .\home\templates\home\aboutus.html:114
+msgid "Service Footprint"
+msgstr "Empreinte de service"
+
+#: .\home\templates\home\aboutus.html:115
+msgid "Base: "
+msgstr "Base:"
+
+#: .\home\templates\home\aboutus.html:115
+msgid "Kells, Ireland"
+msgstr "Kells, Irlande"
+
+#: .\home\templates\home\aboutus.html:116
+msgid "Geographical Coverage: "
+msgstr "Couverture géographique:"
+
+#: .\home\templates\home\aboutus.html:116
+msgid "EU-wide across continental Europe (other markets by request)"
+msgstr "Dans toute l'Europe continentale (autres marchés sur demande)"
+
+#: .\home\templates\home\aboutus.html:117
+msgid "Use Cases: "
+msgstr "Cas d'utilisation :"
+
+#: .\home\templates\home\aboutus.html:117
+msgid ""
+"Product launches, exhibition-stand hospitality and on-stand after-parties, "
+"corporate receptions, Ireland-themed nights, weddings, private parties, "
+"street and music festivals."
+msgstr "Lancement de produits, hospitalité de stand d'exposition et d'après-parties en stand, réceptions d'entreprises, soirées sur le thème irlandais, mariages, fêtes privées, festivals de rue et de musique."
+
+#: .\home\templates\home\aboutus.html:119
+msgid "How It Works"
+msgstr "Comment ça marche"
+
+#: .\home\templates\home\aboutus.html:121
+msgid "Enquiry & Scope: "
+msgstr "Demande de renseignements et portée :"
+
+#: .\home\templates\home\aboutus.html:121
+msgid ""
+"Share dates, location and audience size; pick a pop-up Irish pub or mobile "
+"Irish bar format."
+msgstr "Partager les dates, l'emplacement et la taille de l'auditoire; choisir un pub irlandais pop-up ou mobile bar irlandais."
+
+#: .\home\templates\home\aboutus.html:122
+msgid "Planning: "
+msgstr "Planification :"
+
+#: .\home\templates\home\aboutus.html:122
+msgid ""
+"We align on power/water (if required), service windows and venue compliance."
+msgstr "Nous nous aligneons sur l'électricité/l'eau (si nécessaire), les fenêtres de service et la conformité au lieu."
+
+#: .\home\templates\home\aboutus.html:123
+msgid "Setup: "
+msgstr "Configuration & #160;:"
+
+#: .\home\templates\home\aboutus.html:123
+msgid "Efficient build, safety checks, clean branded presentation."
+msgstr "Construction efficace, contrôles de sécurité, présentation de marque propre."
+
+#: .\home\templates\home\aboutus.html:124
+msgid "Service: "
+msgstr "Service:"
+
+#: .\home\templates\home\aboutus.html:124
+msgid ""
+"Perfect pours, queue-smart staffing, friendly pace—and the odd song if the "
+"room invites it."
+msgstr "Perfect verse, équipe intelligente en file d'attente, rythme amical – et la chanson étrange si la salle l'invite."
+
+#: .\home\templates\home\aboutus.html:125
+msgid "Breakdown: "
+msgstr "Répartition"
+
+#: .\home\templates\home\aboutus.html:125
+msgid "Fast teardown; we leave the space as we found it."
+msgstr "Décollage rapide; nous laissons l'espace comme nous l'avons trouvé."
+
+#: .\home\templates\home\aboutus.html:128
+msgid "Why It Works"
+msgstr "Pourquoi ça marche"
+
+#: .\home\templates\home\aboutus.html:130
+msgid "Authenticity: "
+msgstr "Authenticité :"
+
+#: .\home\templates\home\aboutus.html:130
+msgid ""
+"A real Irish pub feeling with experienced Irish pub bartenders, genuine "
+"hospitality and plenty of craic."
+msgstr "Un vrai sentiment de pub irlandais avec des barmans de pub irlandais expérimentés, une véritable hospitalité et beaucoup de folie."
+
+#: .\home\templates\home\aboutus.html:131
+msgid "Simplicity: "
+msgstr "Simplicité :"
+
+#: .\home\templates\home\aboutus.html:131
+msgid "One partner for the bar, staffing and add-ons."
+msgstr "Un partenaire pour le bar, le personnel et les add-ons."
+
+#: .\home\templates\home\aboutus.html:132
+msgid "Scalability: "
+msgstr "Échelle :"
+
+#: .\home\templates\home\aboutus.html:132
+msgid "Formats for intimate gatherings through to high-footfall shows."
+msgstr "Formats pour des rassemblements intimes jusqu'aux spectacles de grande chute."
+
+#: .\home\templates\home\aboutus.html:133
+msgid "Memorability: "
+msgstr "Mémoire :"
+
+#: .\home\templates\home\aboutus.html:133
+msgid ""
+"'Let's meet at the Irish bar.' That's footfall—and brand recall—you can "
+"measure."
+msgstr "Rendez-vous au bar irlandais. C'est un pas en avant – et un rappel de marque – vous pouvez mesurer."
+
+#: .\home\templates\home\aboutus.html:136
+msgid "Fast Facts"
+msgstr "Faits rapides"
+
+#: .\home\templates\home\aboutus.html:138
+msgid "Since: "
+msgstr "Depuis:"
+
+#: .\home\templates\home\aboutus.html:139
+msgid "Core offering: "
+msgstr "Offre de base:"
+
+#: .\home\templates\home\aboutus.html:139
+msgid ""
+"Premium event bar hire and Irish pub event hire (continental Europe - Other "
+"locations upon request)."
+msgstr "Location de bar événementiel Premium et location de pub irlandais (continental Europe - Autres emplacements sur demande)."
+
+#: .\home\templates\home\aboutus.html:140
+msgid "Signature Serve: "
+msgstr "Signature Servir :"
+
+#: .\home\templates\home\aboutus.html:140
+msgid "Draught Guinness"
+msgstr "Guinness de tirant d'eau"
+
+#: .\home\templates\home\aboutus.html:141
+msgid "Also served: "
+msgstr "Aussi servi:"
+
+#: .\home\templates\home\aboutus.html:141
+msgid ""
+"Authentic Irish draught drinks, Irish whiskeys, non-alcoholic drinks "
+"(including Guinness 0.0), water and soft drinks. Other regional and "
+"international brands available upon request."
+msgstr "Boissons authentiques, whiskys irlandais, boissons non alcoolisées (y compris Guinness 0.0), eau et boissons gazeuses. Autres marques régionales et internationales disponibles sur demande."
+
+#: .\home\templates\home\aboutus.html:142
+msgid "Formats: "
+msgstr "Formats:"
+
+#: .\home\templates\home\aboutus.html:142
+msgid ""
+"KiWo Bar (roofed pub, with stage, kitchen and seating area), Guinness Glass "
+"Bar (4.5m height), Mobile Irish Bar on wheels, Custom bars where we adapt to "
+"your requirements."
+msgstr "KiWo Bar (pub de toit, avec scène, cuisine et coin salon), Guinness Glass Bar (4,5m de hauteur), Mobile Irish Bar sur roues, bars personnalisés où nous nous adaptons à vos besoins."
+
+#: .\home\templates\home\aboutus.html:143
+msgid "Add-ons: "
+msgstr "Compléments:"
+
+#: .\home\templates\home\aboutus.html:143
+msgid "Live music, DJs, Irish dancers, catering"
+msgstr "Musique live, DJs, danseurs irlandais, restauration"
+
+#: .\home\templates\home\aboutus.html:144
+msgid "Typical clients: "
+msgstr "Clients typiques:"
+
+#: .\home\templates\home\aboutus.html:144
+msgid ""
+"Trade fairs & exhibitions, wedding couples, private hosts, festival "
+"organisers"
+msgstr "Salons & expositions, couples de mariage, hôtes privés, organisateurs de festivals"
+
+#: .\home\templates\home\aboutus.html:145
+msgid "Tagline: "
+msgstr "Étiquette :"
+
+#: .\home\templates\home\aboutus.html:145
+msgid "Emerald Memories"
+msgstr "Mémoires émeraudes"
+
+#: .\home\templates\home\custombar.html:18 .\home\templates\home\index.html:127
+#: .\templates\base.html:169
+msgid "Custom Bars"
+msgstr "Barres personnalisées"
+
+#: .\home\templates\home\custombar.html:20
+msgid "Exhibition Bars Built to Your Needs"
+msgstr "Bars d'exposition construits selon vos besoins"
+
+#: .\home\templates\home\custombar.html:22
+#: .\home\templates\home\custombar.html:63
+#: .\home\templates\home\guinnessbar.html:24
+#: .\home\templates\home\guinnessbar.html:67
+#: .\home\templates\home\index.html:78 .\home\templates\home\kiwobar.html:24
+#: .\home\templates\home\kiwobar.html:66
+#: .\home\templates\home\mobilebar.html:24
+#: .\home\templates\home\mobilebar.html:65
+msgid "Enquire Now"
+msgstr "Demande maintenant"
+
+#: .\home\templates\home\custombar.html:30
+#: .\home\templates\home\mobilebar.html:32
+msgid "Mobile Bar in a Wedding Setting"
+msgstr "Barre mobile dans un cadre de mariage"
+
+#: .\home\templates\home\custombar.html:35
+#: .\home\templates\home\custombar.html:36
+msgid "About Custom Bars"
+msgstr "À propos des barres personnalisées"
+
+#: .\home\templates\home\custombar.html:42
+msgid ""
+"When your event needs something specific, our custom bars are built to your "
+"brief - delivering premium event bar hire and authentic Irish bar rental "
+"without compromise. From a single Guinness tap to a full venue fit-out that "
+"feels like a real pub, we'll design, build and staff a solution that fits "
+"your footprint, brand and schedule. Perfect for exhibition stand bars, VIP "
+"lounges, weddings, private events, festivals and corporate hospitality right "
+"across continental EU."
+msgstr "Lorsque votre événement a besoin de quelque chose de spécifique, nos bars personnalisés sont construits dans votre dossier - la livraison de la location de bar événement premium et la location authentique de bar irlandais sans compromis. Un seul robinet Guinness à une installation complète qui se sent comme un vrai pub, nous allons concevoir, construire et équiper une solution qui correspond à votre empreinte, marque et horaire. Parfait pour les stand-bars d'exposition, les salons VIP, les mariages, les événements privés, les festivals et l'hospitalité d'entreprise à travers l'UE continentale."
+
+#: .\home\templates\home\custombar.html:44
+msgid ""
+"Tailored to perform and built to last the day (or week), every custom bar "
+"can include:"
+msgstr "Personnalisé pour effectuer et construire pour durer la journée (ou la semaine), chaque bar personnalisé peut inclure:"
+
+#: .\home\templates\home\custombar.html:47
+msgid "Footprint & Layout:"
+msgstr "Empreinte & Mise en page & #160;:"
+
+#: .\home\templates\home\custombar.html:47
+msgid ""
+" Bar counter shapes, lengths and back-bar storage configured to your space - "
+"indoor or outdoor."
+msgstr "Formes de comptoirs, longueurs et rangements arrière configurés dans votre espace - intérieur ou extérieur."
+
+#: .\home\templates\home\custombar.html:49
+msgid "Draught & Speed:"
+msgstr "Tirage & Vitesse & #160;:"
+
+#: .\home\templates\home\custombar.html:49
+msgid ""
+"Guinness on draught plus multiple taps for ales/lager/cider; glassware, "
+"refrigeration and queue-smart service."
+msgstr "Guinness sur tirant d'eau plus plusieurs robinets pour ales/lager/cider; verrerie, réfrigération et service intelligent de queue."
+
+#: .\home\templates\home\custombar.html:50
+msgid "Branding & Media:"
+msgstr "Marque & Médias & #160;:"
+
+#: .\home\templates\home\custombar.html:50
+msgid ""
+"Bar wraps, signage, lightboxes and optional screens for your logos, promos "
+"or sponsor content."
+msgstr "Enveloppes de barre, signalisation, boîtes à lumière et écrans optionnels pour vos logos, promos ou contenu sponsor."
+
+#: .\home\templates\home\custombar.html:52
+msgid ""
+" Works as a standalone centrepiece or alongside our pop-up Irish pub / "
+"mobile Irish bar formats."
+msgstr "Fonctionne comme une pièce maîtresse autonome ou à côté de notre pub irlandais pop-up / mobile Irish bar formats."
+
+#: .\home\templates\home\custombar.html:54
+msgid ""
+"If you can imagine it, we can pour it. Choose Custom Bars by The Pop Up "
+"Irish Pub for a solution that looks the part, serves fast, and carries the "
+"unmistakable welcome of Ireland - Guinness on draught, professional Irish "
+"bartenders, and seamless delivery across continental Europe."
+msgstr "Si vous pouvez l'imaginer, nous pouvons le verser. Choisissez les barres personnalisées par The Pop Up Irish Pub pour une solution qui ressemble à la partie, sert rapidement, et porte l'accueil incomparable de l'Irlande - Guinness sur les barmans irlandais tirant d'eau, professionnels, et la livraison transparente à travers l'Europe continentale."
+
+#: .\home\templates\home\custombar.html:60
+#: .\home\templates\home\custombar.html:214
+#: .\home\templates\home\guinnessbar.html:64
+#: .\home\templates\home\guinnessbar.html:218
+#: .\home\templates\home\index.html:30 .\home\templates\home\index.html:75
+#: .\home\templates\home\kiwobar.html:63 .\home\templates\home\kiwobar.html:201
+#: .\home\templates\home\mobilebar.html:62
+#: .\home\templates\home\mobilebar.html:220
+msgid "Tell Me More"
+msgstr "Dis-moi plus"
+
+#: .\home\templates\home\custombar.html:73
+#: .\home\templates\home\guinnessbar.html:78
+#: .\home\templates\home\index.html:258 .\home\templates\home\kiwobar.html:76
+#: .\home\templates\home\mobilebar.html:76
+msgid "Gallery - Photos & Videos"
+msgstr "Galerie - Photos et vidéos"
+
+#: .\home\templates\home\custombar.html:79
+#: .\home\templates\home\guinnessbar.html:84
+#: .\home\templates\home\index.html:264 .\home\templates\home\kiwobar.html:82
+#: .\home\templates\home\mobilebar.html:82
+msgid ""
+"Have a look what we do best: perfect pours, friendly service and emerald "
+"moments. From trade show exhibitions to weddings, private events and "
+"festivals, our pop-up Irish pubs bring Guinness on draught and premium event "
+"bar hire to venues across Europe."
+msgstr "Jetez un coup d'œil à ce que nous faisons le mieux : parfait pourboire, service amical et émeraude moments. Des expositions de salons professionnels aux mariages, aux événements privés et aux festivals, nos pubs irlandais pop-up amènent Guinness sur la location de bar d'évènements haut de gamme dans des lieux à travers l'Europe."
+
+#: .\home\templates\home\custombar.html:96
+#: .\home\templates\home\custombar.html:111
+#: .\home\templates\home\index.html:308
+msgid "Custom Event Bars at Kiel Christmas Market 2023"
+msgstr "Bars d'événements personnalisés au marché de Noël de Kiel 2023"
+
+#: .\home\templates\home\custombar.html:97
+#: .\home\templates\home\custombar.html:115
+msgid "Custom Event Bars at a Trade Fair Exhibition"
+msgstr "Bars d'événements personnalisés à une foire commerciale"
+
+#: .\home\templates\home\custombar.html:101
+msgid "Custom Event Bars at Kiel Christmas Market 2024"
+msgstr "Bars d'événements personnalisés au marché de Noël de Kiel 2024"
+
+#: .\home\templates\home\custombar.html:102
+#: .\home\templates\home\index.html:312
+msgid "Custom Event Bars at a Private House Party"
+msgstr "Bars d'événements personnalisés à une fête de la maison privée"
+
+#: .\home\templates\home\custombar.html:106
+#: .\home\templates\home\custombar.html:107
+msgid "Custom Event Bars at a Music Festival"
+msgstr "Bars d'événements personnalisés à un festival de musique"
+
+#: .\home\templates\home\custombar.html:110
+#: .\home\templates\home\custombar.html:114
+#: .\home\templates\home\index.html:307 .\home\templates\home\index.html:311
+msgid "Custom Event Bars Whiskey Messe Nurnberg"
+msgstr "Bars d'événements personnalisés Whiskey Messe Nurnberg"
+
+#: .\home\templates\home\custombar.html:123
+#: .\home\templates\home\guinnessbar.html:128
+#: .\home\templates\home\index.html:316 .\home\templates\home\kiwobar.html:112
+#: .\home\templates\home\mobilebar.html:131
+msgid "Previous"
+msgstr "Précédent"
+
+#: .\home\templates\home\custombar.html:127
+#: .\home\templates\home\guinnessbar.html:132
+#: .\home\templates\home\index.html:320 .\home\templates\home\kiwobar.html:116
+#: .\home\templates\home\mobilebar.html:135
+msgid "Next"
+msgstr "Suivant"
+
+#: .\home\templates\home\custombar.html:137
+msgid "Custom Bars - Specifications"
+msgstr "Barres personnalisées - Spécifications"
+
+#: .\home\templates\home\custombar.html:151
+#: .\home\templates\home\guinnessbar.html:156
+#: .\home\templates\home\kiwobar.html:139
+#: .\home\templates\home\mobilebar.html:158
+msgid "No. of Guests"
+msgstr "Nombre d ' invités"
+
+#: .\home\templates\home\custombar.html:152
+msgid ""
+"As every custom bar is unique, we create the specifications to match your "
+"brief, venue and compliance needs."
+msgstr "Comme chaque barre personnalisée est unique, nous créons les spécifications pour répondre à vos besoins de brief, de lieu et de conformité."
+
+#: .\home\templates\home\custombar.html:155
+#: .\home\templates\home\guinnessbar.html:160
+#: .\home\templates\home\kiwobar.html:143
+#: .\home\templates\home\mobilebar.html:162
+msgid "No. of Beer Taps:"
+msgstr "Nombre de robinets de bière:"
+
+#: .\home\templates\home\custombar.html:159
+#: .\home\templates\home\guinnessbar.html:164
+#: .\home\templates\home\kiwobar.html:147
+#: .\home\templates\home\mobilebar.html:166
+msgid "Seating:"
+msgstr "Sièges:"
+
+#: .\home\templates\home\custombar.html:163
+#: .\home\templates\home\guinnessbar.html:168
+#: .\home\templates\home\kiwobar.html:151
+#: .\home\templates\home\mobilebar.html:170
+msgid "Bar Team:"
+msgstr "Équipe du barreau :"
+
+#: .\home\templates\home\custombar.html:167
+#: .\home\templates\home\guinnessbar.html:172
+#: .\home\templates\home\kiwobar.html:155
+#: .\home\templates\home\mobilebar.html:174
+msgid "Height:"
+msgstr "Hauteur:"
+
+#: .\home\templates\home\custombar.html:171
+#: .\home\templates\home\guinnessbar.html:176
+#: .\home\templates\home\kiwobar.html:159
+#: .\home\templates\home\mobilebar.html:178
+msgid "Size:"
+msgstr "Taille:"
+
+#: .\home\templates\home\custombar.html:175
+#: .\home\templates\home\guinnessbar.html:180
+#: .\home\templates\home\kiwobar.html:163
+#: .\home\templates\home\mobilebar.html:182
+msgid "Head Clearance:"
+msgstr "Liquidation de la tête :"
+
+#: .\home\templates\home\custombar.html:179
+#: .\home\templates\home\guinnessbar.html:184
+#: .\home\templates\home\kiwobar.html:167
+#: .\home\templates\home\mobilebar.html:186
+msgid "Ground:"
+msgstr "Motifs:"
+
+#: .\home\templates\home\custombar.html:183
+#: .\home\templates\home\guinnessbar.html:188
+#: .\home\templates\home\kiwobar.html:171
+#: .\home\templates\home\mobilebar.html:190
+msgid "Construction Time:"
+msgstr "Temps de construction:"
+
+#: .\home\templates\home\custombar.html:188
+#: .\home\templates\home\guinnessbar.html:192
+#: .\home\templates\home\kiwobar.html:175
+#: .\home\templates\home\mobilebar.html:194
+msgid "Dismantling Time:"
+msgstr "Temps de démantèlement:"
+
+#: .\home\templates\home\custombar.html:192
+#: .\home\templates\home\guinnessbar.html:196
+#: .\home\templates\home\kiwobar.html:179
+#: .\home\templates\home\mobilebar.html:198
+msgid "Loading Space:"
+msgstr "Espace de chargement:"
+
+#: .\home\templates\home\custombar.html:196
+#: .\home\templates\home\guinnessbar.html:200
+#: .\home\templates\home\kiwobar.html:183
+#: .\home\templates\home\mobilebar.html:202
+msgid "Power Required:"
+msgstr "Puissance requise:"
+
+#: .\home\templates\home\custombar.html:200
+#: .\home\templates\home\guinnessbar.html:204
+#: .\home\templates\home\kiwobar.html:187
+#: .\home\templates\home\mobilebar.html:206
+msgid "Water In:"
+msgstr "Eau dans:"
+
+#: .\home\templates\home\custombar.html:204
+#: .\home\templates\home\guinnessbar.html:208
+#: .\home\templates\home\kiwobar.html:191
+#: .\home\templates\home\mobilebar.html:210
+msgid "Water Out:"
+msgstr "Eau extérieure:"
+
+#: .\home\templates\home\custombar.html:208
+#: .\home\templates\home\guinnessbar.html:212
+#: .\home\templates\home\kiwobar.html:195
+#: .\home\templates\home\mobilebar.html:214
+msgid "Keg Room:"
+msgstr "Salle Keg:"
+
+#: .\home\templates\home\guinnessbar.html:20
+#: .\home\templates\home\index.html:105
+msgid "The Guinness Glass Bar"
+msgstr "La barre de verre Guinness"
+
+#: .\home\templates\home\guinnessbar.html:22
+msgid "Our Show Stopper Bar"
+msgstr "Notre barre d'arrêt d'exposition"
+
+#: .\home\templates\home\guinnessbar.html:34
+msgid "The Guinness Glass Bar with Barman Visible"
+msgstr "La barre de verre Guinness avec Barman visible"
+
+#: .\home\templates\home\guinnessbar.html:39
+#: .\home\templates\home\guinnessbar.html:40
+msgid "About The Guinness Glass Bar"
+msgstr "À propos de la barre de verre Guinness"
+
+#: .\home\templates\home\guinnessbar.html:46
+msgid ""
+"Our signature show-stopper: a visually striking, 4.5-metre-tall centrepiece "
+"inspired by the iconic 1970s Guinness tankard-style glass. Some say its "
+"profile hints at a rugby ball. Either way, it stops traffic and is picture-"
+"perfect as an exhibition stand bar or headline feature for trade shows & "
+"exhibitions, weddings, Irish-themed nights and festivals. Engineered for "
+"quick builds, high-throughput service and venue compliance, it's as "
+"practical as it is photogenic—perfect for social media and press shots."
+msgstr "Notre marque-stop : une pièce centrale de 4,5 mètres de long s'inspirant de l'emblématique verre de style tankard Guinness des années 1970. Certains disent que son profil indique une balle de rugby. Quoi qu'il en soit, il arrête la circulation et est parfait pour les photos en tant que bar de stand d'exposition ou titre pour les salons & expositions, mariages, soirées et festivals à thème irlandais. Conçu pour les constructions rapides, le service haut débit et la conformité au lieu, il est aussi pratique que photogénique, parfait pour les médias sociaux et les photos de presse."
+
+#: .\home\templates\home\guinnessbar.html:48
+msgid ""
+"With up to six taps, our bartenders keep Guinness on draught and Kilkenny "
+"flowing - just one reason the Guinness Glass Bar is perfect for your fair or "
+"event:"
+msgstr "Avec jusqu'à six robinets, nos barmans gardent Guinness sur le tirant d'eau et Kilkenny - une seule raison pour laquelle la barre de verre Guinness est parfaite pour votre foire ou événement:"
+
+#: .\home\templates\home\guinnessbar.html:51
+msgid "Iconic Silhouette:"
+msgstr "Iconic Silhouette:"
+
+#: .\home\templates\home\guinnessbar.html:51
+msgid " 40+-year heritage piece that attracts photos and footfall."
+msgstr "Une œuvre patrimoniale de plus de 40 ans qui attire les photos et les pas."
+
+#: .\home\templates\home\guinnessbar.html:53
+msgid "Event-Ready:"
+msgstr "Préparation à l'événement :"
+
+#: .\home\templates\home\guinnessbar.html:53
+msgid " deal event bar hire / Irish bar rental; engineered for busy halls."
+msgstr "offre événement bar location / Irlandais bar location; conçu pour les salles occupées."
+
+#: .\home\templates\home\guinnessbar.html:54
+msgid "Flexible Deployment:"
+msgstr "Déploiement flexible :"
+
+#: .\home\templates\home\guinnessbar.html:54
+msgid " works as a pop-up Irish pub / mobile Irish bar feature, EU-wide."
+msgstr "fonctionne comme une fonction pop-up Irish pub / mobile Irish bar, dans toute l'UE."
+
+#: .\home\templates\home\guinnessbar.html:56
+#: .\home\templates\home\mobilebar.html:54
+msgid "Professional Team:"
+msgstr "Équipe professionnelle :"
+
+#: .\home\templates\home\guinnessbar.html:56
+msgid " experienced Irish bartenders; tidy builds and seamless breakdowns."
+msgstr "barmans irlandais expérimentés; constructions ordonnées et pannes sans couture."
+
+#: .\home\templates\home\guinnessbar.html:58
+msgid ""
+"Make your stand the one they talk about. Book the Guinness Glass Bar for "
+"premium Irish bar event hire at Messe Frankfurt, Fira Barcelona (Gran Via), "
+"Paris Nord Villepinte, Messe Berlin, Messe Düsseldorf—or anywhere across "
+"continental Europe (EU)"
+msgstr "Faites de votre position celle dont ils parlent. Réservez le Guinness Glass Bar pour la location d'un bar irlandais haut de gamme à Messe Frankfurt, Fira Barcelona (Gran Via), Paris Nord Villepinte, Messe Berlin, Messe Düsseldorf – ou partout en Europe continentale (UE)"
+
+#: .\home\templates\home\guinnessbar.html:100
+#: .\home\templates\home\guinnessbar.html:106
+#: .\home\templates\home\index.html:295 .\home\templates\home\index.html:296
+msgid ""
+"Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors "
+"Daytime"
+msgstr "Guinness Glass Event Bar avec grand parasol Guinness Parasol parasol extérieur jour"
+
+#: .\home\templates\home\guinnessbar.html:101
+msgid "Guinness Glass Event Bar Daytime"
+msgstr "Guinness Glass Event Bar Jour"
+
+#: .\home\templates\home\guinnessbar.html:105
+#: .\home\templates\home\guinnessbar.html:112
+#: .\home\templates\home\guinnessbar.html:121
+#: .\home\templates\home\index.html:291 .\home\templates\home\index.html:292
+msgid "Guinness Glass Event Bar with Stage to the Left Side"
+msgstr "Barre d'événement en verre Guinness avec scène sur le côté gauche"
+
+#: .\home\templates\home\guinnessbar.html:111
+msgid ""
+"Guinness Glass Event Bar with Large Guinness Parasol Umbrellas Outdoors "
+"Maritime Festival Vegesack"
+msgstr "Guinness Glass Event Bar avec grands parapluies Guinness Parasol Outdoors Maritime Festival Vegesack"
+
+#: .\home\templates\home\guinnessbar.html:116
+msgid "Guinness Glass Event Bar with Stage to the Right"
+msgstr "Guinness Glass Event Bar avec scène à droite"
+
+#: .\home\templates\home\guinnessbar.html:117
+msgid "Guinness Glass Event Bar with Keg Room End"
+msgstr "Guinness Glass Event Bar avec Keg Room End"
+
+#: .\home\templates\home\guinnessbar.html:122
+msgid "Guinness Glass Event Bar Outside"
+msgstr "Barre d'événement en verre de Guinness"
+
+#: .\home\templates\home\guinnessbar.html:142
+msgid "Specifications"
+msgstr "Spécifications"
+
+#: .\home\templates\home\guinnessbar.html:157
+msgid "400 People"
+msgstr "400 personnes"
+
+#: .\home\templates\home\guinnessbar.html:161
+msgid "6"
+msgstr "6"
+
+#: .\home\templates\home\guinnessbar.html:165
+#: .\home\templates\home\mobilebar.html:167
+msgid "There is no internal seating"
+msgstr "Il n'y a pas de sièges internes"
+
+#: .\home\templates\home\guinnessbar.html:169
+msgid "1 to 5 bar tenders"
+msgstr "Offres de 1 à 5 bar"
+
+#: .\home\templates\home\guinnessbar.html:173
+msgid "4.5m"
+msgstr "4,5 m"
+
+#: .\home\templates\home\guinnessbar.html:177
+msgid "4.5m diameter"
+msgstr "4,5 m de diamètre"
+
+#: .\home\templates\home\guinnessbar.html:181
+#: .\home\templates\home\kiwobar.html:164
+msgid "Minimum 5.5m from ground to ceiling"
+msgstr "Au moins 5,5 m du sol au plafond"
+
+#: .\home\templates\home\guinnessbar.html:185
+msgid ""
+"A footprint of 8m diameter is required. It must be flat and solid, and allow "
+"for the use of a pallet stacker and pallet truck."
+msgstr "Une empreinte de 8m de diamètre est nécessaire. Il doit être plat et solide, et permettre l'utilisation d'un empileur de palettes et d'un camion de palettes."
+
+#: .\home\templates\home\guinnessbar.html:189
+msgid "10 to 18 Hours"
+msgstr "10 à 18 heures"
+
+#: .\home\templates\home\guinnessbar.html:193
+msgid "7 to 14 Hours"
+msgstr "7 à 14 heures"
+
+#: .\home\templates\home\guinnessbar.html:197
+msgid ""
+"The bar is transported on a 7.5t truck and Sprinter style van. Parking "
+"location must be within the vicinity of the bar area, with a smooth surface, "
+"to facilitate the movement of pallets, between the two."
+msgstr "Le bar est transporté sur un camion de 7,5 t et une camionnette de style Sprinter. L'emplacement du stationnement doit se trouver à proximité de la zone du bar, avec une surface lisse, pour faciliter le mouvement des palettes, entre les deux."
+
+#: .\home\templates\home\guinnessbar.html:201
+#: .\home\templates\home\mobilebar.html:203
+msgid "Minimum 3.5kw/16A"
+msgstr "Minimum 3,5kw/16A"
+
+#: .\home\templates\home\guinnessbar.html:205
+#: .\home\templates\home\kiwobar.html:188
+msgid "A fresh clean water connection is required"
+msgstr "Un raccordement à l'eau douce et propre est nécessaire"
+
+#: .\home\templates\home\guinnessbar.html:209
+#: .\home\templates\home\kiwobar.html:192
+msgid ""
+"Access is needed to a waste water drain. Waste water consists of H2O and "
+"beer waste."
+msgstr "L'accès à un drain d'eaux usées est nécessaire. Les eaux usées se composent de H2O et de déchets de bière."
+
+#: .\home\templates\home\guinnessbar.html:213
+#: .\home\templates\home\mobilebar.html:215
+msgid ""
+"We will construct a keg and storage room. Depending on the size of the "
+"event, up to 2 x 8m space is required. It must be located adjacent to the "
+"bar."
+msgstr "Nous allons construire un baril et une salle de stockage. Selon la taille de l'événement, jusqu'à 2 x 8m d'espace est nécessaire. Il doit être situé à côté du bar."
+
+#: .\home\templates\home\index.html:28
+msgid "Emerald Moments"
+msgstr "Moments émeraudes"
+
+#: .\home\templates\home\index.html:44
+msgid "About The Pop Up Irish Pub"
+msgstr "À propos de The Pop Up Irish Pub"
+
+#: .\home\templates\home\index.html:51
+msgid ""
+"Since 1986, we've been recreating a little bit of Ireland at events across "
+"continental EU - delivering reliable, premium event bar hire and Irish bar "
+"event hire that feels like a real Irish pub. Our experienced Irish "
+"bartenders serve Guinness on draught and other Irish drinks with pace, "
+"professionalism, and a generous dose of Irish banter."
+msgstr "Depuis 1986, nous recréons un peu d'Irlande lors d'événements à travers l'UE continentale - offrant une location fiable de bar événement premium et de bar irlandais qui se sent comme un vrai pub irlandais. Nos barmans irlandais expérimentés servent Guinness sur les boissons irlandais et autres avec le rythme, le professionnalisme, et une dose généreuse de berline irlandaise."
+
+#: .\home\templates\home\index.html:53
+msgid ""
+"We offer a range of event bar hire and mobile Irish bar formats, support "
+"multiple event types, and provide complimentary add-on services:"
+msgstr "Nous offrons une gamme de locations de bar d'événements et de formats de bar irlandais mobiles, soutenons plusieurs types d'événements, et offrons des services complémentaires gratuits:"
+
+#: .\home\templates\home\index.html:56
+msgid "Bar Types:"
+msgstr "Types de barres :"
+
+#: .\home\templates\home\index.html:56
+msgid ""
+"from a single draught Guinness tap to a fully roofed bar for up to ~600 "
+"guests, we tailor to your venue."
+msgstr "d'un seul robinet Guinness à un bar entièrement couvert pour jusqu'à ~600 invités, nous nous adaptons à votre lieu."
+
+#: .\home\templates\home\index.html:58
+msgid "Events:"
+msgstr "Événements :"
+
+#: .\home\templates\home\index.html:58
+msgid "trade shows & exhibitions, weddings, private events, festivals"
+msgstr "salons & expositions, mariages, événements privés, festivals"
+
+#: .\home\templates\home\index.html:59
+msgid "Add-ons:"
+msgstr "Compléments:"
+
+#: .\home\templates\home\index.html:59
+msgid "catering, live music, Irish dancers, Djs."
+msgstr "restauration, musique live, danseurs irlandais, Djs."
+
+#: .\home\templates\home\index.html:61
+msgid ""
+"Over the decades we've earned our reputation the right way, one excellent "
+"pint at a time. So what makes us different?"
+msgstr "Au cours des décennies, nous avons gagné notre réputation de la bonne façon, une excellente pinte à la fois. Qu'est-ce qui nous rend différents ?"
+
+#: .\home\templates\home\index.html:64
+msgid "Our People:"
+msgstr "Notre peuple :"
+
+#: .\home\templates\home\index.html:64
+msgid ""
+"Our team have spent years behind busy bar counters, so expect fast hands, "
+"perfect pours, and natural hosts. Oh, and don't be surprised if a bartender "
+"breaks into song: there's usually a guitar near the bar, and we're happy to "
+"belt one out."
+msgstr "Notre équipe a passé des années derrière les comptoirs occupés, alors attendez-vous à des mains rapides, des vers parfaits et des hôtes naturels. Oh, et ne soyez pas surpris si un barman entre en chanson: il y a généralement une guitare près du bar, et nous sommes heureux d'en ceinturer un."
+
+#: .\home\templates\home\index.html:66
+msgid "Our Approach:"
+msgstr "Notre approche :"
+
+#: .\home\templates\home\index.html:66
+msgid ""
+"We provide a no hassle service, where we just get on with things, while "
+"still paying attention to the finer details."
+msgstr "Nous fournissons un service sans tracas, où nous allons juste sur les choses, tout en prêtant attention aux détails plus fins."
+
+#: .\home\templates\home\index.html:69
+msgid ""
+"From Messe Frankfurt to Fira Barcelona (Gran Via), and Düsseldorf to Berlin, "
+"choose The Pop Up Irish Pub for quality corporate hospitality and authentic "
+"emerald moments."
+msgstr "De Messe Frankfurt à Fira Barcelona (Gran Via), et Düsseldorf à Berlin, choisissez The Pop Up Irish Pub pour une hospitalité d'entreprise de qualité et des moments émeraudes authentiques."
+
+#: .\home\templates\home\index.html:91 .\templates\base.html:145
+msgid "Explore Our Bars"
+msgstr "Explorez nos bars"
+
+#: .\home\templates\home\index.html:97
+msgid ""
+"Choose your event bar below, then let us handle the pour. We provide Irish "
+"event bar hire across continental Europe for exhibitions, weddings, private "
+"parties and festivals. Wherever you want your creamy draught Guinness pints "
+"served, we have a format to suit every space, large or small."
+msgstr "Choisissez votre barre d'événements ci-dessous, puis laissez-nous gérer le pour. Nous offrons la location de bar d'événements irlandais dans toute l'Europe continentale pour des expositions, des mariages, des fêtes privées et des festivals. Partout où vous voulez vos pintes Guinness crémeuses servies, nous avons un format qui convient à chaque espace, grand ou petit."
+
+#: .\home\templates\home\index.html:112 .\home\templates\home\mobilebar.html:20
+msgid "The Mobile Bar"
+msgstr "La barre mobile"
+
+#: .\home\templates\home\index.html:119 .\home\templates\home\kiwobar.html:20
+msgid "The KiWo Bar"
+msgstr "La barre KiWo"
+
+#: .\home\templates\home\index.html:140
+msgid "Add On - Catering & Entertainment"
+msgstr "Ajouter - Restauration & Divertissement"
+
+#: .\home\templates\home\index.html:147 .\home\templates\home\index.html:179
+msgid ""
+"Since 1986, brands and couples have trusted our event bar hire. But you "
+"don't have to take our word for it. Read testimonials from people who "
+"experienced our authentic Irish bar event hire at exhibitions, weddings, "
+"private parties and festivals across Europe."
+msgstr "Depuis 1986, les marques et les couples font confiance à notre location de bar événementiel. Mais vous n'avez pas à accepter notre parole. Lisez les témoignages de personnes qui ont vécu notre authentique événement de bar irlandais lors d'expositions, de mariages, de fêtes privées et de festivals en Europe."
+
+#: .\home\templates\home\index.html:154
+msgid "Catering & Food"
+msgstr "Restauration et alimentation"
+
+#: .\home\templates\home\index.html:162
+msgid "Entertainment & Music"
+msgstr "Divertissement et musique"
+
+#: .\home\templates\home\index.html:173
+msgid "Reviews & Testimonials"
+msgstr "Commentaires et témoignages"
+
+#: .\home\templates\home\index.html:192
+msgid "More to come…"
+msgstr "Plus à venir..."
+
+#: .\home\templates\home\index.html:205 .\templates\base.html:201
+msgid "Event Types"
+msgstr "Types d'événements"
+
+#: .\home\templates\home\index.html:211
+msgid ""
+"From trade show exhibition stand hospitality, to wedding bars, private "
+"parties and festivals, we provide premium Irish bar event hire across Europe "
+"with Guinness on draught and professional Irish staff, ready for any "
+"footprint."
+msgstr "Du salon professionnel stand hospitalité, aux bars de mariage, soirées privées et festivals, nous fournissons la location de bar irlandais haut de gamme dans toute l'Europe avec Guinness sur le personnel irlandais tirant d'eau et professionnel, prêt pour toute empreinte."
+
+#: .\home\templates\home\index.html:219
+msgid "Trade Shows & Exhibitions"
+msgstr "Salons & expositions"
+
+#: .\home\templates\home\index.html:227
+msgid "Weddings"
+msgstr "Mariages"
+
+#: .\home\templates\home\index.html:235
+msgid "Private Events"
+msgstr "Événements privés"
+
+#: .\home\templates\home\index.html:243
+msgid "Festivals"
+msgstr "Festivals"
+
+#: .\home\templates\home\index.html:283 .\home\templates\home\kiwobar.html:97
+msgid "The Kiwo Event Bar Outside Daytime 3"
+msgstr "Le Kiwo Event Bar En dehors de la journée 3"
+
+#: .\home\templates\home\index.html:284 .\home\templates\home\kiwobar.html:98
+msgid "The Kiwo Event Bar Singer on Stage With Audience Kieler Woche"
+msgstr "Le Kiwo Event Bar Singer sur scène avec le public Kieler Woche"
+
+#: .\home\templates\home\index.html:287 .\home\templates\home\index.html:288
+#: .\home\templates\home\kiwobar.html:101
+#: .\home\templates\home\kiwobar.html:102
+msgid "The Kiwo Event Bar Fiddle Player Kieler Woche"
+msgstr "Le Kiwo Event Bar Fiddle Player Kieler Woche"
+
+#: .\home\templates\home\index.html:299 .\home\templates\home\index.html:300
+#: .\home\templates\home\mobilebar.html:103
+#: .\home\templates\home\mobilebar.html:104
+#: .\home\templates\home\mobilebar.html:107
+#: .\home\templates\home\mobilebar.html:108
+msgid "Mobile Irish Event Bar at an Out Door Wedding Under A Tent"
+msgstr "Mobile Irish Event Bar à une porte de mariage sous une tente"
+
+#: .\home\templates\home\index.html:303 .\home\templates\home\index.html:304
+#: .\home\templates\home\mobilebar.html:99
+#: .\home\templates\home\mobilebar.html:100
+msgid "Mobile Irish Event Bar at an Out Door Wedding"
+msgstr "Mobile Irish Event Bar à une porte de mariage"
+
+#: .\home\templates\home\index.html:330 .\templates\base.html:224
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: .\home\templates\home\index.html:338
+msgid ""
+"Do you need event bar hire for your upcoming event? Be it hospitality "
+"services on your trade show stand, an Irish buffet at your wedding, or live "
+"music and dance for your private party, drop us a line using the form below, "
+"phone, email or Whatsapp."
+msgstr "Avez-vous besoin d'un bar pour votre prochain événement? Que ce soit des services d'accueil sur votre stand de salon, un buffet irlandais à votre mariage, ou de la musique en direct et de danse pour votre fête privée, laissez-nous une ligne en utilisant le formulaire ci-dessous, téléphone, email ou Whatsapp."
+
+#: .\home\templates\home\index.html:349 .\home\templates\home\index.html:350
+msgid "Name"
+msgstr "Nom"
+
+#: .\home\templates\home\index.html:353 .\home\templates\home\index.html:354
+msgid "Email"
+msgstr "Courriel"
+
+#: .\home\templates\home\index.html:357
+msgid "message"
+msgstr "message"
+
+#: .\home\templates\home\index.html:358
+msgid "Message"
+msgstr "Message"
+
+#: .\home\templates\home\kiwobar.html:22
+msgid "Our Flagship Bar for Major Events"
+msgstr "Notre barre de drapeau pour les événements majeurs"
+
+#: .\home\templates\home\kiwobar.html:33
+msgid ""
+"Klkenny and Guinness Ceramic Bar Tap Dispensers with Bartender in the "
+"Background"
+msgstr "Klkenny et Guinness Ceramic Bar Dispensers avec Bartender en arrière-plan"
+
+#: .\home\templates\home\kiwobar.html:38 .\home\templates\home\kiwobar.html:39
+msgid "About The KiWo Bar"
+msgstr "À propos du KiWo Bar"
+
+#: .\home\templates\home\kiwobar.html:45
+msgid ""
+"The KiWo Bar is our flagship - a full, roofed pop-up Irish pub designed as a "
+"headline centrepiece for large audiences. With a built-in stage and kitchen, "
+"it delivers premium event bar hire and authentic Irish bar rental at major "
+"festivals, big corporate hospitality moments, trade shows & exhibitions, and "
+"Ireland-themed nights. What sets it apart? Most pop-ups feel like an Irish "
+"bar - with the KiWo Bar, you are actually in one!"
+msgstr "Le KiWo Bar est notre fleuron - un pop-up irlandais plein de toit conçu comme une pièce maîtresse pour le grand public. Avec une scène et une cuisine intégrées, il offre la location de bar d'événements premium et la location authentique de bar irlandais dans les grands festivals, les grands moments d'hospitalité d'entreprise, les salons & expositions, et les nuits sur le thème irlandais. Qu'est-ce qui la sépare ? La plupart des pop-ups se sentent comme un bar irlandais - avec le KiWo Bar, vous êtes en fait dans un!"
+
+#: .\home\templates\home\kiwobar.html:47
+msgid ""
+"Built for high-volume operations, the KiWo Bar comes with practical "
+"advantages:"
+msgstr "Construit pour les opérations à haut volume, le KiWo Bar offre des avantages pratiques :"
+
+#: .\home\templates\home\kiwobar.html:50
+msgid "Capacity & Throughput:"
+msgstr "Capacité et débit :"
+
+#: .\home\templates\home\kiwobar.html:50
+msgid ""
+" scalable layout for crowds (up to ~600 guests) with multiple draught lines "
+"for fast service."
+msgstr "disposition évolutive pour les foules (jusqu'à ~600 invités) avec plusieurs lignes de tirant d'eau pour un service rapide."
+
+#: .\home\templates\home\kiwobar.html:52
+msgid "Stage-Ready:"
+msgstr "État de préparation :"
+
+#: .\home\templates\home\kiwobar.html:52
+msgid ""
+" integrated platform for live entertainment, MCs, presentations or awards—"
+"plus our own in-house PA system."
+msgstr "plate-forme intégrée pour le divertissement en direct, MC, présentations ou récompenses, ainsi que notre propre système de PA interne."
+
+#: .\home\templates\home\kiwobar.html:53
+msgid "Kitchen & Catering-Friendly:"
+msgstr "Cuisine & restauration - Amies:"
+
+#: .\home\templates\home\kiwobar.html:53
+msgid ""
+" hot food service, buffet lines and back-of-house workflow already "
+"considered."
+msgstr "service de nourriture chaude, lignes de buffet et workflow back-of-house déjà envisagé."
+
+#: .\home\templates\home\kiwobar.html:55
+msgid "Screens for Content:"
+msgstr "Écrans pour le contenu :"
+
+#: .\home\templates\home\kiwobar.html:55
+msgid " two TVs flanking the bar for your ads, images or videos."
+msgstr "deux téléviseurs flanquant la barre pour vos annonces, images ou vidéos."
+
+#: .\home\templates\home\kiwobar.html:57
+msgid ""
+"If you need a crowd-pulling focal point with real pub soul, choose the KiWo "
+"Bar: authentic atmosphere, Guinness on draught, and dependable mobile Irish "
+"bar expertise across continental Europe for exhibitions, festivals, "
+"corporate parties and large club or private gatherings."
+msgstr "Si vous avez besoin d'un point focal plein de foule avec une vraie âme pub, choisissez le KiWo Bar: ambiance authentique, Guinness sur le tirant d'eau, et fiable expertise mobile bar irlandais dans toute l'Europe continentale pour des expositions, festivals, fêtes d'entreprise et grands clubs ou rassemblements privés."
+
+#: .\home\templates\home\kiwobar.html:105
+msgid "The Kiwo Event Bar 2022 Team Kieler Woche"
+msgstr "Le Kiwo Event Bar 2022 Team Kieler Woche"
+
+#: .\home\templates\home\kiwobar.html:106
+msgid "The Kiwo Event Bar Kitchen Window Kieler Woche"
+msgstr "La fenêtre de cuisine Kiwo Event Bar Kieler Woche"
+
+#: .\home\templates\home\kiwobar.html:125
+msgid "The KiWo Bar - Specifications"
+msgstr "La barre KiWo - Spécifications"
+
+#: .\home\templates\home\kiwobar.html:140
+#: .\home\templates\home\mobilebar.html:159
+msgid "600 People"
+msgstr "600 personnes"
+
+#: .\home\templates\home\kiwobar.html:144
+msgid "8"
+msgstr "8"
+
+#: .\home\templates\home\kiwobar.html:148
+msgid "Internal Seating for up to 50 people"
+msgstr "Sièges internes jusqu'à 50 personnes"
+
+#: .\home\templates\home\kiwobar.html:152
+#: .\home\templates\home\mobilebar.html:171
+msgid "4 to 8 bar tenders"
+msgstr "Appels d'offres de 4 à 8 bar"
+
+#: .\home\templates\home\kiwobar.html:156
+msgid "3m"
+msgstr "3 m"
+
+#: .\home\templates\home\kiwobar.html:160
+msgid "6 x 14m"
+msgstr "6 x 14m"
+
+#: .\home\templates\home\kiwobar.html:168
+msgid ""
+"A footprint of 9 x 17m is required. It must be flat and solid, and allow for "
+"the use of a pallet truck."
+msgstr "Une empreinte de 9 x 17m est nécessaire. Il doit être plat et solide, et permettre l'utilisation d'un camion à palettes."
+
+#: .\home\templates\home\kiwobar.html:172
+msgid "4 to 6 Days"
+msgstr "4 à 6 jours"
+
+#: .\home\templates\home\kiwobar.html:176
+msgid "2 Days"
+msgstr "2 jours"
+
+#: .\home\templates\home\kiwobar.html:180
+msgid ""
+"The bar is transported on a 7.5t truck and Sprinter style van. Parking "
+"location must be within the vicinity of the bar area, with qa smooth "
+"surface, to facilitate the movement of pallets, between the two."
+msgstr "Le bar est transporté sur un camion de 7,5 t et une camionnette de style Sprinter. L'emplacement du stationnement doit être situé à proximité de la zone de la barre, avec une surface lisse qa, pour faciliter le mouvement des palettes, entre les deux."
+
+#: .\home\templates\home\kiwobar.html:184
+msgid "Minimum 16A 3-phase connection"
+msgstr "Connexion 3 phases minimum 16A"
+
+#: .\home\templates\home\kiwobar.html:196
+msgid "The bar includes a keg within it's construction"
+msgstr "Le bar comprend un fût dans sa construction"
+
+#: .\home\templates\home\mobilebar.html:22
+msgid "An Irish Pub on Wheels"
+msgstr "Un pub irlandais sur roues"
+
+#: .\home\templates\home\mobilebar.html:37
+#: .\home\templates\home\mobilebar.html:38
+msgid "About The Mobile Bar"
+msgstr "À propos de la barre mobile"
+
+#: .\home\templates\home\mobilebar.html:44
+msgid ""
+"Our mobile Irish bar is the most convenient way to bring a real pub - and "
+"draught Guinness - to almost any location: compact, on wheels, and fast to "
+"deploy. Think plug-and-pour: we arrive, connect the taps, kegs and power, "
+"and we're service-ready in minutes. Ideal for in-booth hospitality at trade "
+"shows & exhibitions, full on-stand parties, Irish-themed nights and private "
+"events; it also complements external catering at weddings."
+msgstr "Notre bar irlandais mobile est le moyen le plus pratique d'apporter un vrai pub - et le courant d'air Guinness - à presque n'importe quel endroit: compact, sur roues, et rapide à déployer. Pensons plug-and-pour: nous arrivons, connectons les robinets, les fûts et la puissance, et nous sommes prêts en quelques minutes. Idéal pour l'hospitalité dans le cadre de salons et d'expositions, des soirées en stand complet, des soirées à thème irlandais et des événements privés ; il complète également la restauration externe lors des mariages."
+
+#: .\home\templates\home\mobilebar.html:46
+msgid ""
+"Configured to your brief with up to eight draught lines, the mobile Irish "
+"bar includes practical features that keep service smooth:"
+msgstr "Configurée à votre dossier avec jusqu'à huit lignes de tirant d'eau, la barre irlandaise mobile comprend des caractéristiques pratiques qui maintiennent le service en douceur:"
+
+#: .\home\templates\home\mobilebar.html:49
+msgid "Exhibition-Ready:"
+msgstr "Préparation à l'exposition :"
+
+#: .\home\templates\home\mobilebar.html:49
+msgid ""
+" he perfect exhibition stand bar for tastings, demos, networking and after-"
+"hours receptions."
+msgstr "le bar de stand d'exposition parfait pour les dégustations, les démonstrations, le réseautage et les réceptions après-midi."
+
+#: .\home\templates\home\mobilebar.html:51
+msgid "Wedding-Friendly:"
+msgstr "Mariage-Amis:"
+
+#: .\home\templates\home\mobilebar.html:51
+msgid ""
+" great for the full reception—or just welcome drinks or coffee-and-cake time."
+msgstr "Idéal pour la réception complète – ou simplement pour accueillir les boissons ou le café et le gâteau."
+
+#: .\home\templates\home\mobilebar.html:52
+msgid "Practical Logistics:"
+msgstr "Logistique pratique :"
+
+#: .\home\templates\home\mobilebar.html:52
+msgid ""
+" rapid setup, tidy cable runs, compliant power/water handling, multiple "
+"draught lines for high throughput."
+msgstr "configuration rapide, parcours de câbles rangés, manipulation de l'eau et de l'énergie, lignes de tirant d'eau multiples pour un débit élevé."
+
+#: .\home\templates\home\mobilebar.html:54
+msgid ""
+" experienced Irish bartenders, clean branding and seamless breakdown—indoors "
+"or outdoors, EU-wide."
+msgstr "les barmans irlandais expérimentés, l'image de marque propre et la panne sans faille – à l'intérieur ou à l'extérieur, à l'échelle de l'UE."
+
+#: .\home\templates\home\mobilebar.html:56
+msgid ""
+"Wherever you need a crowd-pleasing focal point, choose the mobile Irish bar "
+"- authentic pub atmosphere, Guinness on draught, and dependable Irish bar "
+"event hire across continental Europe for exhibitions, trade fairs, weddings "
+"and private parties."
+msgstr "Partout où vous avez besoin d'un point focal de plaisir de foule, choisissez le bar irlandais mobile - atmosphère pub authentique, Guinness sur le tirant d'eau, et fiable bar irlandais location à travers l'Europe continentale pour les expositions, foires commerciales, mariages et fêtes privées."
+
+#: .\home\templates\home\mobilebar.html:111
+#: .\home\templates\home\mobilebar.html:112
+#: .\home\templates\home\mobilebar.html:115
+#: .\home\templates\home\mobilebar.html:116
+msgid "Mobile Irish Event Bar at A Private House Party"
+msgstr "Mobile Irish Event Bar à une fête privée"
+
+#: .\home\templates\home\mobilebar.html:119
+#: .\home\templates\home\mobilebar.html:120
+#: .\home\templates\home\mobilebar.html:123
+#: .\home\templates\home\mobilebar.html:124
+msgid "Mobile Irish Event Bar at A Trade Exhibition"
+msgstr "Mobile Irish Event Bar à une exposition commerciale"
+
+#: .\home\templates\home\mobilebar.html:144
+msgid "The Mobile Bar - Specifications"
+msgstr "La barre mobile - Spécifications"
+
+#: .\home\templates\home\mobilebar.html:163
+msgid "up to 8"
+msgstr "jusqu'à 8"
+
+#: .\home\templates\home\mobilebar.html:175
+msgid "1m"
+msgstr "1m"
+
+#: .\home\templates\home\mobilebar.html:179
+msgid "1.8 x 0.8m"
+msgstr "1,8 x 0,8 m"
+
+#: .\home\templates\home\mobilebar.html:183
+msgid "Minimum 2.5m from ground to ceiling"
+msgstr "Minimum 2,5m du sol au plafond"
+
+#: .\home\templates\home\mobilebar.html:187
+msgid "A footprint of 2.8 x 1.8m is required."
+msgstr "Une empreinte de 2,8 x 1,8 m est nécessaire."
+
+#: .\home\templates\home\mobilebar.html:191
+msgid "1 to 6 hours"
+msgstr "1 à 6 heures"
+
+#: .\home\templates\home\mobilebar.html:195
+msgid "1 to 4 hours"
+msgstr "1 à 4 heures"
+
+#: .\home\templates\home\mobilebar.html:199
+msgid ""
+"The bar is transported on a Sprinter style van. Parking location must be "
+"within the vicinity of the bar area, with a smooth surface, to facilitate "
+"the movement of pallets, between the two."
+msgstr "Le bar est transporté sur une camionnette de style Sprinter. L'emplacement du stationnement doit se trouver à proximité de la zone du bar, avec une surface lisse, pour faciliter le mouvement des palettes, entre les deux."
+
+#: .\home\templates\home\mobilebar.html:207
+msgid ""
+"The bar does not require a water connection. However, a water connection may "
+"still be required depending on the event."
+msgstr "La barre ne nécessite pas de connexion à l'eau. Cependant, un raccordement à l'eau peut encore être nécessaire selon l'événement."
+
+#: .\home\templates\home\mobilebar.html:211
+msgid "As per Water In. Waste water consists of H2O and beer waste."
+msgstr "Les eaux usées se composent de H2O et de déchets de bière."
+
+#: .\templates\base.html:131
+msgid "Home"
+msgstr "Sommaire"
+
+#: .\templates\base.html:151
+msgid "Guinness Glass Bar"
+msgstr "Barre de verre Guinness"
+
+#: .\templates\base.html:157
+msgid "Mobile Bar"
+msgstr "Barre mobile"
+
+#: .\templates\base.html:163
+msgid "KiWo Bar"
+msgstr "Barre de KiWo"
+
+#: .\templates\base.html:177
+msgid "Add Ons"
+msgstr "Ajouter des Ons"
+
+#: .\templates\base.html:195
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: .\templates\base.html:218
+msgid "Gallery"
+msgstr "Galerie"

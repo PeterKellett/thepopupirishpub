@@ -11,15 +11,20 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
 from pathlib import Path
-import django_heroku
+import django_on_heroku
 import dj_database_url
 from dotenv import load_dotenv
+
+# Load the variables from your .env file
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
+# To this exact, robust syntax:
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),
+]
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -55,6 +60,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -120,7 +126,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -128,6 +134,15 @@ USE_I18N = True
 
 USE_TZ = True
 
+# Define your supported languages for the subdirectories
+LANGUAGES = [
+    ('en', 'English'),
+    ('de', 'German'),
+    ('fr', 'French'),
+    ('it', 'Italian'),
+    ('es', 'Spanish'),
+    ('nl', 'Dutch'),
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
@@ -137,7 +152,7 @@ STATIC_ROOT = (os.path.join(BASE_DIR, 'staticfiles'))
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-django_heroku.settings(locals())
+django_on_heroku.settings(locals())
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

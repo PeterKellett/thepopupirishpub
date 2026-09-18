@@ -10,17 +10,18 @@
 {% endblock %} 
 
 {% block content %}
+{% load i18n %}
 <section id="home">
     <div class="container-fluid">
         <div class="background-image mobile-bar">
 
         </div>
         <div class="content-container">
-            <h1>The Mobile Bar</h1>
+            <h1>{% trans "The Mobile Bar" %}</h1>
             <hr>
-            <h2>An Irish Pub on Wheels</h1>
+            <h2>{% trans "An Irish Pub on Wheels" %}</h2>
             <div class="text-center">
-                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
             </div>
         </div>       
     </div>
@@ -28,40 +29,40 @@
 <section id="about-us" class="container-fluid">
     <div class="row">
         <div class="col-4 p-0 about-us-image d-none d-md-block">
-            <img src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759470/bars_mobile_bar_about_section_side_image_pc.webp" alt="Mobile Bar in a Wedding Setting">
+            <img src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759470/bars_mobile_bar_about_section_side_image_pc.webp" alt="{% trans 'Mobile Bar in a Wedding Setting' %}">
         </div>
         <div class="col-md-8 col-12 about-us-main-content">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="d-none d-md-block">About The Mobile Bar</h1>
-                    <h1 class="d-block d-md-none">About The Mobile Bar</h1>
+                    <h1 class="d-none d-md-block">{% trans "About The Mobile Bar" %}</h1>
+                    <h1 class="d-block d-md-none">{% trans "About The Mobile Bar" %}</h1>
                     <hr>
                 </div>
             </div>
             <div class="row about-us-text">
                 <div class="col-12">
-                    <p class="">Our mobile Irish bar is the most convenient way to bring a real pub - and draught Guinness - to almost any location: compact, on wheels, and fast to deploy. Think plug-and-pour: we arrive, connect the taps, kegs and power, and we’re service-ready in minutes. Ideal for in-booth hospitality at trade shows & exhibitions, full on-stand parties, Irish-themed nights and private events; it also complements external catering at weddings.
+                    <p class="">{% trans "Our mobile Irish bar is the most convenient way to bring a real pub - and draught Guinness - to almost any location: compact, on wheels, and fast to deploy. Think plug-and-pour: we arrive, connect the taps, kegs and power, and we're service-ready in minutes. Ideal for in-booth hospitality at trade shows & exhibitions, full on-stand parties, Irish-themed nights and private events; it also complements external catering at weddings." %}
                     </p>
-                    <p class="d-none d-md-block">Configured to your brief with up to eight draught lines, the mobile Irish bar includes practical features that keep service smooth:
+                    <p class="d-none d-md-block">{% trans "Configured to your brief with up to eight draught lines, the mobile Irish bar includes practical features that keep service smooth:" %}
                     </p>
                     <ul>
-                        <li><span>Exhibition-Ready:</span> he perfect exhibition stand bar for tastings, demos, networking and after-hours receptions.
+                        <li><span>{% trans "Exhibition-Ready:" %}</span>{% trans " he perfect exhibition stand bar for tastings, demos, networking and after-hours receptions." %}
                         </li>
-                        <li><span>Wedding-Friendly:</span> great for the full reception—or just welcome drinks or coffee-and-cake time.</li>
-                        <li><span>Practical Logistics:</span> rapid setup, tidy cable runs, compliant power/water handling, multiple draught lines for high throughput.
+                        <li><span>{% trans "Wedding-Friendly:" %}</span>{% trans " great for the full reception—or just welcome drinks or coffee-and-cake time." %}</li>
+                        <li><span>{% trans "Practical Logistics:" %}</span>{% trans " rapid setup, tidy cable runs, compliant power/water handling, multiple draught lines for high throughput." %}
                         </li>
-                        <li><span>Professional Team:</span> experienced Irish bartenders, clean branding and seamless breakdown—indoors or outdoors, EU-wide.</li>
+                        <li><span>{% trans "Professional Team:" %}</span>{% trans " experienced Irish bartenders, clean branding and seamless breakdown—indoors or outdoors, EU-wide." %}</li>
                     </ul>
-                    <p class="d-none d-md-block">Wherever you need a crowd-pleasing focal point, choose the mobile Irish bar - authentic pub atmosphere, Guinness on draught, and dependable Irish bar event hire across continental Europe for exhibitions, trade fairs, weddings and private parties.
+                    <p class="d-none d-md-block">{% trans "Wherever you need a crowd-pleasing focal point, choose the mobile Irish bar - authentic pub atmosphere, Guinness on draught, and dependable Irish bar event hire across continental Europe for exhibitions, trade fairs, weddings and private parties." %}
                     </p>
                 </div>
             </div>
             <div class="row button-container">
                 <div class="col-6">
-                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Tell Me More</a>
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Tell Me More" %}</a>
                 </div>
                 <div class="col-6">
-                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">Enquire Now</a>
+                    <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
                 </div>
             </div>
         </div>
@@ -72,13 +73,13 @@
     <div class="container section-content">
         <div class="row">
             <div class="col-12">
-                <h1>Gallery - Photos & Videos</h1>
+                <h1>{% trans "Gallery - Photos & Videos" %}</h1>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <p class="section-text">Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe.
+                <p class="section-text">{% trans "Have a look what we do best: perfect pours, friendly service and emerald moments. From trade show exhibitions to weddings, private events and festivals, our pop-up Irish pubs bring Guinness on draught and premium event bar hire to venues across Europe." %}
                 </p>
             </div>
         </div>
@@ -95,43 +96,43 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753574/mobile_irish_bar_at_an_out_door_wedding_pc.webp" alt="Mobile Irish Event Bar at an Out Door Wedding">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753615/mobile_irish_bar_at_an_out_door_wedding_mob.webp" alt="Mobile Irish Event Bar at an Out Door Wedding">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753574/mobile_irish_bar_at_an_out_door_wedding_pc.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753615/mobile_irish_bar_at_an_out_door_wedding_mob.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753479/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_pc.webp" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753519/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_mob.webp" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753479/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_pc.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding Under A Tent' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787753519/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_2_mob.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding Under A Tent' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759718/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_pc.webp" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759763/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_mob.webp" alt="Mobile Irish Event Bar at an Out Door Wedding Under A Tent">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759718/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_pc.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding Under A Tent' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759763/mobile_irish_bar_at_an_out_door_wedding_under_a_tent_mob.webp" alt="{% trans 'Mobile Irish Event Bar at an Out Door Wedding Under A Tent' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759821/mobile_irish_bar_at_a_private_house_party_1_pc.webp"alt="Mobile Irish Event Bar at A Private House Party">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759858/mobile_irish_bar_at_a_private_house_party_1_mob.webp" alt="Mobile Irish Event Bar at A Private House Party">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759821/mobile_irish_bar_at_a_private_house_party_1_pc.webp"alt="{% trans 'Mobile Irish Event Bar at A Private House Party' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759858/mobile_irish_bar_at_a_private_house_party_1_mob.webp" alt="{% trans 'Mobile Irish Event Bar at A Private House Party' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759909/mobile_irish_bar_at_a_private_house_party_2_pc.webp" alt="Mobile Irish Event Bar at A Private House Party">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759951/mobile_irish_bar_at_a_private_house_party_2_mob.webp" alt="Mobile Irish Event Bar at A Private House Party">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759909/mobile_irish_bar_at_a_private_house_party_2_pc.webp" alt="{% trans 'Mobile Irish Event Bar at A Private House Party' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759951/mobile_irish_bar_at_a_private_house_party_2_mob.webp" alt="{% trans 'Mobile Irish Event Bar at A Private House Party' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759999/mobile_irish_bar_at_a_trade_exhibition_2_pc.webp" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760037/mobile_irish_bar_at_a_trade_exhibition_2_mob.webp" alt="Mobile Irish Event Bar at A Trade Exhibition">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787759999/mobile_irish_bar_at_a_trade_exhibition_2_pc.webp" alt="{% trans 'Mobile Irish Event Bar at A Trade Exhibition' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760037/mobile_irish_bar_at_a_trade_exhibition_2_mob.webp" alt="{% trans 'Mobile Irish Event Bar at A Trade Exhibition' %}">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760082/mobile_irish_bar_at_a_trade_exhibition_pc.webp" alt="Mobile Irish Event Bar at A Trade Exhibition">
-                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760120/mobile_irish_bar_at_a_trade_exhibition_mob.webp" alt="Mobile Irish Event Bar at A Trade Exhibition">
+                        <img class="d-none d-md-block" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760082/mobile_irish_bar_at_a_trade_exhibition_pc.webp" alt="{% trans 'Mobile Irish Event Bar at A Trade Exhibition' %}">
+                        <img class="d-block d-md-none" src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787760120/mobile_irish_bar_at_a_trade_exhibition_mob.webp" alt="{% trans 'Mobile Irish Event Bar at A Trade Exhibition' %}">
                     </div>
                     
                 </div>
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="fas fa-chevron-left" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">{% trans "Previous" %}</span>
                   </button>
                   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                     <span class="fas fa-chevron-right" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">{% trans "Next" %}</span>
                   </button>
             </div>   
         </div>
@@ -140,7 +141,7 @@
 <section id="specifications" class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1>The Mobile Bar - Specifications</h1>
+            <h1>{% trans "The Mobile Bar - Specifications" %}</h1>
             <hr>
         </div>
     </div>
@@ -154,69 +155,69 @@
               </thead>
               <tbody>
                 <tr>
-                    <td>No. of Guests</td>
-                    <td>600 People</td>
+                    <td>{% trans "No. of Guests" %}</td>
+                    <td>{% trans "600 People" %}</td>
                 </tr>
                 <tr>
-                    <td>No. of Beer Taps:</td>
-                    <td>up to 8</td>
+                    <td>{% trans "No. of Beer Taps:" %}</td>
+                    <td>{% trans "up to 8" %}</td>
                 </tr>
                 <tr>
-                    <td>Seating:</td>
-                    <td>There is no internal seating</td>
+                    <td>{% trans "Seating:" %}</td>
+                    <td>{% trans "There is no internal seating" %}</td>
                 </tr>
                 <tr>
-                    <td>Bar Team:</td>
-                    <td>4 to 8 bar tenders</td>
+                    <td>{% trans "Bar Team:" %}</td>
+                    <td>{% trans "4 to 8 bar tenders" %}</td>
                 </tr>
                 <tr>
-                    <td>Height:</td>
-                    <td>1m</td>
+                    <td>{% trans "Height:" %}</td>
+                    <td>{% trans "1m" %}</td>
                 </tr>
                 <tr>
-                    <td>Size:</td>
-                    <td>1.8 x 0.8m</td>
+                    <td>{% trans "Size:" %}</td>
+                    <td>{% trans "1.8 x 0.8m" %}</td>
                 </tr>
                 <tr>
-                    <td>Head Clearance:</td>
-                    <td>Minimum 2.5m from ground to ceiling</td>
+                    <td>{% trans "Head Clearance:" %}</td>
+                    <td>{% trans "Minimum 2.5m from ground to ceiling" %}</td>
                 </tr>
                 <tr>
-                    <td>Ground:</td>
-                    <td>A footprint of 2.8 x 1.8m is required.</td>
+                    <td>{% trans "Ground:" %}</td>
+                    <td>{% trans "A footprint of 2.8 x 1.8m is required." %}</td>
                 </tr>
                 <tr>
-                    <td>Construction Time:</td>
-                    <td>1 to 6 hours</td>
+                    <td>{% trans "Construction Time:" %}</td>
+                    <td>{% trans "1 to 6 hours" %}</td>
                 </tr>
                 <tr>
-                    <td>Dismantling Time:</td>
-                    <td>1 to 4 hours</td>
+                    <td>{% trans "Dismantling Time:" %}</td>
+                    <td>{% trans "1 to 4 hours" %}</td>
                 </tr>
                 <tr>
-                    <td>Loading Space:</td>
-                    <td>The bar is transported on a Sprinter style van. Parking location must be within the vicinity of the bar area, with a smooth surface, to facilitate the movement of pallets, between the two.</td>
+                    <td>{% trans "Loading Space:" %}</td>
+                    <td>{% trans "The bar is transported on a Sprinter style van. Parking location must be within the vicinity of the bar area, with a smooth surface, to facilitate the movement of pallets, between the two." %}</td>
                 </tr>
                 <tr>
-                    <td>Power Required:</td>
-                    <td>Minimum 3.5kw/16A</td>
+                    <td>{% trans "Power Required:" %}</td>
+                    <td>{% trans "Minimum 3.5kw/16A" %}</td>
                 </tr>
                 <tr>
-                    <td>Water In:</td>
-                    <td>The bar does not require a water connection. However, a water connection may still be required depending on the event.</td>
+                    <td>{% trans "Water In:" %}</td>
+                    <td>{% trans "The bar does not require a water connection. However, a water connection may still be required depending on the event." %}</td>
                 </tr>
                 <tr>
-                    <td>Water Out:</td>
-                    <td>As per Water In. Waste water consists of H2O and beer waste.</td>
+                    <td>{% trans "Water Out:" %}</td>
+                    <td>{% trans "As per Water In. Waste water consists of H2O and beer waste." %}</td>
                 </tr>
                 <tr>
-                    <td>Keg Room:</td>
-                    <td>We will construct a keg and storage room. Depending on the size of the event, up to 2 x 8m space is required. It must be located adjacent to the bar.</td>
+                    <td>{% trans "Keg Room:" %}</td>
+                    <td>{% trans "We will construct a keg and storage room. Depending on the size of the event, up to 2 x 8m space is required. It must be located adjacent to the bar." %}</td>
                 </tr>
               </tbody>
         </table>
     </div>
-    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">Tell Me More</a>
+    <a class="btn section-button" href="{% url 'home' %}#about-us" role="button">{% trans "Tell Me More" %}</a>
 </section>
 {% endblock %}
 
