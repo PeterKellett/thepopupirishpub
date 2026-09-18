@@ -1099,7 +1099,7 @@ msgstr "We bouwen een vat en opslagruimte. Afhankelijk van de grootte van het ev
 
 #: .\home\templates\home\index.html:28
 msgid "Emerald Moments"
-msgstr "Smaragdmomenten"
+msgstr "Smaragdgroene Momenten"
 
 #: .\home\templates\home\index.html:44
 msgid "About The Pop Up Irish Pub"
