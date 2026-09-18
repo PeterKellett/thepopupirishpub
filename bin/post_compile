@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-print "🤖 Running automated Django localization compilation..."
+echo "🤖 Running automated Django localization compilation..."
 
 # Force Heroku's environment to compile every .po file into production binary tracks
 python manage.py compilemessages
 
-print "✅ Localization binaries successfully compiled!"
+echo "✅ Localization binaries successfully compiled!"
