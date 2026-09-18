@@ -8,7 +8,7 @@ msgid ""
 msgstr "Per saperne di più:"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 14:36+0100\n"
+"POT-Creation-Date: 2026-09-18 22:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr "Per saperne di più:"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\home\templates\home\aboutus.html:19 .\home\templates\home\index.html:45
-#: .\templates\base.html:146
+#: .\templates\base.html:164
 msgid "About Us"
 msgstr "Per saperne di più:"
 
@@ -623,8 +623,8 @@ msgstr "Tagline:"
 msgid "Emerald Memories"
 msgstr "Memoria smeraldo"
 
-#: .\home\templates\home\custombar.html:18 .\home\templates\home\index.html:127
-#: .\templates\base.html:178
+#: .\home\templates\home\custombar.html:18 .\home\templates\home\index.html:126
+#: .\home\templates\home\index.html:127 .\templates\base.html:196
 msgid "Custom Bars"
 msgstr "Barre personalizzate"
 
@@ -641,7 +641,7 @@ msgstr "Barre espositive costruite secondo le vostre esigenze"
 #: .\home\templates\home\mobilebar.html:24
 #: .\home\templates\home\mobilebar.html:65
 msgid "Enquire Now"
-msgstr "Richiedi ora"
+msgstr "Richiedi Ora"
 
 #: .\home\templates\home\custombar.html:30
 #: .\home\templates\home\mobilebar.html:32
@@ -723,7 +723,7 @@ msgstr "Se riesci a immaginarlo, possiamo versarlo. Scegli Custom Bars by The Po
 #: .\home\templates\home\mobilebar.html:62
 #: .\home\templates\home\mobilebar.html:220
 msgid "Tell Me More"
-msgstr "Dimmi di più"
+msgstr "Dimmi di Più"
 
 #: .\home\templates\home\custombar.html:73
 #: .\home\templates\home\guinnessbar.html:78
@@ -904,7 +904,7 @@ msgid "Keg Room:"
 msgstr "Camera Keg:"
 
 #: .\home\templates\home\guinnessbar.html:20
-#: .\home\templates\home\index.html:105
+#: .\home\templates\home\index.html:104 .\home\templates\home\index.html:105
 msgid "The Guinness Glass Bar"
 msgstr "Il bar di vetro Guinness"
 
@@ -1097,9 +1097,13 @@ msgid ""
 "bar."
 msgstr "Costruiremo un barile e un magazzino. A seconda delle dimensioni dell'evento, è necessario fino a 2 x 8m di spazio. Deve essere situato adiacente al bar."
 
+#: .\home\templates\home\index.html:26
+msgid "The Pop Up Irish Pub"
+msgstr "The Pop Up Irish Pub"
+
 #: .\home\templates\home\index.html:28
 msgid "Emerald Moments"
-msgstr "Momenti di smeraldo"
+msgstr "Momenti di Smeraldo"
 
 #: .\home\templates\home\index.html:44
 msgid "About The Pop Up Irish Pub"
@@ -1181,7 +1185,7 @@ msgid ""
 "emerald moments."
 msgstr "Da Messe Frankfurt a Fira Barcelona (Gran Via), e Düsseldorf a Berlino, scegliere The Pop Up Irish Pub per l'ospitalità aziendale di qualità e autentici momenti di smeraldo."
 
-#: .\home\templates\home\index.html:91 .\templates\base.html:154
+#: .\home\templates\home\index.html:91 .\templates\base.html:172
 msgid "Explore Our Bars"
 msgstr "Esplora i nostri bar"
 
@@ -1193,17 +1197,19 @@ msgid ""
 "served, we have a format to suit every space, large or small."
 msgstr "Scegli la tua barra degli eventi qui sotto, poi gestiamo il versamento. Forniamo il noleggio di bar irlandese in tutta Europa continentale per mostre, matrimoni, feste private e festival. Ovunque tu voglia il tuo pinte di Guinness cremoso servito, abbiamo un formato per soddisfare ogni spazio, grande o piccolo."
 
-#: .\home\templates\home\index.html:112 .\home\templates\home\mobilebar.html:20
+#: .\home\templates\home\index.html:111 .\home\templates\home\index.html:112
+#: .\home\templates\home\mobilebar.html:20
 msgid "The Mobile Bar"
-msgstr "La barra mobile"
+msgstr "La Barra Mobile"
 
-#: .\home\templates\home\index.html:119 .\home\templates\home\kiwobar.html:20
+#: .\home\templates\home\index.html:118 .\home\templates\home\index.html:119
+#: .\home\templates\home\kiwobar.html:20
 msgid "The KiWo Bar"
 msgstr "Il KiWo Bar"
 
 #: .\home\templates\home\index.html:140
 msgid "Add On - Catering & Entertainment"
-msgstr "Aggiungi - Catering & Entertainment"
+msgstr "Aggiungi - Catering e Intrattenimento"
 
 #: .\home\templates\home\index.html:147 .\home\templates\home\index.html:179
 msgid ""
@@ -1213,13 +1219,21 @@ msgid ""
 "private parties and festivals across Europe."
 msgstr "Dal 1986, marchi e coppie si sono fidati del nostro noleggio bar eventi. Ma non devi accettare la nostra parola. Leggi le testimonianze di persone che hanno sperimentato il nostro autentico noleggio di bar irlandese a mostre, matrimoni, feste private e festival in tutta Europa."
 
+#: .\home\templates\home\index.html:153
+msgid "Catering and Food"
+msgstr "Catering e Food"
+
 #: .\home\templates\home\index.html:154
 msgid "Catering & Food"
 msgstr "Catering &amp; Food"
 
+#: .\home\templates\home\index.html:161
+msgid "Music and entertainment"
+msgstr "Musica e intrattenimento"
+
 #: .\home\templates\home\index.html:162
 msgid "Entertainment & Music"
-msgstr "Intrattenimento e musica"
+msgstr "Intrattenimento e Musica"
 
 #: .\home\templates\home\index.html:173
 msgid "Reviews & Testimonials"
@@ -1229,9 +1243,9 @@ msgstr "Recensioni &amp; Testimonianze"
 msgid "More to come…"
 msgstr "Più a venire..."
 
-#: .\home\templates\home\index.html:205 .\templates\base.html:210
+#: .\home\templates\home\index.html:205 .\templates\base.html:228
 msgid "Event Types"
-msgstr "Tipi di eventi"
+msgstr "Tipi di Eventi"
 
 #: .\home\templates\home\index.html:211
 msgid ""
@@ -1241,19 +1255,23 @@ msgid ""
 "footprint."
 msgstr "Dalla fiera stand ospitalità, ai bar di nozze, feste private e festival, forniamo premium bar irlandese evento noleggio in tutta Europa con Guinness sul draught e personale irlandese professionale, pronto per qualsiasi impronta."
 
+#: .\home\templates\home\index.html:218
+msgid "Trade Shows and Exhibitions"
+msgstr "Mostre"
+
 #: .\home\templates\home\index.html:219
 msgid "Trade Shows & Exhibitions"
-msgstr "Mostre e Mostre"
+msgstr "Mostre"
 
-#: .\home\templates\home\index.html:227
+#: .\home\templates\home\index.html:226 .\home\templates\home\index.html:227
 msgid "Weddings"
 msgstr "Matrimoni"
 
-#: .\home\templates\home\index.html:235
+#: .\home\templates\home\index.html:234 .\home\templates\home\index.html:235
 msgid "Private Events"
-msgstr "Eventi privati"
+msgstr "Eventi Privati"
 
-#: .\home\templates\home\index.html:243
+#: .\home\templates\home\index.html:242 .\home\templates\home\index.html:243
 msgid "Festivals"
 msgstr "Festival"
 
@@ -1285,7 +1303,7 @@ msgstr "Mobile Irish Event Bar in una porta fuori matrimonio sotto una tenda"
 msgid "Mobile Irish Event Bar at an Out Door Wedding"
 msgstr "Mobile Irish Event Bar in un matrimonio fuori porta"
 
-#: .\home\templates\home\index.html:330 .\templates\base.html:233
+#: .\home\templates\home\index.html:330 .\templates\base.html:251
 msgid "Contact Us"
 msgstr "Contattaci"
 
@@ -1458,7 +1476,7 @@ msgstr "Il bar include un keg all'interno della sua costruzione"
 
 #: .\home\templates\home\mobilebar.html:22
 msgid "An Irish Pub on Wheels"
-msgstr "Un cubo irlandese sulle ruote"
+msgstr "Un Cubo Irlandese Sulle Ruote"
 
 #: .\home\templates\home\mobilebar.html:37
 #: .\home\templates\home\mobilebar.html:38
@@ -1540,7 +1558,7 @@ msgstr "Mobile Irish Event Bar a una fiera"
 
 #: .\home\templates\home\mobilebar.html:144
 msgid "The Mobile Bar - Specifications"
-msgstr "La barra mobile - Specifiche"
+msgstr "La barra Mobile - Specifiche"
 
 #: .\home\templates\home\mobilebar.html:163
 msgid "up to 8"
@@ -1587,30 +1605,30 @@ msgstr "La barra non richiede una connessione ad acqua. Tuttavia, un collegament
 msgid "As per Water In. Waste water consists of H2O and beer waste."
 msgstr "Come per Acqua In. L'acqua dei rifiuti è costituita da H2O e rifiuti di birra."
 
-#: .\templates\base.html:140
+#: .\templates\base.html:158
 msgid "Home"
 msgstr "Home"
 
-#: .\templates\base.html:160
+#: .\templates\base.html:178
 msgid "Guinness Glass Bar"
-msgstr "Bar di vetro di Guinness"
+msgstr "Bar di Vetro di Guinness"
 
-#: .\templates\base.html:166
+#: .\templates\base.html:184
 msgid "Mobile Bar"
 msgstr "Mobile Bar"
 
-#: .\templates\base.html:172
+#: .\templates\base.html:190
 msgid "KiWo Bar"
 msgstr "KiWo Bar"
 
-#: .\templates\base.html:186
+#: .\templates\base.html:204
 msgid "Add Ons"
 msgstr "Aggiungi"
 
-#: .\templates\base.html:204
+#: .\templates\base.html:222
 msgid "Testimonials"
 msgstr "Testimonianze"
 
-#: .\templates\base.html:227
+#: .\templates\base.html:245
 msgid "Gallery"
 msgstr "Galleria"

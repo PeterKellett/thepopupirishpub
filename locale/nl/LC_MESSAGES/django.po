@@ -5,10 +5,10 @@
 #
 #: .\home\templates\home\custombar.html:52
 msgid ""
-msgstr "Over onsProject-Id-Version: PAKKET VERSIE\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-09-18 15:33+0100\nPO-Revision-Date: Year-MO-DA HO:MI+ZONE\nLast-Vertaler: FULL NAAM <EMAIL@ADDRESS>\nLanguage-Team: TAAL <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2;plural=(n != 1);\nReport-Men-Msgid-Bugs-To: \nProject-Id-Version-Version-Datum: 2026-09-18 15:33+0100\nReport-Report-"
+msgstr "Over onsProject-Id-Version: PAKKET VERSIE\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2026-09-18 22:53+0100\nPO-Revision-Date: Year-MO-DA HO:MI+ZONE\nLast-Vertaler: FULL NAAM <EMAIL@ADDRESS>\nLanguage-Team: TAAL <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2;plural=(n != 1);\nReport-Ment-Msgid-Bugs-To: \nProject-Id-Version-Version-Datum: 2026-09-18 22:53+010000\nReport-Re"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-18 15:33+0100\n"
+"POT-Creation-Date: 2026-09-18 22:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr "Over onsProject-Id-Version: PAKKET VERSIE\nReport-Msgid-Bugs-To: \nPOT-C
 #: .\home\templates\home\aboutus.html:19 .\home\templates\home\index.html:45
 #: .\templates\base.html:164
 msgid "About Us"
-msgstr "Over ons"
+msgstr "Over Ons"
 
 #: .\home\templates\home\aboutus.html:25
 msgid ""
@@ -43,7 +43,7 @@ msgstr "In de loop van de decennia hebben we onze reputatie verdiend op de juist
 
 #: .\home\templates\home\aboutus.html:31
 msgid "Our People: "
-msgstr "Ons volk:"
+msgstr "Ons Volk:"
 
 #: .\home\templates\home\aboutus.html:31
 msgid ""
@@ -55,7 +55,7 @@ msgstr "De meeste van ons team zijn in Ierland gevestigd met jaren achter drukke
 
 #: .\home\templates\home\aboutus.html:34
 msgid "Our Approach: "
-msgstr "Onze aanpak:"
+msgstr "Onze Aanpak:"
 
 #: .\home\templates\home\aboutus.html:34
 msgid ""
@@ -79,7 +79,7 @@ msgstr "Recente gieten en activeringen zijn onder andere congreszalen zoals Hann
 
 #: .\home\templates\home\aboutus.html:39
 msgid "What We Do"
-msgstr "Wat we doen"
+msgstr "Wat We Doen"
 
 #: .\home\templates\home\aboutus.html:40
 msgid ""
@@ -100,7 +100,7 @@ msgstr "Goede tochtservice onder leiding van ervaren Ierse pubbartenders: snel, 
 
 #: .\home\templates\home\aboutus.html:43
 msgid "The People: "
-msgstr "Het volk:"
+msgstr "Het Volk:"
 
 #: .\home\templates\home\aboutus.html:43
 msgid ""
@@ -111,7 +111,7 @@ msgstr "Hoogvolume gastvrijheid met Ierse warmte, humor en professionaliteit. (W
 
 #: .\home\templates\home\aboutus.html:44
 msgid "The Presentation: "
-msgstr "De presentatie:"
+msgstr "De Presentatie:"
 
 #: .\home\templates\home\aboutus.html:44
 msgid ""
@@ -128,11 +128,11 @@ msgstr "We plannen de realiteiten van elke locatie, vroege toegang, stroom/water
 
 #: .\home\templates\home\aboutus.html:48
 msgid "Where We Fit"
-msgstr "Waar we passen"
+msgstr "Waar We Passen"
 
 #: .\home\templates\home\aboutus.html:50
 msgid "Trade Shows & Exhibitions: "
-msgstr "Handelsbeurzen & tentoonstellingen:"
+msgstr "Handelsbeurzen & Tentoonstellingen:"
 
 #: .\home\templates\home\aboutus.html:50
 msgid ""
@@ -162,7 +162,7 @@ msgstr "Mijlpaal verjaardagen, Iers thema nachten, zakelijke recepties, bedrijfs
 
 #: .\home\templates\home\aboutus.html:53
 msgid "Festivals & Public Events: "
-msgstr "Festivals en openbare evenementen:"
+msgstr "Festivals en Openbare Evenementen:"
 
 #: .\home\templates\home\aboutus.html:53
 msgid "Fast, friendly, high-throughput service designed for busy crowds."
@@ -170,7 +170,7 @@ msgstr "Snelle, vriendelijke, high-throughput service ontworpen voor drukke meni
 
 #: .\home\templates\home\aboutus.html:56
 msgid "What We Pour"
-msgstr "Wat we uitstorten"
+msgstr "Wat We Uitstorten"
 
 #: .\home\templates\home\aboutus.html:57
 msgid ""
@@ -182,7 +182,7 @@ msgstr "We serveren een reeks typisch Ierse dranken op diepgang en uit de fles. 
 
 #: .\home\templates\home\aboutus.html:58
 msgid "On Draught: "
-msgstr "Op diepte:"
+msgstr "Op Diepte:"
 
 #: .\home\templates\home\aboutus.html:58
 msgid ""
@@ -243,7 +243,7 @@ msgstr "Baby Guinness Ierse vlag Cuppugino Baby Ierse koffie"
 
 #: .\home\templates\home\aboutus.html:74
 msgid "Non-alcoholic: "
-msgstr "alcoholvrij:"
+msgstr "Alcoholvrij:"
 
 #: .\home\templates\home\aboutus.html:74
 msgid ""
@@ -261,7 +261,7 @@ msgstr "wijnen, lokale bieren en internationale selecties."
 
 #: .\home\templates\home\aboutus.html:77
 msgid "Add-On Experiences"
-msgstr "Toevoegen aan ervaringen"
+msgstr "Toevoegen Aan Ervaringen"
 
 #: .\home\templates\home\aboutus.html:78
 msgid ""
@@ -272,7 +272,7 @@ msgstr "Een belangrijk deel van het Ierse leven is lied, dans en lekker eten. Ze
 
 #: .\home\templates\home\aboutus.html:80
 msgid "Live Music: "
-msgstr "Live muziek:"
+msgstr "Live Muziek:"
 
 #: .\home\templates\home\aboutus.html:80
 msgid ""
@@ -283,7 +283,7 @@ msgstr "We boeken uitstekende Ierse en hedendaagse artiesten over folk, rock, po
 
 #: .\home\templates\home\aboutus.html:81
 msgid "Irish Dancers: "
-msgstr "Ierse dansers:"
+msgstr "Ierse Dansers:"
 
 #: .\home\templates\home\aboutus.html:81
 msgid ""
@@ -320,7 +320,7 @@ msgstr "Regionale specialiteiten beschikbaar op aanvraag"
 
 #: .\home\templates\home\aboutus.html:93
 msgid "Formats That Fit"
-msgstr "Formaten die passen"
+msgstr "Formaten die Passen"
 
 #: .\home\templates\home\aboutus.html:94
 msgid ""
@@ -360,7 +360,7 @@ msgstr "Snelle installatie-efficiëntie voor zakelijke gastvrijheid en krappere 
 
 #: .\home\templates\home\aboutus.html:99
 msgid "Custom Bars: "
-msgstr "Aangepaste bars:"
+msgstr "Aangepaste Bars:"
 
 #: .\home\templates\home\aboutus.html:99
 msgid ""
@@ -388,7 +388,7 @@ msgstr "Tegenwoordig sinds 1986; een van de langste stands van de internationale
 
 #: .\home\templates\home\aboutus.html:106
 msgid "Culinary Recognition: "
-msgstr "Culinaire erkenning:"
+msgstr "Culinaire Erkenning:"
 
 #: .\home\templates\home\aboutus.html:106
 msgid ""
@@ -551,7 +551,7 @@ msgstr "Laten we afspreken in de Ierse bar. Dat is voetval en merk recall... je 
 
 #: .\home\templates\home\aboutus.html:136
 msgid "Fast Facts"
-msgstr "Snelle feiten"
+msgstr "Snelle Feiten"
 
 #: .\home\templates\home\aboutus.html:138
 msgid "Since: "
@@ -623,8 +623,8 @@ msgstr "Tagline:"
 msgid "Emerald Memories"
 msgstr "Smaragdherinneringen"
 
-#: .\home\templates\home\custombar.html:18 .\home\templates\home\index.html:127
-#: .\templates\base.html:196
+#: .\home\templates\home\custombar.html:18 .\home\templates\home\index.html:126
+#: .\home\templates\home\index.html:127 .\templates\base.html:196
 msgid "Custom Bars"
 msgstr "Aangepaste staven"
 
@@ -641,7 +641,7 @@ msgstr "Tentoonstelling Bars gebouwd naar uw behoeften"
 #: .\home\templates\home\mobilebar.html:24
 #: .\home\templates\home\mobilebar.html:65
 msgid "Enquire Now"
-msgstr "Nu vragen"
+msgstr "Nu Vragen"
 
 #: .\home\templates\home\custombar.html:30
 #: .\home\templates\home\mobilebar.html:32
@@ -651,7 +651,7 @@ msgstr "Mobiele bar in een bruiloft instelling"
 #: .\home\templates\home\custombar.html:35
 #: .\home\templates\home\custombar.html:36
 msgid "About Custom Bars"
-msgstr "Over aangepaste bars"
+msgstr "Over Aangepaste Bars"
 
 #: .\home\templates\home\custombar.html:42
 msgid ""
@@ -692,7 +692,7 @@ msgstr "Guinness on Draft plus meerdere kranen voor ales/lager/cider; glaswerk, 
 
 #: .\home\templates\home\custombar.html:50
 msgid "Branding & Media:"
-msgstr "Merk & media:"
+msgstr "Merk & Media:"
 
 #: .\home\templates\home\custombar.html:50
 msgid ""
@@ -723,14 +723,14 @@ msgstr "Als je het je kunt voorstellen, kunnen we het inschenken. Kies Custom Ba
 #: .\home\templates\home\mobilebar.html:62
 #: .\home\templates\home\mobilebar.html:220
 msgid "Tell Me More"
-msgstr "Vertel me meer"
+msgstr "Vertel Me Meer"
 
 #: .\home\templates\home\custombar.html:73
 #: .\home\templates\home\guinnessbar.html:78
 #: .\home\templates\home\index.html:258 .\home\templates\home\kiwobar.html:76
 #: .\home\templates\home\mobilebar.html:76
 msgid "Gallery - Photos & Videos"
-msgstr "Galerij - Foto's en video's"
+msgstr "Galerij - Foto's en Video's"
 
 #: .\home\templates\home\custombar.html:79
 #: .\home\templates\home\guinnessbar.html:84
@@ -904,9 +904,9 @@ msgid "Keg Room:"
 msgstr "Keg Room:"
 
 #: .\home\templates\home\guinnessbar.html:20
-#: .\home\templates\home\index.html:105
+#: .\home\templates\home\index.html:104 .\home\templates\home\index.html:105
 msgid "The Guinness Glass Bar"
-msgstr "De Guinness glasbar"
+msgstr "De Guinness Glasbar"
 
 #: .\home\templates\home\guinnessbar.html:22
 msgid "Our Show Stopper Bar"
@@ -966,7 +966,7 @@ msgstr "werkt als een pop-up Ierse pub / mobiele Ierse bar functie, EU-brede."
 #: .\home\templates\home\guinnessbar.html:56
 #: .\home\templates\home\mobilebar.html:54
 msgid "Professional Team:"
-msgstr "Professioneel team:"
+msgstr "Professioneel Team:"
 
 #: .\home\templates\home\guinnessbar.html:56
 msgid " experienced Irish bartenders; tidy builds and seamless breakdowns."
@@ -1097,9 +1097,13 @@ msgid ""
 "bar."
 msgstr "We bouwen een vat en opslagruimte. Afhankelijk van de grootte van het evenement is tot 2 x 8m ruimte nodig. Het moet zich naast de bar bevinden."
 
+#: .\home\templates\home\index.html:26
+msgid "The Pop Up Irish Pub"
+msgstr "The Pop Up Irish Pub"
+
 #: .\home\templates\home\index.html:28
 msgid "Emerald Moments"
-msgstr "Smaragdgroene Momenten"
+msgstr "Smaragd Momenten"
 
 #: .\home\templates\home\index.html:44
 msgid "About The Pop Up Irish Pub"
@@ -1154,7 +1158,7 @@ msgstr "Gedurende de decennia hebben we onze reputatie op de juiste manier verdi
 
 #: .\home\templates\home\index.html:64
 msgid "Our People:"
-msgstr "Ons volk:"
+msgstr "Ons Volk:"
 
 #: .\home\templates\home\index.html:64
 msgid ""
@@ -1166,7 +1170,7 @@ msgstr "Ons team heeft jaren achter drukke bar balies doorgebracht, dus verwacht
 
 #: .\home\templates\home\index.html:66
 msgid "Our Approach:"
-msgstr "Onze aanpak:"
+msgstr "Onze Aanpak:"
 
 #: .\home\templates\home\index.html:66
 msgid ""
@@ -1183,7 +1187,7 @@ msgstr "Van Messe Frankfurt tot Fira Barcelona (Gran Via) en Düsseldorf tot Ber
 
 #: .\home\templates\home\index.html:91 .\templates\base.html:172
 msgid "Explore Our Bars"
-msgstr "Verken onze bars"
+msgstr "Verken Onze Bars"
 
 #: .\home\templates\home\index.html:97
 msgid ""
@@ -1193,17 +1197,19 @@ msgid ""
 "served, we have a format to suit every space, large or small."
 msgstr "Kies hieronder uw event bar en laat ons de pour behandelen. Wij bieden Ierse event bar huren in heel continentaal Europa voor tentoonstellingen, bruiloften, particuliere feesten en festivals. Waar u ook uw romige tocht Guinness pinten geserveerd wilt hebben, wij hebben een formaat voor elke ruimte, groot of klein."
 
-#: .\home\templates\home\index.html:112 .\home\templates\home\mobilebar.html:20
+#: .\home\templates\home\index.html:111 .\home\templates\home\index.html:112
+#: .\home\templates\home\mobilebar.html:20
 msgid "The Mobile Bar"
-msgstr "De mobiele bar"
+msgstr "De Mobiele bar"
 
-#: .\home\templates\home\index.html:119 .\home\templates\home\kiwobar.html:20
+#: .\home\templates\home\index.html:118 .\home\templates\home\index.html:119
+#: .\home\templates\home\kiwobar.html:20
 msgid "The KiWo Bar"
 msgstr "De KiWo Bar"
 
 #: .\home\templates\home\index.html:140
 msgid "Add On - Catering & Entertainment"
-msgstr "Toevoegen aan - Catering & Entertainment"
+msgstr "Toevoegen Aan - Catering & Entertainment"
 
 #: .\home\templates\home\index.html:147 .\home\templates\home\index.html:179
 msgid ""
@@ -1213,17 +1219,25 @@ msgid ""
 "private parties and festivals across Europe."
 msgstr "Sinds 1986 hebben merken en koppels onze event barhuur vertrouwd. Maar je hoeft ons niet op ons woord te geloven. Lees getuigenissen van mensen die ons authentieke Ierse barevenement hebben ervaren op tentoonstellingen, bruiloften, privéfeesten en festivals in heel Europa."
 
+#: .\home\templates\home\index.html:153
+msgid "Catering and Food"
+msgstr "Catering en Voedsel"
+
 #: .\home\templates\home\index.html:154
 msgid "Catering & Food"
-msgstr "Catering en voedsel"
+msgstr "Catering en Voedsel"
+
+#: .\home\templates\home\index.html:161
+msgid "Music and entertainment"
+msgstr "Muziek en Amusement"
 
 #: .\home\templates\home\index.html:162
 msgid "Entertainment & Music"
-msgstr "Entertainment & muziek"
+msgstr "Entertainment & Muziek"
 
 #: .\home\templates\home\index.html:173
 msgid "Reviews & Testimonials"
-msgstr "Beoordelingen en getuigenissen"
+msgstr "Beoordelingen en Getuigenissen"
 
 #: .\home\templates\home\index.html:192
 msgid "More to come…"
@@ -1241,19 +1255,23 @@ msgid ""
 "footprint."
 msgstr "Van beursbeurs stand gastvrijheid, bruiloft bars, private feesten en festivals, bieden we premium Ierse bar evenement huren in heel Europa met Guinness op tocht en professionele Ierse medewerkers, klaar voor elke voetafdruk."
 
+#: .\home\templates\home\index.html:218
+msgid "Trade Shows and Exhibitions"
+msgstr "Handelsbeurzen en Tentoonstellingen"
+
 #: .\home\templates\home\index.html:219
 msgid "Trade Shows & Exhibitions"
-msgstr "Handelsbeurzen & tentoonstellingen"
+msgstr "Handelsbeurzen & Tentoonstellingen"
 
-#: .\home\templates\home\index.html:227
+#: .\home\templates\home\index.html:226 .\home\templates\home\index.html:227
 msgid "Weddings"
 msgstr "Bruiloften"
 
-#: .\home\templates\home\index.html:235
+#: .\home\templates\home\index.html:234 .\home\templates\home\index.html:235
 msgid "Private Events"
 msgstr "Privé-evenementen"
 
-#: .\home\templates\home\index.html:243
+#: .\home\templates\home\index.html:242 .\home\templates\home\index.html:243
 msgid "Festivals"
 msgstr "Feesten"
 
@@ -1287,7 +1305,7 @@ msgstr "Mobile Irish Event Bar op een Out Door Bruiloft"
 
 #: .\home\templates\home\index.html:330 .\templates\base.html:251
 msgid "Contact Us"
-msgstr "Contacteer ons"
+msgstr "Contacteer Ons"
 
 #: .\home\templates\home\index.html:338
 msgid ""
@@ -1345,7 +1363,7 @@ msgstr "De KiWo Bar is gebouwd voor activiteiten met een hoog volume en heeft pr
 
 #: .\home\templates\home\kiwobar.html:50
 msgid "Capacity & Throughput:"
-msgstr "Capaciteit & doorvoer:"
+msgstr "Capaciteit & Doorvoer:"
 
 #: .\home\templates\home\kiwobar.html:50
 msgid ""
@@ -1597,15 +1615,15 @@ msgstr "Guinness Glass Bar"
 
 #: .\templates\base.html:184
 msgid "Mobile Bar"
-msgstr "Mobiele bar"
+msgstr "Mobiele Bar"
 
 #: .\templates\base.html:190
 msgid "KiWo Bar"
-msgstr "KiWo-balk"
+msgstr "KiWo Bar"
 
 #: .\templates\base.html:204
 msgid "Add Ons"
-msgstr "Ons toevoegen"
+msgstr "Ons Toevoegen"
 
 #: .\templates\base.html:222
 msgid "Testimonials"
