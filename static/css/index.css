@@ -1,12 +1,12 @@
 #home {
-	height: 100lvh;
+	height: 100dvh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 #home .container-fluid {
-	height: 100vh;
+	height: 100dvh;
 	overflow: hidden;
 	position: relative;
 	display: flex;
@@ -20,7 +20,7 @@
 		background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748280/homepage_top_section_bg_mob.webp");
 	}
 	background-size: 120% 120%;
-	height: 100vh;
+	height: 100dvh;
     width: 100%;
 	background-position: center;
     object-fit: cover;
@@ -44,7 +44,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 100dvh;
 }
 
 #home .logo {
@@ -75,7 +75,7 @@
 
 /*----------------------------------------*/
 #about-us {
-	height: 100lvh;
+	height: 100dvh;
 }
 
 #about-us h1 {
@@ -162,7 +162,7 @@
 }
 
 #explore-bars .section-content {
-	height: 100vh;
+	height: 85dvh;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
@@ -245,7 +245,7 @@
 }
 
 #food-music .section-content {
-	height: 85vh;
+	height: 85dvh;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
@@ -325,7 +325,7 @@
 }
 
 #events .section-content {
-	height: 100vh;
+	height: 85dvh;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
