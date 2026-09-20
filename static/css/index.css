@@ -76,15 +76,15 @@
 /*----------------------------------------*/
 #about-us {
 	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748351/homepage_about_us_text_area_bg.webp");
-	text-align: center;
+	/* text-align: center; */
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	align-items: center;
+	/* align-items: center; */
 }
 
 #about-us .section-content {
-	height: 100svh;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -175,7 +175,7 @@
 }
 
 #explore-bars .section-content {
-	height: 100svh;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -338,7 +338,7 @@
 }
 
 #events .section-content {
-	height: 85dvh;
+	height: 90dvh;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
