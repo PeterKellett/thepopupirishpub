@@ -33,56 +33,58 @@
             </div>
         </div>    
     </section>
+
     <section id="about-us" class="container-fluid">
-        <div class="row">
-            <div class="col-4 p-0 about-us-image d-none d-md-block">
-                <img src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748083/homepage_about_us_side_bg.webp" alt="About us image">
-            </div>
-            <div class="col-md-8 col-12 about-us-main-content">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="d-none d-md-block">{% trans "About The Pop Up Irish Pub" %}</h1>
-                        <h1 class="d-block d-md-none">{% trans "About Us" %}</h1>
-                        <hr>
-                    </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-4 p-0 about-us-image d-none d-md-block">
+                    <img src="https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748083/homepage_about_us_side_bg.webp" alt="About us image">
                 </div>
-                <div class="row about-us-text">
-                    <div class="col-12">
-                        <p class="">{% trans "Since 1986, we've been recreating a little bit of Ireland at events across continental EU - delivering reliable, premium event bar hire and Irish bar event hire that feels like a real Irish pub. Our experienced Irish bartenders serve Guinness on draught and other Irish drinks with pace, professionalism, and a generous dose of Irish banter." %}
-                        </p>
-                        <p class="d-none d-md-block">{% trans "We offer a range of event bar hire and mobile Irish bar formats, support multiple event types, and provide complimentary add-on services:" %}
-                        </p>
-                        <ul>
-                            <li><span>{% trans "Bar Types:" %}</span> {% trans "from a single draught Guinness tap to a fully roofed bar for up to ~600 guests, we tailor to your venue." %}
-                            </li>
-                            <li><span>{% trans "Events:" %}</span> {% trans "trade shows & exhibitions, weddings, private events, festivals" %}</li>
-                            <li><span>{% trans "Add-ons:" %}</span> {% trans "catering, live music, Irish dancers, Djs." %}</li>
-                        </ul>
-                        <p class="">{% trans "Over the decades we've earned our reputation the right way, one excellent pint at a time. So what makes us different?" %} 
-                        </p>
-                        <ul>
-                            <li><span>{% trans "Our People:" %}</span> {% trans "Our team have spent years behind busy bar counters, so expect fast hands, perfect pours, and natural hosts. Oh, and don't be surprised if a bartender breaks into song: there's usually a guitar near the bar, and we're happy to belt one out." %}
-                            </li>
-                            <li><span>{% trans "Our Approach:" %}</span> {% trans "We provide a no hassle service, where we just get on with things, while still paying attention to the finer details." %}
-                            </li>
-                        </ul>
-                        <p class="d-none d-md-block">{% trans "From Messe Frankfurt to Fira Barcelona (Gran Via), and Düsseldorf to Berlin, choose The Pop Up Irish Pub for quality corporate hospitality and authentic emerald moments." %}
-                        </p>
+                <div class="col-md-8 col-12 about-us-main-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="d-none d-md-block">{% trans "About The Pop Up Irish Pub" %}</h1>
+                            <h1 class="d-block d-md-none">{% trans "About Us" %}</h1>
+                            <hr>
+                        </div>
                     </div>
-                </div>
-                <div class="row button-container">
-                    <div class="col-6">
-                        <a class="btn section-button" href="{% url 'aboutus' %}" role="button">{% trans "Tell Me More" %}</a>
+                    <div class="row about-us-text">
+                        <div class="col-12">
+                            <p class="">{% trans "Since 1986, we've been recreating a little bit of Ireland at events across continental EU - delivering reliable, premium event bar hire and Irish bar event hire that feels like a real Irish pub. Our experienced Irish bartenders serve Guinness on draught and other Irish drinks with pace, professionalism, and a generous dose of Irish banter." %}
+                            </p>
+                            <p class="d-none d-md-block">{% trans "We offer a range of event bar hire and mobile Irish bar formats, support multiple event types, and provide complimentary add-on services:" %}
+                            </p>
+                            <ul>
+                                <li><span>{% trans "Bar Types:" %}</span> {% trans "from a single draught Guinness tap to a fully roofed bar for up to ~600 guests, we tailor to your venue." %}
+                                </li>
+                                <li><span>{% trans "Events:" %}</span> {% trans "trade shows & exhibitions, weddings, private events, festivals" %}</li>
+                                <li><span>{% trans "Add-ons:" %}</span> {% trans "catering, live music, Irish dancers, Djs." %}</li>
+                            </ul>
+                            <p class="">{% trans "Over the decades we've earned our reputation the right way, one excellent pint at a time. So what makes us different?" %} 
+                            </p>
+                            <ul>
+                                <li><span>{% trans "Our People:" %}</span> {% trans "Our team have spent years behind busy bar counters, so expect fast hands, perfect pours, and natural hosts. Oh, and don't be surprised if a bartender breaks into song: there's usually a guitar near the bar, and we're happy to belt one out." %}
+                                </li>
+                                <li><span>{% trans "Our Approach:" %}</span> {% trans "We provide a no hassle service, where we just get on with things, while still paying attention to the finer details." %}
+                                </li>
+                            </ul>
+                            <p class="d-none d-md-block">{% trans "From Messe Frankfurt to Fira Barcelona (Gran Via), and Düsseldorf to Berlin, choose The Pop Up Irish Pub for quality corporate hospitality and authentic emerald moments." %}
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
+                    <div class="row button-container">
+                        <div class="col-6">
+                            <a class="btn section-button" href="{% url 'aboutus' %}" role="button">{% trans "Tell Me More" %}</a>
+                        </div>
+                        <div class="col-6">
+                            <a class="btn section-button" href="{% url 'home' %}#contact-us" role="button">{% trans "Enquire Now" %}</a>
+                        </div>
                     </div>
+                    
                 </div>
                 
-            </div>
-            
-        </div> 
-        
+            </div> 
+        </div>
     </section>
     <section id="explore-bars" class="container-fluid"> 
         <div class="container section-content">
