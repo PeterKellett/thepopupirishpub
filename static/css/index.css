@@ -75,6 +75,7 @@
 
 /*----------------------------------------*/
 #about-us {
+	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748351/homepage_about_us_text_area_bg.webp");
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -102,7 +103,7 @@
 }
 
 .about-us-main-content {
-	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748351/homepage_about_us_text_area_bg.webp");
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
