@@ -13,17 +13,25 @@
 
 html {
 	scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
   position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
 }
 
 section {
-	height: 100vh;
-	scroll-snap-align: start;
-	scroll-snap-stop: always;
-	position: relative;
+	height: 100vh !important; /* Overrides the broken 100vh elements */
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  overflow: hidden; /* Stops child overflow from breaking snap positions */
+  box-sizing: border-box;
 }
 
 h1 {

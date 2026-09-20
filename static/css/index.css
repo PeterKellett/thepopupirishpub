@@ -1,12 +1,12 @@
 #home {
-	height: 100dvh;
+	/* height: 100dvh; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 #home .container-fluid {
-	height: 100dvh;
+	/* height: 100dvh; */
 	overflow: hidden;
 	position: relative;
 	display: flex;
@@ -75,7 +75,7 @@
 
 /*----------------------------------------*/
 #about-us {
-	height: 100dvh;
+	/* height: 100dvh; */
 }
 
 #about-us h1 {
@@ -152,7 +152,7 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: end;
 	align-items: center;
 }
 
@@ -162,11 +162,11 @@
 }
 
 #explore-bars .section-content {
-	height: 85dvh;
+	height: 100svh;
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
-	align-items: center;
+	justify-content: space-around;
+	/* align-items: center; */
 }
 
 #explore-bars .section-text {
