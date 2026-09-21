@@ -76,24 +76,29 @@
 /*----------------------------------------*/
 #about-us {
 	background-image: url("https://res.cloudinary.com/duhvtj6kr/image/upload/v1787748351/homepage_about_us_text_area_bg.webp");
-	/* text-align: center; */
+	height: 100dvh; /* Spans the full height of the viewport */
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
-	/* align-items: center; */
+	justify-content: flex-end; /* Pushes the inner container strictly to the bottom */
+	box-sizing: border-box;
 }
 
-#about-us .section-content {
-	height: 90vh;
+/* #about-us .row {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	/* align-items: center; */
-}
+	align-items: flex-end;
+	width: 100%;
+} */
 
 #about-us h1 {
 	color: var(--SophisticatedEmeraldGreen);
 	text-align: center;
+}
+
+.about-us-image {
+	/* width: 100%; */
+	height: 100vh;
+	/* object-fit: cover; */
 }
 
 #about-us img {
@@ -109,7 +114,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
-	height: 100vh;
+	height: 90vh;
 	@media only screen and (max-width: 767px) {
 		/* font-size: 0.9rem; */
         padding: 0;

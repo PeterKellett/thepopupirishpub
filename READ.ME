@@ -1,2 +1,21 @@
 ### Scroll snap
 https://www.youtube.com/watch?v=ytl6TrroGis&t=217s
+
+## Translations  
+Uses the python packages argostranslate and deep-translator. Only stored on local machine, not deployed to Heroku.
+### Translation codes
+de - German  
+es - Spanish  
+fr - French  
+it - Italian  
+nl - Netherlands 
+To compile the trans django.po file
+Change the following command as per country required and Run: 
+python manage.py makemessages -l nl -e html,py,txt -i venv  
+To generate the translations messages
+Change translate_po for the required translation code and Run:  
+python translate_po.py  
+Finally to compile the messages and generate the django.mo binary files run:  
+python manage.py compilemessages  
+Note  
+The bin/post_compile is used to compile the django.mo binary file on deployment to Heroku.
