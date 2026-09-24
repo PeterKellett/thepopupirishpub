@@ -1103,7 +1103,7 @@ msgstr "Der Pop Up Irish Pub"
 
 #: .\home\templates\home\index.html:28
 msgid "Emerald Moments"
-msgstr "Smaragd Momenten"
+msgstr "Emerald Moments"
 
 #: .\home\templates\home\index.html:44
 msgid "About The Pop Up Irish Pub"

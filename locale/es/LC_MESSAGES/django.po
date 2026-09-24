@@ -1099,7 +1099,7 @@ msgstr "Construiremos un barril y un trastero. Dependiendo del tamaño del event
 
 #: .\home\templates\home\index.html:28
 msgid "Emerald Moments"
-msgstr "Momentos esmeralda"
+msgstr "Emerald Moments"
 
 #: .\home\templates\home\index.html:44
 msgid "About The Pop Up Irish Pub"
