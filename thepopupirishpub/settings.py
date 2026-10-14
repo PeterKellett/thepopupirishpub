@@ -166,6 +166,9 @@ if os.environ.get('DEVELOPMENT'):
     DEFAULT_FROM_EMAIL = "info@thepopupirishpub.com"
     NOTIFY_EMAIL = "info@thepopupirishpub.com"
 else:
+    # CRITICAL: This exact line tells Django that Heroku's HTTPS proxy is secure!
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
