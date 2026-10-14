@@ -86,7 +86,7 @@ def mailNewContact(data):
     )
 
     send_mail(
-        subject="Website Contact Us form submission",
+        subject=f"Website Contact Us form submission from {name}",
         message=notify_message,
         from_email=settings.DEFAULT_FROM_EMAIL, # Must be your exact Gmail address string!
         recipient_list=[settings.NOTIFY_EMAIL],  # info@thepopupirishpub.com
