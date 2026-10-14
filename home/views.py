@@ -38,11 +38,19 @@ def index(request):
             )
             newContact.save()
             
-            # This runs your updated SSL port 465 mail function
-            mailNewContact(data)
-            
-            # CRITICAL: This sends a clean 200 OK signal back to main.js, triggering the animation!
-            return JsonResponse({'status': 'Success', 'message': 'Message processed successfully'}, status=200)
+            # 2. Try sending the email safely
+            try:
+                mailNewContact(data)
+                return JsonResponse({'status': 'Success', 'message': 'Message sent!'}, status=200)
+            except Exception as email_error:
+                # If Google drops the connection, log the exact error to Heroku console...
+                print("SMTP Handshake Failed Error: ", str(email_error))
+                
+                # ...but still tell the frontend it succeeded because the message is saved in your DB!
+                return JsonResponse({
+                    'status': 'Saved', 
+                    'message': 'Saved to database, but notification routing delayed.'
+                }, status=200)
             
     # 3. Clean page requests (GET) skip the blocks above entirely and load the page normally
     context = {}
