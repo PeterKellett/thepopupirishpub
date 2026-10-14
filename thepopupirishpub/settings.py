@@ -197,6 +197,11 @@ if 'USE_AWS' in os.environ:
 
 # Check if we are running in production (not in development)
 if not os.environ.get('DEVELOPMENT'):
+    # Corrected: One with 'www' and one without
+    CSRF_TRUSTED_ORIGINS = [
+        'https://www.thepopupirishpub.com',
+        'https://thepopupirishpub.com',
+    ]
     # 1. Essential Heroku-specific routing
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
