@@ -37,12 +37,12 @@ def index(request):
                 message=data["message"]
             )
             newContact.save()
+            
+            # This runs your updated SSL port 465 mail function
             mailNewContact(data)
             
-            # Return appropriate response depending on input format
-            if request.content_type == 'application/json':
-                return JsonResponse({'status': 'Checkout Complete'}, status=200)
-            return redirect('/en/#contact')
+            # CRITICAL: This sends a clean 200 OK signal back to main.js, triggering the animation!
+            return JsonResponse({'status': 'Success', 'message': 'Message processed successfully'}, status=200)
             
     # 3. Clean page requests (GET) skip the blocks above entirely and load the page normally
     context = {}

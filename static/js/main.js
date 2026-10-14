@@ -10,62 +10,59 @@ $(document).ready(() => {
 
 	//////////////////////////////////////
 	$("#form-submit").click((e) => {
-		console.log("form-submit")
+		console.log("form-submit");
 		e.preventDefault();
+		
 		var form = document.getElementById("form");
-		console.log("form = ", form)
-		var submitter = document.getElementById("form-submit");
 		const formData = new FormData(form);
-		console.log("formData = ", formData)
 		
 		if (!form.checkValidity()) {
-			console.log("IF")
-			// Create the temporary button, click and remove it
+			// Force native browser validation popups if fields are missing
 			var tmpSubmit = document.createElement("button");
 			form.appendChild(tmpSubmit);
 			tmpSubmit.click();
 			form.removeChild(tmpSubmit);
 		} else {
-			console.log("ELSE")
-			console.log("formData = ", formData)
-			
-			// Form is valid, let the user proceed or do whatever we need to
-			data = {};
+			// Collect form data cleanly
+			var data = {};
 			formData.forEach(function (value, key) {
 				data[key] = value;
 			});
 			
-			console.log("data = ", data)
-			
-			// FIXED: Extract the active, localized URL route directly from your HTML form action tag!
-			// This will automatically be "/en/", "/fr/", etc. depending on what Django rendered.
-			var url = form.getAttribute("action") || "/";
-			
-			console.log("Submitting form dynamically to target URL: ", url);
+			var url = form.getAttribute("action") || "/en/";
 	
 			fetch(url, {
 				method: "POST",
 				credentials: "same-origin",
 				headers: {
-					"Content-Type": "application/json", // Ensures Django knows to treat this as raw JSON data
+					"Content-Type": "application/json", // Tells Django to parse this as structured JSON data
 					"X-Requested-With": "XMLHttpRequest",
 					"X-CSRFToken": getCookie("csrftoken"),
 				},
 				body: JSON.stringify(data),
 			}).then((response) => {
-				console.log("response = ", response);
-				if (response.status == 200) {
-					form.style.display = "none";
-					$(".form-wrapper").append(
-						`<div class="message-wrapper">
-						<p>Thank you for your enquiry.</p>
-						<p>We will be in contact shortly via the email you provided.</p>
-					</div>`
-					);
+				console.log("Response metadata received: ", response);
+				
+				if (response.ok) {
+					// SUCCESS OPTION: Completely fade out the form elements and substitute the message box
+					$("#form").fadeOut(400, function() {
+						// This locates your wrapper div and swaps the inner content seamlessly
+						$(".form-wrapper").html(`
+							<div class="message-wrapper text-center p-4" style="background-color: #f4fdf7; border: 1px solid #c3e6cb; border-radius: 4px;">
+								<h4 style="color: #155724; margin-bottom: 10px;">✔ Message Sent Successfully!</h4>
+								<p style="color: #212529; margin-bottom: 0;">Thank you for your enquiry. We will be in contact shortly via the email address you provided.</p>
+							</div>
+						`);
+					});
+				} else {
+					alert("Something went wrong with the transmission. Please check your inputs and try again.");
 				}
+			}).catch((error) => {
+				console.error("Network interface connection failure: ", error);
 			});
 		}
 	});
+	
 	
 
 
