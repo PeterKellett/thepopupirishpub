@@ -171,7 +171,7 @@ else:
 
     # 2. Production Email Settings (Updated for implicit SSL stability)
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = '74.125.193.108'
+    EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_PORT = 465                     # Explicit SSL Port
     EMAIL_USE_TLS = False                # Must be False when USE_SSL is True
     EMAIL_USE_SSL = True                 # Must be True for Port 465
