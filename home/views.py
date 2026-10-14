@@ -1,13 +1,14 @@
 from django.shortcuts import render, redirect
 from django.http import JsonResponse
 from django.conf import settings
-from django.core.mail import send_mail
+from django.core.mail import get_connection, send_mail
 from django.shortcuts import reverse
 from django.views.generic import TemplateView, FormView
 from .forms import ContactForm
 import json
 from . models import ContactUs
 import os
+import ssl
 # Create your views here.
 def index(request):
     """ A view to return the index page """
@@ -73,11 +74,23 @@ def mailNewContact(data):
     print("Sending email from:", settings.DEFAULT_FROM_EMAIL)
     print("Sending email to:", settings.NOTIFY_EMAIL)
 
+    # Force an open certificate verification context for Heroku containers
+    custom_context = ssl.create_default_context()
+    custom_context.check_hostname = False
+    custom_context.verify_mode = ssl.CERT_NONE
+
+    # Build an explicit backend connection instance passing the custom context
+    connection = get_connection(
+        backend=settings.EMAIL_BACKEND,
+        ssl_context=custom_context
+    )
+
     send_mail(
         subject="Website Contact Us form submission",
         message=notify_message,
         from_email=settings.DEFAULT_FROM_EMAIL, # Must be your exact Gmail address string!
         recipient_list=[settings.NOTIFY_EMAIL],  # info@thepopupirishpub.com
+        connection=connection, # Force Django to route through this safe socket
         fail_silently=False, # Force Django to throw an explicit error in logs if it fails!
     )
 
