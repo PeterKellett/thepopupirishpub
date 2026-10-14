@@ -32,8 +32,8 @@ LOCALE_PATHS = [
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
-
+# DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 # ALLOWED_HOSTS = [
 #     'http://127.0.0.1:8000/',
 #     'https://thepopupirishpub-b544ffa527ab.herokuapp.com/',
@@ -168,7 +168,7 @@ if os.environ.get('DEVELOPMENT'):
 else:
     # CRITICAL: This exact line tells Django that Heroku's HTTPS proxy is secure!
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-    
+
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
