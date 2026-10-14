@@ -11,15 +11,16 @@ import os
 # Create your views here.
 def index(request):
     """ A view to return the index page """
-    # DEVELOPMENT = os.getenv('DEVELOPMENT')
-    # print("DEVELOPMENT = ", DEVELOPMENT)
     print("request = ", request)
+    
     if request.method == "POST":
-        # 1. Handle JavaScript Fetch/JSON data
+        # 1. Parse your incoming data streams safely
         if request.content_type == 'application/json':
-            data = json.load(request)
+            try:
+                data = json.load(request)
+            except json.JSONDecodeError:
+                return JsonResponse({'error': 'Invalid JSON structure'}, status=400)
         else:
-            # 2. Handle standard HTML Form data fallback
             data = {
                 "name": request.POST.get("name"),
                 "email": request.POST.get("email"),
@@ -27,8 +28,9 @@ def index(request):
             }
             
         print("Processed Form Data = ", data)
-        # Guard clause: ensure data isn't empty before saving
-        if data["name"] and data["email"]:
+        
+        # 2. INDENTED: This validation block must only ever execute on a POST request!
+        if data.get("name") and data.get("email"):
             newContact = ContactUs(
                 name=data["name"],
                 email=data["email"],
@@ -36,15 +38,15 @@ def index(request):
             )
             newContact.save()
             mailNewContact(data)
-
-            # Return JSON if it was an AJAX request, otherwise redirect normally
+            
+            # Return appropriate response depending on input format
             if request.content_type == 'application/json':
                 return JsonResponse({'status': 'Checkout Complete'}, status=200)
-            return redirect('home') # Or wherever your landing route name points
+            return redirect('/en/#contact')
             
+    # 3. Clean page requests (GET) skip the blocks above entirely and load the page normally
     context = {}
     return render(request, 'home/index.html', context)
-
 
 def mailNewContact(data):
     print("mailNewContact = ", data)
