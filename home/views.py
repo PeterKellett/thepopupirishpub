@@ -15,17 +15,33 @@ def index(request):
     # print("DEVELOPMENT = ", DEVELOPMENT)
     print("request = ", request)
     if request.method == "POST":
-        data = json.load(request)
-        print("data = ", data)
-        newContact = ContactUs(
-            name=data["name"],
-            email=data["email"],
-            message=data["message"]
-        )
-        newContact.save()
-        mailNewContact(data)
-        return JsonResponse({'status': 'Checkout Complete'}, status=200)
-    
+        # 1. Handle JavaScript Fetch/JSON data
+        if request.content_type == 'application/json':
+            data = json.load(request)
+        else:
+            # 2. Handle standard HTML Form data fallback
+            data = {
+                "name": request.POST.get("name"),
+                "email": request.POST.get("email"),
+                "message": request.POST.get("message")
+            }
+            
+        print("Processed Form Data = ", data)
+        # Guard clause: ensure data isn't empty before saving
+        if data["name"] and data["email"]:
+            newContact = ContactUs(
+                name=data["name"],
+                email=data["email"],
+                message=data["message"]
+            )
+            newContact.save()
+            mailNewContact(data)
+
+            # Return JSON if it was an AJAX request, otherwise redirect normally
+            if request.content_type == 'application/json':
+                return JsonResponse({'status': 'Checkout Complete'}, status=200)
+            return redirect('home') # Or wherever your landing route name points
+            
     context = {}
     return render(request, 'home/index.html', context)
 
