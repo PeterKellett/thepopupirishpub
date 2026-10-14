@@ -17,6 +17,7 @@ $(document).ready(() => {
 		var submitter = document.getElementById("form-submit");
 		const formData = new FormData(form);
 		console.log("formData = ", formData)
+		
 		if (!form.checkValidity()) {
 			console.log("IF")
 			// Create the temporary button, click and remove it
@@ -27,6 +28,7 @@ $(document).ready(() => {
 		} else {
 			console.log("ELSE")
 			console.log("formData = ", formData)
+			
 			// Form is valid, let the user proceed or do whatever we need to
 			data = {};
 			formData.forEach(function (value, key) {
@@ -34,19 +36,18 @@ $(document).ready(() => {
 			});
 			
 			console.log("data = ", data)
-			const host = window.location.host;
-			var url = "";
-			if (host.includes("thepopupirishpub")) {
-				console.log("PRODUCTION");
-				url = "https://www.thepopupirishpub.com/";
-			} else {
-				console.log("DEVELOPMENT");
-				url = "http://127.0.0.1:8000";
-			}
+			
+			// FIXED: Extract the active, localized URL route directly from your HTML form action tag!
+			// This will automatically be "/en/", "/fr/", etc. depending on what Django rendered.
+			var url = form.getAttribute("action") || "/";
+			
+			console.log("Submitting form dynamically to target URL: ", url);
+	
 			fetch(url, {
 				method: "POST",
 				credentials: "same-origin",
 				headers: {
+					"Content-Type": "application/json", // Ensures Django knows to treat this as raw JSON data
 					"X-Requested-With": "XMLHttpRequest",
 					"X-CSRFToken": getCookie("csrftoken"),
 				},
@@ -57,21 +58,16 @@ $(document).ready(() => {
 					form.style.display = "none";
 					$(".form-wrapper").append(
 						`<div class="message-wrapper">
-                        <p>Thank you for your enquiry.</p>
-                        <p>We will be in contact shortly via the email you provided.</p>
-                    </div>`
+						<p>Thank you for your enquiry.</p>
+						<p>We will be in contact shortly via the email you provided.</p>
+					</div>`
 					);
 				}
 			});
-			// .then((data) => {
-			//     console.log("response.data = ", data);
-			//     if (data.status == "Checkout Complete") {
-			//         // location.reload();
-
-			//     }
-			// });
 		}
 	});
+	
+
 
 	function getCookie(name) {
 		let cookieValue = null;
