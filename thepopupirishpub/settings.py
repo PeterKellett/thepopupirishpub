@@ -171,11 +171,11 @@ else:
 
     # 2. Production Email Settings (Updated for implicit SSL stability)
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_HOST = '://gmail.com'
+    EMAIL_HOST = '74.125.193.108'
     EMAIL_PORT = 465                     # Explicit SSL Port
     EMAIL_USE_TLS = False                # Must be False when USE_SSL is True
     EMAIL_USE_SSL = True                 # Must be True for Port 465
-    
+
     EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = 'thepopupirishpub@gmail.com'
