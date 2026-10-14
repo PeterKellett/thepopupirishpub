@@ -47,7 +47,7 @@ def mailNewContact(data):
     send_mail(
         subject="Website Contact Us form submission",
         message=notify_message,
-        from_email=settings.EMAIL_HOST_USER,
+        from_email=settings.DEFAULT_FROM_EMAIL,
         recipient_list=[settings.NOTIFY_EMAIL],
     )
 

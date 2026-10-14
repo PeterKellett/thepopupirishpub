@@ -160,7 +160,7 @@ django_on_heroku.settings(locals())
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email configuration
-if 'DEVELOPMENT' in os.environ:
+if os.environ.get('DEVELOPMENT'):
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
     DEFAULT_FROM_EMAIL = "info@thepopupirishpub.com"
@@ -172,9 +172,29 @@ else:
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASS')
-    DEFAULT_FROM_EMAIL = os.getenv('EMAIL_HOST_USER')
+    DEFAULT_FROM_EMAIL = 'thepopupirishpub@gmail.com'
     NOTIFY_EMAIL = "info@thepopupirishpub.com"
+    # Corrected: One with 'www' and one without
+    CSRF_TRUSTED_ORIGINS = [
+        'https://www.thepopupirishpub.com',
+        'https://thepopupirishpub.com',
+    ]
+    # 1. Essential Heroku-specific routing
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
+    # 2. Force HTTP to HTTPS redirection
+    SECURE_SSL_REDIRECT = True
+
+    # 3. Protect your session and form cookies
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+
+    # 4. Advanced HSTS Security
+    SECURE_HSTS_SECONDS = 31536000
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True  
+
+    
 if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
@@ -195,24 +215,3 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
-# Check if we are running in production (not in development)
-if not os.environ.get('DEVELOPMENT'):
-    # Corrected: One with 'www' and one without
-    CSRF_TRUSTED_ORIGINS = [
-        'https://www.thepopupirishpub.com',
-        'https://thepopupirishpub.com',
-    ]
-    # 1. Essential Heroku-specific routing
-    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-    # 2. Force HTTP to HTTPS redirection
-    SECURE_SSL_REDIRECT = True
-
-    # 3. Protect your session and form cookies
-    SESSION_COOKIE_SECURE = True
-    CSRF_COOKIE_SECURE = True
-
-    # 4. Advanced HSTS Security
-    SECURE_HSTS_SECONDS = 31536000
-    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-    SECURE_HSTS_PRELOAD = True   
