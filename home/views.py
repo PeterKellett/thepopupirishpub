@@ -50,39 +50,28 @@ def index(request):
 
 def mailNewContact(data):
     print("mailNewContact = ", data)
-    name = data["name"]
-    email = data["email"]
-    message = data["message"]
+    name = data.get("name", "No Name Given")
+    email = data.get("email", "No Email Given")
+    message = data.get("message", "No Message Body")
 
-    notify_message = f"""
-        Received message below from 
-        {name},
-        {email}
-        ________________________
+    # Clean, single-string formatting with explicit newlines (\n)
+    notify_message = (
+        f"Received message below from:\n"
+        f"Name: {name}\n"
+        f"Email: {email}\n"
+        f"----------------------------------------\n\n"
+        f"{message}"
+    )
+    print("Sending email from:", settings.DEFAULT_FROM_EMAIL)
+    print("Sending email to:", settings.NOTIFY_EMAIL)
 
-        {message}
-        """
     send_mail(
         subject="Website Contact Us form submission",
         message=notify_message,
-        from_email=settings.DEFAULT_FROM_EMAIL,
-        recipient_list=[settings.NOTIFY_EMAIL],
+        from_email=settings.DEFAULT_FROM_EMAIL, # Must be your exact Gmail address string!
+        recipient_list=[settings.NOTIFY_EMAIL],  # info@thepopupirishpub.com
+        fail_silently=False, # Force Django to throw an explicit error in logs if it fails!
     )
-
-    # acknowledgement_message = f"""
-    #     Thank you for your query.
-    #     we will be in contack with you soon.
-    #     Kind regards
-    #     The Pop Up Irish Pub
-    #     """
-    # send_mail(
-    #     subject="Thank you for your query",
-    #     message=acknowledgement_message,
-    #     from_email=settings.EMAIL_HOST_USER,
-    #     recipient_list=[{email}]
-    # )
-
-
 
 
 def aboutus(request):
