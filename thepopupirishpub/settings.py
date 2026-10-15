@@ -163,7 +163,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 if os.environ.get('DEVELOPMENT'):
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-    DEFAULT_FROM_EMAIL = "info@thepopupirishpub.com"
+    DEFAULT_FROM_EMAIL = "thepopupirishpub@gmail.com"
     NOTIFY_EMAIL = "info@thepopupirishpub.com"
 else:
     # CRITICAL: This exact line tells Django that Heroku's HTTPS proxy is secure!
